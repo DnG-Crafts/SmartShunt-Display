@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">চার্জের অবস্থা %1$s শতাংশ, %2$s, %3$s, স্ট্যাটাস %4$s। সেটিংসের জন্য ডবল ট্যাপ করুন।</string>
+    <string name="dash_soc">চার্জের অবস্থা</string>
+    <string name="dash_time_left">বাকি সময়</string>
+    <string name="dash_voltage">ভোল্টেজ</string>
+    <string name="dash_current">কারেন্ট</string>
+    <string name="dash_power">পাওয়ার</string>
+    <string name="dash_consumed">খরচ</string>
+    <string name="dash_status">স্ট্যাটাস</string>
+    <string name="dash_starter">স্টার্টার</string>
+    <string name="dash_midpoint">মিডপয়েন্ট</string>
+    <string name="dash_temp">তাপমাত্রা</string>
+    <string name="dash_charger">চার্জার</string>
+    <string name="dash_loads">লোড</string>
+    <string name="dash_readings">রিডিং</string>
+    <string name="dash_signal">সিগন্যাল</string>
+    <string name="dash_battery">ব্যাটারি</string>
+    <string name="dash_discharging">ডিসচার্জ হচ্ছে</string>
+    <string name="time_full">পূর্ণ</string>
+    <string name="st_age_short">%1$d সে. আগে</string>
+
+    <string name="time_charging">চার্জ হচ্ছে</string>
+    <string name="time_idle">নিষ্ক্রিয়</string>
+    <string name="time_hours_minutes">%1$d ঘ %2$02d মি</string>
+    <string name="time_days_hours">%1$d দিন %2$d ঘ</string>
+
+    <string name="st_ok">ঠিক আছে</string>
+    <string name="st_setup">সেটআপ</string>
+    <string name="st_setup_detail">গিয়ারে ট্যাপ করুন</string>
+    <string name="st_demo_detail">ডেমো ডেটা</string>
+    <string name="st_no_ble">BLE নেই</string>
+    <string name="st_no_ble_detail">সমর্থিত নয়</string>
+    <string name="st_permission">অনুমতি</string>
+    <string name="st_permission_detail">অনুমতি দিতে ট্যাপ করুন</string>
+    <string name="st_bt_off">Bluetooth বন্ধ</string>
+    <string name="st_bt_off_detail">চালু করতে ট্যাপ করুন</string>
+    <string name="st_location_off">লোকেশন বন্ধ</string>
+    <string name="st_location_off_detail">স্ক্যানের জন্য দরকার</string>
+    <string name="st_ble_fail">BLE ব্যর্থ</string>
+    <string name="st_ble_fail_detail">ত্রুটি %1$d</string>
+    <string name="st_bad_key">ভুল কী</string>
+    <string name="st_bad_key_detail">কী দেখে নিন</string>
+    <string name="st_searching">খোঁজা হচ্ছে</string>
+    <string name="st_no_signal">সিগন্যাল নেই</string>
+    <string name="st_alarm">অ্যালার্ম</string>
+    <string name="st_age_detail">%1$d সে. আগে  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>কম ভোল্টেজ</item>
+        <item>বেশি ভোল্টেজ</item>
+        <item>কম চার্জ</item>
+        <item>কম স্টার্টার ভোল্টেজ</item>
+        <item>বেশি স্টার্টার ভোল্টেজ</item>
+        <item>কম তাপমাত্রা</item>
+        <item>বেশি তাপমাত্রা</item>
+        <item>মিডপয়েন্ট ভোল্টেজ</item>
+        <item>ওভারলোড</item>
+        <item>DC রিপল</item>
+        <item>কম AC আউটপুট ভোল্টেজ</item>
+        <item>বেশি AC আউটপুট ভোল্টেজ</item>
+        <item>শর্ট সার্কিট</item>
+        <item>BMS লকআউট</item>
+    </string-array>
+    <string name="alarm_code">অ্যালার্ম %1$s</string>
+
+    <string name="allow_nearby_devices">“আশেপাশের ডিভাইস”-এর অনুমতি দিন (পুরনো Android-এ লোকেশন), যাতে অ্যাপটি আপনার শান্টের সিগন্যাল পায়।</string>
+
+    <!-- Settings -->
+    <string name="settings">সেটিংস</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="save">সেভ করুন</string>
+    <string name="saved">সেটিংস সেভ করা হয়েছে</string>
+    <string name="discard_changes">আপনার পরিবর্তনগুলি বাদ দেবেন?</string>
+    <string name="discard">বাদ দিন</string>
+    <string name="keep_editing">এডিট চালিয়ে যান</string>
+
+    <string name="section_shunt">শান্ট</string>
+    <string name="mac_label">MAC অ্যাড্রেস</string>
+    <string name="find_nearby">আশেপাশে খুঁজুন</string>
+    <string name="key_label">এনক্রিপশন কী</string>
+    <string name="key_hint">32টি অক্ষর</string>
+    <string name="paste">পেস্ট করুন</string>
+    <string name="mac_key_help">VictronConnect-এ: SmartShunt খুলুন → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” চালু করুন → “Show”। কোলন আর স্পেস না দিলেও চলবে।</string>
+    <string name="mac_error">12টি হেক্স অক্ষর দরকার (0–9, a–f)</string>
+    <string name="key_error">32টি হেক্স অক্ষর দরকার (0–9, a–f)</string>
+    <string name="clip_key_found">ক্লিপবোর্ডে কী: %1$s</string>
+    <string name="clip_mac_found">ক্লিপবোর্ডে MAC অ্যাড্রেস: %1$s</string>
+    <string name="use_it">ব্যবহার করুন</string>
+    <string name="dismiss">খারিজ করুন</string>
+    <string name="clipboard_empty">পেস্ট করার মতো কিছু নেই</string>
+    <string name="demo_label">ডেমো ডেটা (নকল রিডিং, পরীক্ষার জন্য)</string>
+
+    <string name="section_display">ডিসপ্লে</string>
+    <string name="language_label">ভাষা</string>
+    <string name="language_system">ফোনের ভাষা</string>
+    <string name="theme_label">থিম</string>
+    <string name="theme_system">ফোনের সেটিং</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="orientation_label">স্ক্রিনের দিক</string>
+    <string-array name="orientations">
+        <item>অটোমেটিক</item>
+        <item>পোর্ট্রেট</item>
+        <item>ল্যান্ডস্কেপ</item>
+        <item>ল্যান্ডস্কেপ (উল্টো)</item>
+    </string-array>
+    <string name="keep_awake_label">অ্যাপ খোলা থাকলে ফোনের স্ক্রিন চালু রাখুন</string>
+    <string name="full_screen_label">ফুল স্ক্রিন</string>
+    <string name="full_screen_help">ড্যাশবোর্ডে স্ট্যাটাস বার আর নেভিগেশন বার লুকিয়ে রাখে। অল্প সময়ের জন্য দেখতে কিনারা থেকে ভেতরের দিকে সোয়াইপ করুন।</string>
+
+    <string name="section_alerts">সতর্কতা</string>
+    <string name="stale_label">এতক্ষণ পরে “সিগন্যাল নেই”</string>
+    <string name="amber_label">চার্জ এর কম হলে হলুদ</string>
+    <string name="red_label">চার্জ এর কম হলে লাল</string>
+    <string name="seconds_value">%1$d সে.</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino ডিসপ্লে</string>
+    <string name="share_help">Arduino SmartShunt ডিসপ্লের SD কার্ডের সঙ্গে সেটিংস আদান-প্রদান করুন। এক্সপোর্ট করলে ডিসপ্লে পড়তে পারে এমন একটি CONFIG.TXT তৈরি হয়; ইমপোর্ট করলে সেখান থেকে একটি CONFIG.TXT পড়া হয়। শুধু ডিসপ্লের নিজের লাইনগুলি, যেমন টাচ ক্যালিব্রেশন, রেখে দেওয়া হয়।</string>
+    <string name="export_config">CONFIG.TXT এক্সপোর্ট করুন</string>
+    <string name="import_config">CONFIG.TXT ইমপোর্ট করুন</string>
+    <string name="exported">এক্সপোর্ট হয়েছে। CONFIG.TXT ডিসপ্লের SD কার্ডে কপি করে ডিসপ্লেটি রিস্টার্ট করুন।</string>
+    <string name="export_failed">এক্সপোর্ট করা যায়নি: %1$s</string>
+    <string name="imported">ইমপোর্ট হয়েছে। এই সেটিংস রাখতে “সেভ করুন”-এ ট্যাপ করুন।</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">ইমপোর্ট হয়েছে, কিন্তু %1$dটি লাইন বোঝা যায়নি। এই সেটিংস রাখতে “সেভ করুন”-এ ট্যাপ করুন।</item>
+        <item quantity="other">ইমপোর্ট হয়েছে, কিন্তু %1$dটি লাইন বোঝা যায়নি। এই সেটিংস রাখতে “সেভ করুন”-এ ট্যাপ করুন।</item>
+    </plurals>
+    <string name="import_failed">ইমপোর্ট করা যায়নি: %1$s</string>
+    <string name="about">Shunt Display %1$s\nVictron Instant Readout ব্রডকাস্ট পড়ে। Victron Energy-র সঙ্গে যুক্ত নয়।</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">আশেপাশের শান্ট</string>
+    <string name="nearby_empty">Victron ব্যাটারি মনিটর খোঁজা হচ্ছে…\n\nVictronConnect-এ “Instant readout via Bluetooth” চালু আছে কিনা দেখে নিন।</string>
+    <string name="victron_device">Victron ব্যাটারি মনিটর</string>
+    <string name="scanning">স্ক্যান করা হচ্ছে। ব্যবহার করতে আপনার শান্টে ট্যাপ করুন।</string>
+    <plurals name="scanning_others">
+        <item quantity="one">স্ক্যান করা হচ্ছে। ব্যবহার করতে আপনার শান্টে ট্যাপ করুন। (আরও %1$dটি Victron ডিভাইস ব্যাটারি মনিটর নয়।)</item>
+        <item quantity="other">স্ক্যান করা হচ্ছে। ব্যবহার করতে আপনার শান্টে ট্যাপ করুন। (আরও %1$dটি Victron ডিভাইস ব্যাটারি মনিটর নয়।)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth স্ক্যান ব্যর্থ হয়েছে (ত্রুটি %1$d)</string>
+    <string name="need_permission">শান্ট খুঁজতে “আশেপাশের ডিভাইস”-এর অনুমতি দিন।</string>
+    <string name="bluetooth_off">Bluetooth বন্ধ আছে।</string>
+    <string name="location_off">লোকেশন বন্ধ আছে। Android-এর পুরনো ভার্সনে Bluetooth ডিভাইস স্ক্যান করতে এটি চালু থাকা দরকার।</string>
+    <string name="dash_other">অন্যান্য</string>
+    <string name="dash_mains">মেইনস</string>
+    <string name="dash_solar">সোলার</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">অল্টারনেটর</string>
+    <string name="stage_off">বন্ধ</string>
+    <string name="stage_bulk">বাল্ক</string>
+    <string name="stage_absorption">অ্যাবজর্পশন</string>
+    <string name="stage_float">ফ্লোট</string>
+    <string name="stage_storage">স্টোরেজ</string>
+    <string name="stage_recondition">রিকন্ডিশন</string>
+    <string name="stage_psu">পাওয়ার সাপ্লাই</string>
+    <string name="stage_starting">চালু হচ্ছে</string>
+    <string name="stage_fault">ত্রুটি</string>
+    <string name="charger_error">ত্রুটি %1$d</string>
+    <string name="section_chargers">চার্জার</string>
+    <string name="charger_n">চার্জার %1$d</string>
+    <string name="charger_not_used">ব্যবহার হচ্ছে না</string>
+    <string name="other_source_label">অন্য চার্জ উৎস</string>
+    <string name="source_auto">অটোমেটিক</string>
+    <string name="chargers_help">“Instant readout” পাঠায় এমন Victron চার্জার (Blue Smart IP22, SmartSolar MPPT, Orion XS) যোগ করুন, তাহলে সেগুলোর আউটপুট দেখতে পাবেন। যে চার্জিং এগুলো দিয়ে ব্যাখ্যা হয় না, তা অন্য চার্জ উৎস হিসেবে দেখানো হয়, যেমন একটি DC-DC চার্জার।</string>
+    <string name="charger_key_help">VictronConnect-এ: চার্জারটি খুলুন → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” চালু করুন → “Show”।</string>
+    <string name="remove_charger">সরান</string>
+    <string name="nearby_chargers_empty">Victron চার্জার খোঁজা হচ্ছে…\n\nVictronConnect-এ “Instant readout via Bluetooth” চালু আছে কিনা দেখে নিন।</string>
+    <string name="charger_ac">AC চার্জার</string>
+    <string name="charger_solar">সোলার চার্জার</string>
+    <string name="charger_dcdc">DC-DC চার্জার</string>
+    <string name="nearby_chargers_title">আশেপাশের চার্জার</string>
+    <string name="scanning_chargers">স্ক্যান করা হচ্ছে। ব্যবহার করতে আপনার চার্জারে ট্যাপ করুন।</string>
+    <string name="loads_icon_label">লোড আইকন</string>
+    <string name="icon_house">বাড়ি</string>
+    <string name="icon_caravan">ক্যারাভান</string>
+    <string name="icon_boat">নৌকা</string>
+</resources>

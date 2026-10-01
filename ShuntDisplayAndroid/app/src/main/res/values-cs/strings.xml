@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dashboard -->
+    <string name="dashboard_description">Stav nabití %1$s procent, %2$s, %3$s, stav %4$s. Dvojitým klepnutím otevřete nastavení.</string>
+    <!-- Dashboard card labels. Keep them short: they sit at the top of small cards. -->
+    <string name="dash_soc">Stav nabití</string>
+    <string name="dash_time_left">Zbývá</string>
+    <string name="dash_voltage">Napětí</string>
+    <string name="dash_current">Proud</string>
+    <string name="dash_power">Výkon</string>
+    <string name="dash_consumed">Spotřebováno</string>
+    <string name="dash_status">Stav</string>
+    <!-- The aux input: starter battery voltage, midpoint voltage or temperature -->
+    <string name="dash_starter">Startovací</string>
+    <string name="dash_midpoint">Střední bod</string>
+    <string name="dash_temp">Tepl.</string>
+    <string name="dash_charger">Nabíječka</string>
+    <string name="dash_loads">Spotřebiče</string>
+    <string name="dash_readings">Měření</string>
+    <string name="dash_signal">Signál</string>
+    <string name="dash_battery">Baterie</string>
+    <string name="dash_discharging">Vybíjí se</string>
+    <string name="time_full">Plná</string>
+    <string name="st_age_short">před %1$d s</string>
+
+    <!-- Shown in place of the time left. Keep short. -->
+    <string name="time_charging">Nabíjení</string>
+    <string name="time_idle">Klid</string>
+    <!-- Time left: 20h 34m, or 2d 5h when over a day -->
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d h</string>
+
+    <!-- Status tile: a short status word (big) and a detail line (small) under it -->
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Nastavení</string>
+    <string name="st_setup_detail">otevřete nastavení</string>
+    <string name="st_demo_detail">ukázková data</string>
+    <string name="st_no_ble">Bez BLE</string>
+    <string name="st_no_ble_detail">nepodporováno</string>
+    <string name="st_permission">Oprávnění</string>
+    <string name="st_permission_detail">klepněte a povolte</string>
+    <string name="st_bt_off">Bluetooth vyp.</string>
+    <string name="st_bt_off_detail">klepněte a zapněte</string>
+    <string name="st_location_off">Poloha vyp.</string>
+    <string name="st_location_off_detail">nutná ke skenování</string>
+    <string name="st_ble_fail">Chyba BLE</string>
+    <string name="st_ble_fail_detail">kód %1$d</string>
+    <string name="st_bad_key">Špatný klíč</string>
+    <string name="st_bad_key_detail">zkontrolujte klíč</string>
+    <string name="st_searching">Hledání</string>
+    <string name="st_no_signal">Bez signálu</string>
+    <string name="st_alarm">ALARM</string>
+    <!-- Seconds since the last reading, and the signal strength: "3s ago  -67dBm" -->
+    <string name="st_age_detail">před %1$d s  %2$ddBm</string>
+
+    <!-- Alarm names reported by the shunt, in bit order. Keep short. -->
+    <string-array name="alarm_names">
+        <item>Nízké napětí</item>
+        <item>Vysoké napětí</item>
+        <item>Nízký SOC</item>
+        <item>Nízké napětí startovací baterie</item>
+        <item>Vysoké napětí startovací baterie</item>
+        <item>Nízká teplota</item>
+        <item>Vysoká teplota</item>
+        <item>Napětí středního bodu</item>
+        <item>Přetížení</item>
+        <item>Zvlnění DC</item>
+        <item>Nízké výstupní napětí AC</item>
+        <item>Vysoké výstupní napětí AC</item>
+        <item>Zkrat</item>
+        <item>Blokace BMS</item>
+    </string-array>
+    <!-- An alarm code the app doesn't know, e.g. "Alarm 0x4000" -->
+    <string name="alarm_code">Alarm %1$s</string>
+
+    <string name="allow_nearby_devices">Povolte „Zařízení v okolí“ (nebo Polohu ve starších verzích Androidu), aby aplikace mohla přijímat data z bočníku.</string>
+
+    <!-- Settings -->
+    <string name="settings">Nastavení</string>
+    <string name="cancel">Zrušit</string>
+    <string name="save">Uložit</string>
+    <string name="saved">Nastavení uloženo</string>
+    <string name="discard_changes">Zahodit změny?</string>
+    <string name="discard">Zahodit</string>
+    <string name="keep_editing">Pokračovat v úpravách</string>
+
+    <string name="section_shunt">Bočník</string>
+    <string name="mac_label">Adresa MAC</string>
+    <string name="find_nearby">Najít v okolí</string>
+    <string name="key_label">Šifrovací klíč</string>
+    <string name="key_hint">32 znaků</string>
+    <string name="paste">Vložit</string>
+    <string name="mac_key_help">Ve VictronConnect: otevřete SmartShunt → ⚙ → ⋮ → „Product info“ → zapněte „Instant readout via Bluetooth“ → „Show“. Dvojtečky a mezery jsou volitelné.</string>
+    <string name="mac_error">Je třeba 12 šestnáctkových znaků (0–9, a–f)</string>
+    <string name="key_error">Je třeba 32 šestnáctkových znaků (0–9, a–f)</string>
+    <string name="clip_key_found">Klíč ve schránce: %1$s</string>
+    <string name="clip_mac_found">Adresa MAC ve schránce: %1$s</string>
+    <string name="use_it">Použít</string>
+    <string name="dismiss">Zavřít</string>
+    <string name="clipboard_empty">Není co vložit</string>
+    <string name="demo_label">Ukázková data (smyšlené hodnoty pro testování)</string>
+
+    <string name="section_display">Zobrazení</string>
+    <string name="language_label">Jazyk</string>
+    <string name="language_system">Jazyk systému</string>
+    <string name="theme_label">Motiv</string>
+    <string name="theme_system">Podle systému</string>
+    <string name="theme_light">Světlý</string>
+    <string name="theme_dark">Tmavý</string>
+    <string name="orientation_label">Orientace</string>
+    <string-array name="orientations">
+        <item>Automaticky</item>
+        <item>Na výšku</item>
+        <item>Na šířku</item>
+        <item>Na šířku (otočeno)</item>
+    </string-array>
+    <string name="keep_awake_label">Nevypínat obrazovku, když je aplikace otevřená</string>
+    <string name="full_screen_label">Celá obrazovka</string>
+    <string name="full_screen_help">Skryje stavový a navigační panel na přehledu. Krátce je zobrazíte přejetím od okraje.</string>
+
+    <string name="section_alerts">Upozornění</string>
+    <string name="stale_label">„Bez signálu“ po</string>
+    <string name="amber_label">Nabití oranžově pod</string>
+    <string name="red_label">Nabití červeně pod</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Displej Arduino</string>
+    <string name="share_help">Výměna nastavení s kartou SD displeje Arduino SmartShunt. Export zapíše soubor CONFIG.TXT, který displej přečte; import ho z karty načte. Řádky určené jen pro displej, například kalibrace dotyku, zůstanou zachovány.</string>
+    <string name="export_config">Exportovat CONFIG.TXT</string>
+    <string name="import_config">Importovat CONFIG.TXT</string>
+    <string name="exported">Exportováno. Zkopírujte CONFIG.TXT na kartu SD displeje a displej restartujte.</string>
+    <string name="export_failed">Export se nezdařil: %1$s</string>
+    <string name="imported">Importováno. Nastavení zachováte klepnutím na Uložit.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Importováno, ale %1$d řádek nebyl rozpoznán. Nastavení zachováte klepnutím na Uložit.</item>
+        <item quantity="few">Importováno, ale %1$d řádky nebyly rozpoznány. Nastavení zachováte klepnutím na Uložit.</item>
+        <item quantity="many">Importováno, ale %1$d řádku nebylo rozpoznáno. Nastavení zachováte klepnutím na Uložit.</item>
+        <item quantity="other">Importováno, ale %1$d řádků nebylo rozpoznáno. Nastavení zachováte klepnutím na Uložit.</item>
+    </plurals>
+    <string name="import_failed">Import se nezdařil: %1$s</string>
+    <string name="about">Shunt Display %1$s\nČte vysílání Victron Instant Readout. Není spojeno se společností Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Bočníky v okolí</string>
+    <string name="nearby_empty">Hledání monitorů baterií Victron…\n\nZkontrolujte, že je ve VictronConnect zapnuto „Instant readout via Bluetooth“.</string>
+    <string name="victron_device">Monitor baterie Victron</string>
+    <string name="scanning">Vyhledávání. Klepnutím na svůj bočník ho použijete.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Vyhledávání. Klepnutím na svůj bočník ho použijete. (%1$d další zařízení Victron není monitor baterie.)</item>
+        <item quantity="few">Vyhledávání. Klepnutím na svůj bočník ho použijete. (Další zařízení Victron, která nejsou monitory baterie: %1$d.)</item>
+        <item quantity="many">Vyhledávání. Klepnutím na svůj bočník ho použijete. (Další zařízení Victron, která nejsou monitory baterie: %1$d.)</item>
+        <item quantity="other">Vyhledávání. Klepnutím na svůj bočník ho použijete. (Další zařízení Victron, která nejsou monitory baterie: %1$d.)</item>
+    </plurals>
+    <string name="scan_failed">Vyhledávání Bluetooth se nezdařilo (chyba %1$d)</string>
+    <string name="need_permission">Povolte „Zařízení v okolí“, aby bylo možné vyhledávat bočníky.</string>
+    <string name="bluetooth_off">Bluetooth je vypnutý.</string>
+    <string name="location_off">Poloha je vypnutá. Starší verze Androidu ji potřebují k vyhledávání zařízení Bluetooth.</string>
+    <string name="dash_other">Ostatní</string>
+    <string name="dash_mains">Síť</string>
+    <string name="dash_solar">Solár</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternátor</string>
+    <string name="stage_off">Vyp.</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorpce</string>
+    <string name="stage_float">Udržování</string>
+    <string name="stage_storage">Skladování</string>
+    <string name="stage_recondition">Regenerace</string>
+    <string name="stage_psu">Napájecí zdroj</string>
+    <string name="stage_starting">Spouštění</string>
+    <string name="stage_fault">Porucha</string>
+    <string name="charger_error">Chyba %1$d</string>
+    <string name="section_chargers">Nabíječky</string>
+    <string name="charger_n">Nabíječka %1$d</string>
+    <string name="charger_not_used">Nepoužito</string>
+    <string name="other_source_label">Jiný zdroj nabíjení</string>
+    <string name="source_auto">Automaticky</string>
+    <string name="chargers_help">Přidejte nabíječky Victron, které odesílají „Instant readout“ (Blue Smart IP22, SmartSolar MPPT, Orion XS), a uvidíte jejich výkon. Nabíjení, které nevysvětlují, se zobrazí jako jiný zdroj nabíjení, například DC-DC nabíječka.</string>
+    <string name="charger_key_help">Ve VictronConnect: otevřete nabíječku → ⚙ → ⋮ → „Product info“ → zapněte „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">Odebrat</string>
+    <string name="nearby_chargers_empty">Hledání nabíječek Victron…\n\nZkontrolujte, že je ve VictronConnect zapnuto „Instant readout via Bluetooth“.</string>
+    <string name="charger_ac">AC nabíječka</string>
+    <string name="charger_solar">Solární nabíječka</string>
+    <string name="charger_dcdc">DC-DC nabíječka</string>
+    <string name="nearby_chargers_title">Nabíječky v okolí</string>
+    <string name="scanning_chargers">Vyhledávání. Klepnutím na svou nabíječku ji použijete.</string>
+    <string name="loads_icon_label">Ikona spotřebičů</string>
+    <string name="icon_house">Dům</string>
+    <string name="icon_caravan">Obytný přívěs</string>
+    <string name="icon_boat">Loď</string>
+</resources>

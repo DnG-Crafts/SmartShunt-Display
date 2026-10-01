@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">State of charge %1$s porsiyento, %2$s, %3$s, status %4$s. I-double tap para sa mga setting.</string>
+    <string name="dash_soc">Charge</string>
+    <string name="dash_time_left">Natitirang oras</string>
+    <string name="dash_voltage">Boltahe</string>
+    <string name="dash_current">Current</string>
+    <string name="dash_power">Power</string>
+    <string name="dash_consumed">Nagamit</string>
+    <string name="dash_status">Status</string>
+    <string name="dash_starter">Starter</string>
+    <string name="dash_midpoint">Midpoint</string>
+    <string name="dash_temp">Temp</string>
+    <string name="dash_charger">Charger</string>
+    <string name="dash_loads">Mga load</string>
+    <string name="dash_readings">Mga reading</string>
+    <string name="dash_signal">Signal</string>
+    <string name="dash_battery">Baterya</string>
+    <string name="dash_discharging">Nagdi-discharge</string>
+    <string name="time_full">Puno</string>
+    <string name="st_age_short">%1$d seg nakalipas</string>
+
+    <string name="time_charging">Nagcha-charge</string>
+    <string name="time_idle">Idle</string>
+    <string name="time_hours_minutes">%1$d oras %2$02d min</string>
+    <string name="time_days_hours">%1$d araw %2$d oras</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">I-set up</string>
+    <string name="st_setup_detail">i-tap ang gear</string>
+    <string name="st_demo_detail">demo data</string>
+    <string name="st_no_ble">Walang BLE</string>
+    <string name="st_no_ble_detail">hindi suportado</string>
+    <string name="st_permission">Pahintulot</string>
+    <string name="st_permission_detail">i-tap para payagan</string>
+    <string name="st_bt_off">Bluetooth off</string>
+    <string name="st_bt_off_detail">i-tap para i-on</string>
+    <string name="st_location_off">Lokasyon off</string>
+    <string name="st_location_off_detail">kailangan sa scan</string>
+    <string name="st_ble_fail">Bigo ang BLE</string>
+    <string name="st_ble_fail_detail">error %1$d</string>
+    <string name="st_bad_key">Maling key</string>
+    <string name="st_bad_key_detail">suriin ang key</string>
+    <string name="st_searching">Naghahanap</string>
+    <string name="st_no_signal">Walang signal</string>
+    <string name="st_alarm">ALARMA</string>
+    <string name="st_age_detail">%1$ds nakalipas  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Mababang boltahe</item>
+        <item>Mataas na boltahe</item>
+        <item>Mababang SOC</item>
+        <item>Mababang boltahe ng starter</item>
+        <item>Mataas na boltahe ng starter</item>
+        <item>Mababang temperatura</item>
+        <item>Mataas na temperatura</item>
+        <item>Boltahe ng midpoint</item>
+        <item>Overload</item>
+        <item>DC ripple</item>
+        <item>Mababang boltahe ng AC out</item>
+        <item>Mataas na boltahe ng AC out</item>
+        <item>Short circuit</item>
+        <item>BMS lockout</item>
+    </string-array>
+    <string name="alarm_code">Alarma %1$s</string>
+
+    <string name="allow_nearby_devices">Payagan ang “Mga kalapit na device” (o Lokasyon sa mas lumang Android) para marinig ng app ang iyong shunt.</string>
+
+    <!-- Settings -->
+    <string name="settings">Mga Setting</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="save">I-save</string>
+    <string name="saved">Na-save ang mga setting</string>
+    <string name="discard_changes">I-discard ang iyong mga pagbabago?</string>
+    <string name="discard">I-discard</string>
+    <string name="keep_editing">Ituloy ang pag-edit</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">MAC address</string>
+    <string name="find_nearby">Hanapin sa malapit</string>
+    <string name="key_label">Encryption key</string>
+    <string name="key_hint">32 character</string>
+    <string name="paste">I-paste</string>
+    <string name="mac_key_help">Sa VictronConnect: buksan ang SmartShunt → ⚙ → ⋮ → “Product info” → i-on ang “Instant readout via Bluetooth” → “Show”. Opsyonal ang mga colon at space.</string>
+    <string name="mac_error">Kailangan ng 12 hex character (0–9, a–f)</string>
+    <string name="key_error">Kailangan ng 32 hex character (0–9, a–f)</string>
+    <string name="clip_key_found">May key sa clipboard: %1$s</string>
+    <string name="clip_mac_found">May MAC address sa clipboard: %1$s</string>
+    <string name="use_it">Gamitin</string>
+    <string name="dismiss">I-dismiss</string>
+    <string name="clipboard_empty">Walang ipe-paste</string>
+    <string name="demo_label">Demo data (pekeng reading, para sa pagsubok)</string>
+
+    <string name="section_display">Display</string>
+    <string name="language_label">Wika</string>
+    <string name="language_system">Default ng system</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Maliwanag</string>
+    <string name="theme_dark">Madilim</string>
+    <string name="orientation_label">Oryentasyon</string>
+    <string-array name="orientations">
+        <item>Awtomatiko</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Landscape (baligtad)</item>
+    </string-array>
+    <string name="keep_awake_label">Panatilihing gising ang telepono habang bukas</string>
+    <string name="full_screen_label">Full screen</string>
+    <string name="full_screen_help">Itinatago ang status bar at navigation bar sa dashboard. Mag-swipe mula sa gilid para pansamantalang ipakita ang mga ito.</string>
+
+    <string name="section_alerts">Mga alerto</string>
+    <string name="stale_label">“Walang signal” pagkalipas ng</string>
+    <string name="amber_label">Amber ang charge kapag mas mababa sa</string>
+    <string name="red_label">Pula ang charge kapag mas mababa sa</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino display</string>
+    <string name="share_help">Makipagpalitan ng mga setting sa SD card ng Arduino SmartShunt display. Ang Export ay nagsusulat ng CONFIG.TXT na mababasa nito; ang Import ay nagbabasa ng isa mula rito. Pinapanatili ang mga linyang para lang sa display, gaya ng touch calibration nito.</string>
+    <string name="export_config">I-export ang CONFIG.TXT</string>
+    <string name="import_config">I-import ang CONFIG.TXT</string>
+    <string name="exported">Na-export. Kopyahin ang CONFIG.TXT sa SD card ng display at i-restart ito.</string>
+    <string name="export_failed">Hindi na-export: %1$s</string>
+    <string name="imported">Na-import. I-tap ang I-save para panatilihin ang mga setting na ito.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Na-import, pero may %1$d linyang hindi naintindihan. I-tap ang I-save para panatilihin ang mga setting na ito.</item>
+        <item quantity="other">Na-import, pero may %1$d linyang hindi naintindihan. I-tap ang I-save para panatilihin ang mga setting na ito.</item>
+    </plurals>
+    <string name="import_failed">Hindi na-import: %1$s</string>
+    <string name="about">Shunt Display %1$s\nBinabasa ang mga broadcast ng Victron Instant Readout. Hindi kaanib ng Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Mga kalapit na shunt</string>
+    <string name="nearby_empty">Naghahanap ng mga Victron battery monitor…\n\nTiyaking naka-on ang “Instant readout via Bluetooth” sa VictronConnect.</string>
+    <string name="victron_device">Victron battery monitor</string>
+    <string name="scanning">Nag-i-scan. I-tap ang iyong shunt para gamitin ito.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Nag-i-scan. I-tap ang iyong shunt para gamitin ito. (%1$d pang Victron device ang hindi battery monitor.)</item>
+        <item quantity="other">Nag-i-scan. I-tap ang iyong shunt para gamitin ito. (%1$d pang Victron device ang hindi battery monitor.)</item>
+    </plurals>
+    <string name="scan_failed">Hindi gumana ang Bluetooth scan (error %1$d)</string>
+    <string name="need_permission">Payagan ang “Mga kalapit na device” para mag-scan ng mga shunt.</string>
+    <string name="bluetooth_off">Naka-off ang Bluetooth.</string>
+    <string name="location_off">Naka-off ang Lokasyon. Kailangan itong naka-on sa mas lumang bersyon ng Android para mag-scan ng mga Bluetooth device.</string>
+    <string name="dash_other">Iba pa</string>
+    <string name="dash_mains">Mains</string>
+    <string name="dash_solar">Solar</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternator</string>
+    <string name="stage_off">Naka-off</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorption</string>
+    <string name="stage_float">Float</string>
+    <string name="stage_storage">Storage</string>
+    <string name="stage_recondition">Recondition</string>
+    <string name="stage_psu">Power supply</string>
+    <string name="stage_starting">Nagsisimula</string>
+    <string name="stage_fault">May sira</string>
+    <string name="charger_error">Error %1$d</string>
+    <string name="section_chargers">Mga charger</string>
+    <string name="charger_n">Charger %1$d</string>
+    <string name="charger_not_used">Hindi ginagamit</string>
+    <string name="other_source_label">Ibang charge source</string>
+    <string name="source_auto">Awtomatiko</string>
+    <string name="chargers_help">Magdagdag ng mga Victron charger na nagpapadala ng “Instant readout” (Blue Smart IP22, SmartSolar MPPT, Orion XS) para makita ang output nila. Ang pag-charge na hindi nila naipapaliwanag ay ipinapakita bilang ibang charge source, gaya ng DC-DC charger.</string>
+    <string name="charger_key_help">Sa VictronConnect: buksan ang charger → ⚙ → ⋮ → “Product info” → i-on ang “Instant readout via Bluetooth” → “Show”.</string>
+    <string name="remove_charger">Alisin</string>
+    <string name="nearby_chargers_empty">Naghahanap ng mga Victron charger…\n\nTiyaking naka-on ang “Instant readout via Bluetooth” sa VictronConnect.</string>
+    <string name="charger_ac">AC charger</string>
+    <string name="charger_solar">Solar charger</string>
+    <string name="charger_dcdc">DC-DC charger</string>
+    <string name="nearby_chargers_title">Mga kalapit na charger</string>
+    <string name="scanning_chargers">Nag-i-scan. I-tap ang iyong charger para gamitin ito.</string>
+    <string name="loads_icon_label">Icon ng mga load</string>
+    <string name="icon_house">Bahay</string>
+    <string name="icon_caravan">Caravan</string>
+    <string name="icon_boat">Bangka</string>
+</resources>

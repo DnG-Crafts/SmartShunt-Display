@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 8.1+: navigation-bar icons match the theme -->
+    <style name="Base.Dark" parent="Base.V0.Dark">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Base.Light" parent="Base.V0.Light">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

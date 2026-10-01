@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Keadaan cas %1$s peratus, %2$s, %3$s, status %4$s. Ketik dua kali untuk tetapan.</string>
+    <string name="dash_soc">Keadaan cas</string>
+    <string name="dash_time_left">Baki masa</string>
+    <string name="dash_voltage">Voltan</string>
+    <string name="dash_current">Arus</string>
+    <string name="dash_power">Kuasa</string>
+    <string name="dash_consumed">Digunakan</string>
+    <string name="dash_status">Status</string>
+    <string name="dash_starter">Bateri enjin</string>
+    <string name="dash_midpoint">Titik tengah</string>
+    <string name="dash_temp">Suhu</string>
+    <string name="dash_charger">Pengecas</string>
+    <string name="dash_loads">Beban</string>
+    <string name="dash_readings">Bacaan</string>
+    <string name="dash_signal">Isyarat</string>
+    <string name="dash_battery">Bateri</string>
+    <string name="dash_discharging">Menyahcas</string>
+    <string name="time_full">Penuh</string>
+    <string name="st_age_short">%1$d saat lalu</string>
+
+    <string name="time_charging">Mengecas</string>
+    <string name="time_idle">Melahu</string>
+    <string name="time_hours_minutes">%1$dj %2$02dm</string>
+    <string name="time_days_hours">%1$dh %2$dj</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Perlu tetapan</string>
+    <string name="st_setup_detail">ketik ikon gear</string>
+    <string name="st_demo_detail">data demo</string>
+    <string name="st_no_ble">Tiada BLE</string>
+    <string name="st_no_ble_detail">tidak disokong</string>
+    <string name="st_permission">Kebenaran</string>
+    <string name="st_permission_detail">ketik untuk benarkan</string>
+    <string name="st_bt_off">Bluetooth mati</string>
+    <string name="st_bt_off_detail">ketik untuk hidupkan</string>
+    <string name="st_location_off">Lokasi mati</string>
+    <string name="st_location_off_detail">perlu untuk imbas</string>
+    <string name="st_ble_fail">BLE gagal</string>
+    <string name="st_ble_fail_detail">ralat %1$d</string>
+    <string name="st_bad_key">Kunci salah</string>
+    <string name="st_bad_key_detail">semak kunci</string>
+    <string name="st_searching">Mencari</string>
+    <string name="st_no_signal">Tiada isyarat</string>
+    <string name="st_alarm">PENGGERA</string>
+    <string name="st_age_detail">%1$ds lalu  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Voltan rendah</item>
+        <item>Voltan tinggi</item>
+        <item>SOC rendah</item>
+        <item>Voltan bateri enjin rendah</item>
+        <item>Voltan bateri enjin tinggi</item>
+        <item>Suhu rendah</item>
+        <item>Suhu tinggi</item>
+        <item>Voltan titik tengah</item>
+        <item>Beban lampau</item>
+        <item>Riak DC</item>
+        <item>Voltan keluaran AC rendah</item>
+        <item>Voltan keluaran AC tinggi</item>
+        <item>Litar pintas</item>
+        <item>BMS terkunci</item>
+    </string-array>
+    <string name="alarm_code">Penggera %1$s</string>
+
+    <string name="allow_nearby_devices">Benarkan “Peranti berdekatan” (atau Lokasi pada Android lama) supaya apl dapat menerima isyarat daripada shunt anda.</string>
+
+    <!-- Settings -->
+    <string name="settings">Tetapan</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="saved">Tetapan disimpan</string>
+    <string name="discard_changes">Buang perubahan anda?</string>
+    <string name="discard">Buang</string>
+    <string name="keep_editing">Terus mengedit</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">Alamat MAC</string>
+    <string name="find_nearby">Cari berdekatan</string>
+    <string name="key_label">Kunci penyulitan</string>
+    <string name="key_hint">32 aksara</string>
+    <string name="paste">Tampal</string>
+    <string name="mac_key_help">Dalam VictronConnect: buka SmartShunt → ⚙ → ⋮ → “Product info” → hidupkan “Instant readout via Bluetooth” → “Show”. Titik bertindih dan ruang adalah pilihan.</string>
+    <string name="mac_error">Perlu 12 aksara heks (0–9, a–f)</string>
+    <string name="key_error">Perlu 32 aksara heks (0–9, a–f)</string>
+    <string name="clip_key_found">Kunci pada papan keratan: %1$s</string>
+    <string name="clip_mac_found">Alamat MAC pada papan keratan: %1$s</string>
+    <string name="use_it">Guna</string>
+    <string name="dismiss">Ketepikan</string>
+    <string name="clipboard_empty">Tiada apa-apa untuk ditampal</string>
+    <string name="demo_label">Data demo (bacaan palsu, untuk ujian)</string>
+
+    <string name="section_display">Paparan</string>
+    <string name="language_label">Bahasa</string>
+    <string name="language_system">Lalai sistem</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Cerah</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="orientation_label">Orientasi</string>
+    <string-array name="orientations">
+        <item>Automatik</item>
+        <item>Potret</item>
+        <item>Landskap</item>
+        <item>Landskap (terbalik)</item>
+    </string-array>
+    <string name="keep_awake_label">Pastikan skrin kekal hidup semasa apl dibuka</string>
+    <string name="full_screen_label">Skrin penuh</string>
+    <string name="full_screen_help">Menyembunyikan bar status dan navigasi pada papan pemuka. Leret masuk dari tepi untuk menunjukkannya seketika.</string>
+
+    <string name="section_alerts">Amaran</string>
+    <string name="stale_label">“Tiada isyarat” selepas</string>
+    <string name="amber_label">Cas jingga di bawah</string>
+    <string name="red_label">Cas merah di bawah</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Paparan Arduino</string>
+    <string name="share_help">Tukar tetapan dengan kad SD paparan Arduino SmartShunt. Eksport menulis fail CONFIG.TXT yang boleh dibaca oleh paparan; import membaca fail itu daripada kad. Baris khusus paparan, seperti penentukuran sentuhan, dikekalkan.</string>
+    <string name="export_config">Eksport CONFIG.TXT</string>
+    <string name="import_config">Import CONFIG.TXT</string>
+    <string name="exported">Dieksport. Salin CONFIG.TXT ke kad SD paparan dan mulakan semula paparan.</string>
+    <string name="export_failed">Eksport gagal: %1$s</string>
+    <string name="imported">Diimport. Ketik Simpan untuk mengekalkan tetapan ini.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="other">Diimport, tetapi %1$d baris tidak difahami. Ketik Simpan untuk mengekalkan tetapan ini.</item>
+    </plurals>
+    <string name="import_failed">Import gagal: %1$s</string>
+    <string name="about">Shunt Display %1$s\nMembaca siaran Instant Readout Victron. Tidak bergabung dengan Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunt berdekatan</string>
+    <string name="nearby_empty">Mencari pemantau bateri Victron…\n\nPastikan “Instant readout via Bluetooth” dihidupkan dalam VictronConnect.</string>
+    <string name="victron_device">Pemantau bateri Victron</string>
+    <string name="scanning">Mengimbas. Ketik shunt anda untuk menggunakannya.</string>
+    <plurals name="scanning_others">
+        <item quantity="other">Mengimbas. Ketik shunt anda untuk menggunakannya. (%1$d peranti Victron lain bukan pemantau bateri.)</item>
+    </plurals>
+    <string name="scan_failed">Imbasan Bluetooth gagal (ralat %1$d)</string>
+    <string name="need_permission">Benarkan “Peranti berdekatan” untuk mengimbas shunt.</string>
+    <string name="bluetooth_off">Bluetooth dimatikan.</string>
+    <string name="location_off">Lokasi dimatikan. Versi Android lama memerlukan Lokasi dihidupkan untuk mengimbas peranti Bluetooth.</string>
+    <string name="dash_other">Lain</string>
+    <string name="dash_mains">Grid</string>
+    <string name="dash_solar">Solar</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternator</string>
+    <string name="stage_off">Mati</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Serapan</string>
+    <string name="stage_float">Apung</string>
+    <string name="stage_storage">Simpanan</string>
+    <string name="stage_recondition">Pemulihan</string>
+    <string name="stage_psu">Bekalan kuasa</string>
+    <string name="stage_starting">Bermula</string>
+    <string name="stage_fault">Rosak</string>
+    <string name="charger_error">Ralat %1$d</string>
+    <string name="section_chargers">Pengecas</string>
+    <string name="charger_n">Pengecas %1$d</string>
+    <string name="charger_not_used">Tidak digunakan</string>
+    <string name="other_source_label">Sumber cas lain</string>
+    <string name="source_auto">Automatik</string>
+    <string name="chargers_help">Tambah pengecas Victron yang menghantar “Instant readout” (Blue Smart IP22, SmartSolar MPPT, Orion XS) untuk melihat output pengecas itu. Pengecasan yang tidak dijelaskan oleh pengecas itu ditunjukkan sebagai sumber cas lain, seperti pengecas DC-DC.</string>
+    <string name="charger_key_help">Dalam VictronConnect: buka pengecas → ⚙ → ⋮ → “Product info” → hidupkan “Instant readout via Bluetooth” → “Show”.</string>
+    <string name="remove_charger">Alih keluar</string>
+    <string name="nearby_chargers_empty">Mencari pengecas Victron…\n\nPastikan “Instant readout via Bluetooth” dihidupkan dalam VictronConnect.</string>
+    <string name="charger_ac">Pengecas AU</string>
+    <string name="charger_solar">Pengecas solar</string>
+    <string name="charger_dcdc">Pengecas DC-DC</string>
+    <string name="nearby_chargers_title">Pengecas berdekatan</string>
+    <string name="scanning_chargers">Mengimbas. Ketik pengecas anda untuk menggunakannya.</string>
+    <string name="loads_icon_label">Ikon beban</string>
+    <string name="icon_house">Rumah</string>
+    <string name="icon_caravan">Karavan</string>
+    <string name="icon_boat">Bot</string>
+</resources>

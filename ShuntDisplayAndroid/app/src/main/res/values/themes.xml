@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base.V0.* hold everything; see the bottom of the file -->
+    <style name="Base.V0.Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="colorBg">@color/dark_bg</item>
+        <item name="colorPanel">@color/dark_panel</item>
+        <item name="colorTrack">@color/dark_track</item>
+        <item name="colorText">@color/dark_text</item>
+        <item name="colorMuted">@color/dark_muted</item>
+        <item name="colorGood">@color/dark_good</item>
+        <item name="colorWarn">@color/dark_warn</item>
+        <item name="colorBad">@color/dark_bad</item>
+        <item name="colorLine">@color/dark_line</item>
+        <item name="colorCharger">@color/dark_charger</item>
+        <item name="colorLoads">@color/dark_loads</item>
+        <item name="colorBattery">@color/dark_battery</item>
+        <item name="colorFlowAccent">@color/dark_accent</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="android:colorBackground">@color/dark_bg</item>
+        <item name="android:colorPrimary">@color/dark_panel</item>
+        <item name="android:colorAccent">@color/dark_good</item>
+        <item name="android:colorControlActivated">@color/dark_good</item>
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_muted</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.V0.Light" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorBg">@color/light_bg</item>
+        <item name="colorPanel">@color/light_panel</item>
+        <item name="colorTrack">@color/light_track</item>
+        <item name="colorText">@color/light_text</item>
+        <item name="colorMuted">@color/light_muted</item>
+        <item name="colorGood">@color/light_good</item>
+        <item name="colorWarn">@color/light_warn</item>
+        <item name="colorBad">@color/light_bad</item>
+        <item name="colorLine">@color/light_line</item>
+        <item name="colorCharger">@color/light_charger</item>
+        <item name="colorLoads">@color/light_loads</item>
+        <item name="colorBattery">@color/light_battery</item>
+        <item name="colorFlowAccent">@color/light_accent</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+        <item name="android:colorBackground">@color/light_bg</item>
+        <item name="android:colorPrimary">@color/light_panel</item>
+        <item name="android:colorAccent">@color/light_good</item>
+        <item name="android:colorControlActivated">@color/light_good</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_muted</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Base.* are redefined in values-v27 to add dark/light navigation-bar icons -->
+    <style name="Base.Dark" parent="Base.V0.Dark" />
+    <style name="Base.Light" parent="Base.V0.Light" />
+
+    <style name="Theme.ShuntDisplay.Dark" parent="Base.Dark" />
+    <style name="Theme.ShuntDisplay.Light" parent="Base.Light" />
+</resources>

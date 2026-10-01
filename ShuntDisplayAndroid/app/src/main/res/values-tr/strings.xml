@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Şarj durumu yüzde %1$s, %2$s, %3$s, durum %4$s. Ayarlar için iki kez dokunun.</string>
+    <string name="dash_soc">Şarj durumu</string>
+    <string name="dash_time_left">Kalan süre</string>
+    <string name="dash_voltage">Gerilim</string>
+    <string name="dash_current">Akım</string>
+    <string name="dash_power">Güç</string>
+    <string name="dash_consumed">Tüketilen</string>
+    <string name="dash_status">Durum</string>
+    <string name="dash_starter">Marş aküsü</string>
+    <string name="dash_midpoint">Orta nokta</string>
+    <string name="dash_temp">Sıcaklık</string>
+    <string name="dash_charger">Şarj cihazı</string>
+    <string name="dash_loads">Yükler</string>
+    <string name="dash_readings">Ölçümler</string>
+    <string name="dash_signal">Sinyal</string>
+    <string name="dash_battery">Batarya</string>
+    <string name="dash_discharging">Deşarj</string>
+    <string name="time_full">Dolu</string>
+    <string name="st_age_short">%1$d sn önce</string>
+
+    <string name="time_charging">Şarj oluyor</string>
+    <string name="time_idle">Boşta</string>
+    <string name="time_hours_minutes">%1$d sa %2$02d dk</string>
+    <string name="time_days_hours">%1$d g %2$d sa</string>
+
+    <string name="st_ok">Tamam</string>
+    <string name="st_setup">Kurulum</string>
+    <string name="st_setup_detail">çarka dokunun</string>
+    <string name="st_demo_detail">demo verisi</string>
+    <string name="st_no_ble">BLE yok</string>
+    <string name="st_no_ble_detail">desteklenmiyor</string>
+    <string name="st_permission">İzin</string>
+    <string name="st_permission_detail">izin için dokunun</string>
+    <string name="st_bt_off">Bluetooth kapalı</string>
+    <string name="st_bt_off_detail">açmak için dokunun</string>
+    <string name="st_location_off">Konum kapalı</string>
+    <string name="st_location_off_detail">tarama için gerekli</string>
+    <string name="st_ble_fail">BLE hatası</string>
+    <string name="st_ble_fail_detail">hata %1$d</string>
+    <string name="st_bad_key">Yanlış anahtar</string>
+    <string name="st_bad_key_detail">anahtarı kontrol edin</string>
+    <string name="st_searching">Aranıyor</string>
+    <string name="st_no_signal">Sinyal yok</string>
+    <string name="st_alarm">ALARM</string>
+    <string name="st_age_detail">%1$d sn önce  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Düşük gerilim</item>
+        <item>Yüksek gerilim</item>
+        <item>Düşük SOC</item>
+        <item>Düşük marş gerilimi</item>
+        <item>Yüksek marş gerilimi</item>
+        <item>Düşük sıcaklık</item>
+        <item>Yüksek sıcaklık</item>
+        <item>Orta nokta gerilimi</item>
+        <item>Aşırı yük</item>
+        <item>DC dalgalanması</item>
+        <item>Düşük AC çıkış gerilimi</item>
+        <item>Yüksek AC çıkış gerilimi</item>
+        <item>Kısa devre</item>
+        <item>BMS kilidi</item>
+    </string-array>
+    <string name="alarm_code">Alarm %1$s</string>
+
+    <string name="allow_nearby_devices">Uygulamanın şöntünüzü duyabilmesi için “Yakındaki cihazlar” iznini (eski Android sürümlerinde Konum iznini) verin.</string>
+
+    <!-- Settings -->
+    <string name="settings">Ayarlar</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="saved">Ayarlar kaydedildi</string>
+    <string name="discard_changes">Değişiklikleriniz silinsin mi?</string>
+    <string name="discard">Sil</string>
+    <string name="keep_editing">Düzenlemeye devam et</string>
+
+    <string name="section_shunt">Şönt</string>
+    <string name="mac_label">MAC adresi</string>
+    <string name="find_nearby">Yakındakileri bul</string>
+    <string name="key_label">Şifreleme anahtarı</string>
+    <string name="key_hint">32 karakter</string>
+    <string name="paste">Yapıştır</string>
+    <string name="mac_key_help">VictronConnect\'te: SmartShunt\'ı açın → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” seçeneğini açın → “Show”. İki nokta üst üste ve boşluklar isteğe bağlıdır.</string>
+    <string name="mac_error">12 onaltılık karakter gerekli (0–9, a–f)</string>
+    <string name="key_error">32 onaltılık karakter gerekli (0–9, a–f)</string>
+    <string name="clip_key_found">Panodaki anahtar: %1$s</string>
+    <string name="clip_mac_found">Panodaki MAC adresi: %1$s</string>
+    <string name="use_it">Kullan</string>
+    <string name="dismiss">Kapat</string>
+    <string name="clipboard_empty">Yapıştırılacak bir şey yok</string>
+    <string name="demo_label">Demo verisi (sahte değerler, test için)</string>
+
+    <string name="section_display">Ekran</string>
+    <string name="language_label">Dil</string>
+    <string name="language_system">Sistem varsayılanı</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="orientation_label">Yön</string>
+    <string-array name="orientations">
+        <item>Otomatik</item>
+        <item>Dikey</item>
+        <item>Yatay</item>
+        <item>Yatay (ters)</item>
+    </string-array>
+    <string name="keep_awake_label">Uygulama açıkken ekranı açık tut</string>
+    <string name="full_screen_label">Tam ekran</string>
+    <string name="full_screen_help">Gösterge panelinde durum ve gezinme çubuklarını gizler. Kısa süreliğine göstermek için kenardan içeri kaydırın.</string>
+
+    <string name="section_alerts">Uyarılar</string>
+    <string name="stale_label">“Sinyal yok” gecikmesi</string>
+    <string name="amber_label">Turuncu şarj sınırı</string>
+    <string name="red_label">Kırmızı şarj sınırı</string>
+    <string name="seconds_value">%1$d sn</string>
+    <string name="percent_value">%%%1$d</string>
+
+    <string name="section_share">Arduino ekranı</string>
+    <string name="share_help">Ayarları Arduino SmartShunt ekranının SD kartıyla paylaşın. Dışa aktarma, ekranın okuyabileceği bir CONFIG.TXT yazar; içe aktarma karttaki dosyayı okur. Dokunmatik kalibrasyonu gibi yalnızca ekrana ait satırlar korunur.</string>
+    <string name="export_config">CONFIG.TXT dışa aktar</string>
+    <string name="import_config">CONFIG.TXT içe aktar</string>
+    <string name="exported">Dışa aktarıldı. CONFIG.TXT dosyasını ekranın SD kartına kopyalayın ve ekranı yeniden başlatın.</string>
+    <string name="export_failed">Dışa aktarma başarısız: %1$s</string>
+    <string name="imported">İçe aktarıldı. Bu ayarları korumak için Kaydet\'e dokunun.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">İçe aktarıldı ancak %1$d satır anlaşılamadı. Bu ayarları korumak için Kaydet\'e dokunun.</item>
+        <item quantity="other">İçe aktarıldı ancak %1$d satır anlaşılamadı. Bu ayarları korumak için Kaydet\'e dokunun.</item>
+    </plurals>
+    <string name="import_failed">İçe aktarma başarısız: %1$s</string>
+    <string name="about">Shunt Display %1$s\nVictron Instant Readout yayınlarını okur. Victron Energy ile bağlantılı değildir.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Yakındaki şöntler</string>
+    <string name="nearby_empty">Victron akü monitörleri aranıyor…\n\nVictronConnect\'te “Instant readout via Bluetooth” özelliğinin açık olduğundan emin olun.</string>
+    <string name="victron_device">Victron akü monitörü</string>
+    <string name="scanning">Taranıyor. Kullanmak için şöntünüze dokunun.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Taranıyor. Kullanmak için şöntünüze dokunun. (%1$d diğer Victron cihazı akü monitörü değil.)</item>
+        <item quantity="other">Taranıyor. Kullanmak için şöntünüze dokunun. (%1$d diğer Victron cihazı akü monitörü değil.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth taraması başarısız oldu (hata %1$d)</string>
+    <string name="need_permission">Şönt aramak için “Yakındaki cihazlar” iznini verin.</string>
+    <string name="bluetooth_off">Bluetooth kapalı.</string>
+    <string name="location_off">Konum kapalı. Eski Android sürümlerinde Bluetooth cihazlarını taramak için konumun açık olması gerekir.</string>
+    <string name="dash_other">Diğer</string>
+    <string name="dash_mains">Şebeke</string>
+    <string name="dash_solar">Güneş</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternatör</string>
+    <string name="stage_off">Kapalı</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorpsiyon</string>
+    <string name="stage_float">Tampon</string>
+    <string name="stage_storage">Depolama</string>
+    <string name="stage_recondition">Onarım</string>
+    <string name="stage_psu">Güç kaynağı</string>
+    <string name="stage_starting">Başlatılıyor</string>
+    <string name="stage_fault">Arıza</string>
+    <string name="charger_error">Hata %1$d</string>
+    <string name="section_chargers">Şarj cihazları</string>
+    <string name="charger_n">Şarj cihazı %1$d</string>
+    <string name="charger_not_used">Kullanılmıyor</string>
+    <string name="other_source_label">Diğer şarj kaynağı</string>
+    <string name="source_auto">Otomatik</string>
+    <string name="chargers_help">Çıkışlarını görmek için “Instant readout” gönderen Victron şarj cihazlarını (Blue Smart IP22, SmartSolar MPPT, Orion XS) ekleyin. Bunların açıklamadığı şarj, DC-DC şarj cihazı gibi diğer şarj kaynağı olarak gösterilir.</string>
+    <string name="charger_key_help">VictronConnect’te: şarj cihazını açın → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” seçeneğini açın → “Show”.</string>
+    <string name="remove_charger">Kaldır</string>
+    <string name="nearby_chargers_empty">Victron şarj cihazları aranıyor…\n\nVictronConnect’te “Instant readout via Bluetooth” özelliğinin açık olduğundan emin olun.</string>
+    <string name="charger_ac">AC şarj cihazı</string>
+    <string name="charger_solar">Güneş şarj cihazı</string>
+    <string name="charger_dcdc">DC-DC şarj cihazı</string>
+    <string name="nearby_chargers_title">Yakındaki şarj cihazları</string>
+    <string name="scanning_chargers">Taranıyor. Kullanmak için şarj cihazınıza dokunun.</string>
+    <string name="loads_icon_label">Yükler simgesi</string>
+    <string name="icon_house">Ev</string>
+    <string name="icon_caravan">Karavan</string>
+    <string name="icon_boat">Tekne</string>
+</resources>

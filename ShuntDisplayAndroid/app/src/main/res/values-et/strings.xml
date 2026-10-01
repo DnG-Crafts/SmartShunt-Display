@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Laetustase %1$s protsenti, %2$s, %3$s, olek %4$s. Seadete avamiseks topeltpuudutage.</string>
+    <string name="dash_soc">Laetustase</string>
+    <string name="dash_time_left">Aega jäänud</string>
+    <string name="dash_voltage">Pinge</string>
+    <string name="dash_current">Vool</string>
+    <string name="dash_power">Võimsus</string>
+    <string name="dash_consumed">Tarbitud</string>
+    <string name="dash_status">Olek</string>
+    <string name="dash_starter">Käivitusaku</string>
+    <string name="dash_midpoint">Keskpunkt</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Laadija</string>
+    <string name="dash_loads">Tarbijad</string>
+    <string name="dash_readings">Näidud</string>
+    <string name="dash_signal">Signaal</string>
+    <string name="dash_battery">Aku</string>
+    <string name="dash_discharging">Tühjeneb</string>
+    <string name="time_full">Täis</string>
+    <string name="st_age_short">%1$d s tagasi</string>
+
+    <string name="time_charging">Laeb</string>
+    <string name="time_idle">Jõude</string>
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d p %2$d h</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Seadistus</string>
+    <string name="st_setup_detail">puudutage ⚙</string>
+    <string name="st_demo_detail">demoandmed</string>
+    <string name="st_no_ble">BLE puudub</string>
+    <string name="st_no_ble_detail">ei toetata</string>
+    <string name="st_permission">Luba</string>
+    <string name="st_permission_detail">puudutage lubamiseks</string>
+    <string name="st_bt_off">Bluetooth väljas</string>
+    <string name="st_bt_off_detail">puudutage sisselülitamiseks</string>
+    <string name="st_location_off">Asukoht väljas</string>
+    <string name="st_location_off_detail">vajalik otsinguks</string>
+    <string name="st_ble_fail">BLE tõrge</string>
+    <string name="st_ble_fail_detail">tõrge %1$d</string>
+    <string name="st_bad_key">Vale võti</string>
+    <string name="st_bad_key_detail">kontrollige võtit</string>
+    <string name="st_searching">Otsimine</string>
+    <string name="st_no_signal">Signaal puudub</string>
+    <string name="st_alarm">HÄIRE</string>
+    <string name="st_age_detail">%1$d s tagasi  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Madal pinge</item>
+        <item>Kõrge pinge</item>
+        <item>Madal SOC</item>
+        <item>Madal käivitusaku pinge</item>
+        <item>Kõrge käivitusaku pinge</item>
+        <item>Madal temperatuur</item>
+        <item>Kõrge temperatuur</item>
+        <item>Keskpunkti pinge</item>
+        <item>Ülekoormus</item>
+        <item>DC pulsatsioon</item>
+        <item>Madal AC väljundpinge</item>
+        <item>Kõrge AC väljundpinge</item>
+        <item>Lühis</item>
+        <item>BMS lukustus</item>
+    </string-array>
+    <string name="alarm_code">Häire %1$s</string>
+
+    <string name="allow_nearby_devices">Lubage „Läheduses olevad seadmed“ (vanemas Androidis asukoht), et rakendus kuuleks teie šunti.</string>
+
+    <!-- Settings -->
+    <string name="settings">Seaded</string>
+    <string name="cancel">Tühista</string>
+    <string name="save">Salvesta</string>
+    <string name="saved">Seaded on salvestatud</string>
+    <string name="discard_changes">Kas loobuda muudatustest?</string>
+    <string name="discard">Loobu</string>
+    <string name="keep_editing">Jätka muutmist</string>
+
+    <string name="section_shunt">Šunt</string>
+    <string name="mac_label">MAC-aadress</string>
+    <string name="find_nearby">Otsi lähedalt</string>
+    <string name="key_label">Krüpteerimisvõti</string>
+    <string name="key_hint">32 märki</string>
+    <string name="paste">Kleebi</string>
+    <string name="mac_key_help">VictronConnectis: avage SmartShunt → ⚙ → ⋮ → „Product info“ → lülitage sisse „Instant readout via Bluetooth“ → „Show“. Koolonid ja tühikud pole kohustuslikud.</string>
+    <string name="mac_error">Vaja on 12 kuueteistkümnendmärki (0–9, a–f)</string>
+    <string name="key_error">Vaja on 32 kuueteistkümnendmärki (0–9, a–f)</string>
+    <string name="clip_key_found">Lõikelaual on võti: %1$s</string>
+    <string name="clip_mac_found">Lõikelaual on MAC-aadress: %1$s</string>
+    <string name="use_it">Kasuta</string>
+    <string name="dismiss">Sulge</string>
+    <string name="clipboard_empty">Pole midagi kleepida</string>
+    <string name="demo_label">Demoandmed (võltsnäidud testimiseks)</string>
+
+    <string name="section_display">Ekraan</string>
+    <string name="language_label">Keel</string>
+    <string name="language_system">Süsteemi vaikeseade</string>
+    <string name="theme_label">Teema</string>
+    <string name="theme_system">Süsteem</string>
+    <string name="theme_light">Hele</string>
+    <string name="theme_dark">Tume</string>
+    <string name="orientation_label">Suund</string>
+    <string-array name="orientations">
+        <item>Automaatne</item>
+        <item>Vertikaalpaigutus</item>
+        <item>Horisontaalpaigutus</item>
+        <item>Horisontaalpaigutus (ümberpööratud)</item>
+    </string-array>
+    <string name="keep_awake_label">Hoia telefon ärkvel, kui rakendus on avatud</string>
+    <string name="full_screen_label">Täisekraan</string>
+    <string name="full_screen_help">Peidab juhtpaneelil oleku- ja navigeerimisribad. Nende korraks kuvamiseks pühkige ekraani servast sissepoole.</string>
+
+    <string name="section_alerts">Hoiatused</string>
+    <string name="stale_label">„Signaal puudub“ pärast</string>
+    <string name="amber_label">Kollane, kui laetus alla</string>
+    <string name="red_label">Punane, kui laetus alla</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino ekraan</string>
+    <string name="share_help">Vahetage seadeid Arduino SmartShunti ekraani SD-kaardiga. Eksport kirjutab CONFIG.TXT-faili, mida ekraan oskab lugeda; import loeb selle faili ekraanilt. Ainult ekraani puudutavad read, näiteks puuteekraani kalibreerimine, jäetakse alles.</string>
+    <string name="export_config">Ekspordi CONFIG.TXT</string>
+    <string name="import_config">Impordi CONFIG.TXT</string>
+    <string name="exported">Eksporditud. Kopeerige CONFIG.TXT ekraani SD-kaardile ja taaskäivitage ekraan.</string>
+    <string name="export_failed">Eksport ebaõnnestus: %1$s</string>
+    <string name="imported">Imporditud. Seadete säilitamiseks puudutage nuppu Salvesta.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Imporditud, kuid %1$d rida jäi arusaamatuks. Seadete säilitamiseks puudutage nuppu Salvesta.</item>
+        <item quantity="other">Imporditud, kuid %1$d rida jäi arusaamatuks. Seadete säilitamiseks puudutage nuppu Salvesta.</item>
+    </plurals>
+    <string name="import_failed">Import ebaõnnestus: %1$s</string>
+    <string name="about">Shunt Display %1$s\nLoeb Victroni Instant Readout saateid. Pole seotud ettevõttega Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Läheduses olevad šundid</string>
+    <string name="nearby_empty">Victroni akumonitoride otsimine…\n\nVeenduge, et VictronConnectis on „Instant readout via Bluetooth“ sisse lülitatud.</string>
+    <string name="victron_device">Victroni akumonitor</string>
+    <string name="scanning">Otsimine. Kasutamiseks puudutage oma šunti.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Otsimine. Kasutamiseks puudutage oma šunti. (%1$d muu Victroni seade ei ole akumonitor.)</item>
+        <item quantity="other">Otsimine. Kasutamiseks puudutage oma šunti. (%1$d muud Victroni seadet ei ole akumonitorid.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetoothi otsing ebaõnnestus (tõrge %1$d)</string>
+    <string name="need_permission">Šuntide otsimiseks lubage „Läheduses olevad seadmed“.</string>
+    <string name="bluetooth_off">Bluetooth on välja lülitatud.</string>
+    <string name="location_off">Asukoht on välja lülitatud. Vanemad Androidi versioonid vajavad seda Bluetooth-seadmete otsimiseks.</string>
+    <string name="dash_other">Muu</string>
+    <string name="dash_mains">Võrk</string>
+    <string name="dash_solar">Päike</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Generaator</string>
+    <string name="stage_off">Väljas</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorptsioon</string>
+    <string name="stage_float">Hoide</string>
+    <string name="stage_storage">Säilitus</string>
+    <string name="stage_recondition">Taastamine</string>
+    <string name="stage_psu">Toiteallikas</string>
+    <string name="stage_starting">Käivitub</string>
+    <string name="stage_fault">Rike</string>
+    <string name="charger_error">Viga %1$d</string>
+    <string name="section_chargers">Laadijad</string>
+    <string name="charger_n">Laadija %1$d</string>
+    <string name="charger_not_used">Pole kasutusel</string>
+    <string name="other_source_label">Muu laadimisallikas</string>
+    <string name="source_auto">Automaatne</string>
+    <string name="chargers_help">Lisage Victroni laadijad, mis saadavad „Instant readout“ andmeid (Blue Smart IP22, SmartSolar MPPT, Orion XS), et näha nende võimsust. Laadimine, mida need ei selgita, kuvatakse muu laadimisallikana, näiteks DC-DC-laadijana.</string>
+    <string name="charger_key_help">VictronConnectis: avage laadija → ⚙ → ⋮ → „Product info“ → lülitage sisse „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">Eemalda</string>
+    <string name="nearby_chargers_empty">Victroni laadijate otsimine…\n\nVeenduge, et VictronConnectis on „Instant readout via Bluetooth“ sisse lülitatud.</string>
+    <string name="charger_ac">Võrgulaadija</string>
+    <string name="charger_solar">Päikeselaadija</string>
+    <string name="charger_dcdc">DC-DC-laadija</string>
+    <string name="nearby_chargers_title">Läheduses olevad laadijad</string>
+    <string name="scanning_chargers">Otsimine. Kasutamiseks puudutage oma laadijat.</string>
+    <string name="loads_icon_label">Tarbijate ikoon</string>
+    <string name="icon_house">Maja</string>
+    <string name="icon_caravan">Haagissuvila</string>
+    <string name="icon_boat">Paat</string>
+</resources>

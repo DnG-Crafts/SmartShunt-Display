@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Ladetilstand %1$s procent, %2$s, %3$s, status %4$s. Tryk to gange for indstillinger.</string>
+    <string name="dash_soc">Ladetilstand</string>
+    <string name="dash_time_left">Tid tilbage</string>
+    <string name="dash_voltage">Spænding</string>
+    <string name="dash_current">Strøm</string>
+    <string name="dash_power">Effekt</string>
+    <string name="dash_consumed">Forbrugt</string>
+    <string name="dash_status">Status</string>
+    <string name="dash_starter">Startbatteri</string>
+    <string name="dash_midpoint">Midtpunkt</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Lader</string>
+    <string name="dash_loads">Forbrugere</string>
+    <string name="dash_readings">Målinger</string>
+    <string name="dash_signal">Signal</string>
+    <string name="dash_battery">Batteri</string>
+    <string name="dash_discharging">Aflader</string>
+    <string name="time_full">Fuld</string>
+    <string name="st_age_short">for %1$d s siden</string>
+
+    <string name="time_charging">Lader</string>
+    <string name="time_idle">Hviler</string>
+    <string name="time_hours_minutes">%1$d t %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d t</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Opsætning</string>
+    <string name="st_setup_detail">tryk på tandhjulet</string>
+    <string name="st_demo_detail">demodata</string>
+    <string name="st_no_ble">Ingen BLE</string>
+    <string name="st_no_ble_detail">understøttes ikke</string>
+    <string name="st_permission">Tilladelse</string>
+    <string name="st_permission_detail">tryk for at tillade</string>
+    <string name="st_bt_off">Bluetooth fra</string>
+    <string name="st_bt_off_detail">tryk for at slå til</string>
+    <string name="st_location_off">Lokation fra</string>
+    <string name="st_location_off_detail">kræves for søgning</string>
+    <string name="st_ble_fail">BLE-fejl</string>
+    <string name="st_ble_fail_detail">fejl %1$d</string>
+    <string name="st_bad_key">Forkert nøgle</string>
+    <string name="st_bad_key_detail">tjek nøglen</string>
+    <string name="st_searching">Søger</string>
+    <string name="st_no_signal">Intet signal</string>
+    <string name="st_alarm">ALARM</string>
+    <string name="st_age_detail">for %1$ds siden  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Lav spænding</item>
+        <item>Høj spænding</item>
+        <item>Lav SOC</item>
+        <item>Lav startbatterispænding</item>
+        <item>Høj startbatterispænding</item>
+        <item>Lav temperatur</item>
+        <item>Høj temperatur</item>
+        <item>Midtpunktsspænding</item>
+        <item>Overbelastning</item>
+        <item>DC-rippel</item>
+        <item>Lav AC-udgangsspænding</item>
+        <item>Høj AC-udgangsspænding</item>
+        <item>Kortslutning</item>
+        <item>BMS-spærring</item>
+    </string-array>
+    <string name="alarm_code">Alarm %1$s</string>
+
+    <string name="allow_nearby_devices">Tillad »Enheder i nærheden« (eller »Lokation« på ældre Android), så appen kan modtage data fra din shunt.</string>
+
+    <!-- Settings -->
+    <string name="settings">Indstillinger</string>
+    <string name="cancel">Annuller</string>
+    <string name="save">Gem</string>
+    <string name="saved">Indstillingerne er gemt</string>
+    <string name="discard_changes">Vil du kassere dine ændringer?</string>
+    <string name="discard">Kassér</string>
+    <string name="keep_editing">Fortsæt redigering</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">MAC-adresse</string>
+    <string name="find_nearby">Søg i nærheden</string>
+    <string name="key_label">Krypteringsnøgle</string>
+    <string name="key_hint">32 tegn</string>
+    <string name="paste">Indsæt</string>
+    <string name="mac_key_help">I VictronConnect: åbn SmartShunt → ⚙ → ⋮ → »Product info« → slå »Instant readout via Bluetooth« til → »Show«. Koloner og mellemrum er valgfrie.</string>
+    <string name="mac_error">Kræver 12 hexadecimale tegn (0–9, a–f)</string>
+    <string name="key_error">Kræver 32 hexadecimale tegn (0–9, a–f)</string>
+    <string name="clip_key_found">Nøgle i udklipsholderen: %1$s</string>
+    <string name="clip_mac_found">MAC-adresse i udklipsholderen: %1$s</string>
+    <string name="use_it">Brug</string>
+    <string name="dismiss">Luk</string>
+    <string name="clipboard_empty">Intet at indsætte</string>
+    <string name="demo_label">Demodata (falske målinger, til test)</string>
+
+    <string name="section_display">Visning</string>
+    <string name="language_label">Sprog</string>
+    <string name="language_system">Systemstandard</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
+    <string name="orientation_label">Retning</string>
+    <string-array name="orientations">
+        <item>Automatisk</item>
+        <item>Stående</item>
+        <item>Liggende</item>
+        <item>Liggende (vendt)</item>
+    </string-array>
+    <string name="keep_awake_label">Hold skærmen tændt, mens appen er åben</string>
+    <string name="full_screen_label">Fuld skærm</string>
+    <string name="full_screen_help">Skjuler status- og navigationslinjen på dashboardet. Stryg ind fra kanten for at vise dem kortvarigt.</string>
+
+    <string name="section_alerts">Advarsler</string>
+    <string name="stale_label">»Intet signal« efter</string>
+    <string name="amber_label">Opladning gul under</string>
+    <string name="red_label">Opladning rød under</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Arduino-display</string>
+    <string name="share_help">Udveksl indstillinger med SD-kortet i Arduino-displayet til SmartShunt. Eksport skriver en CONFIG.TXT, som displayet kan læse; import læser en fra det. Linjer, der kun gælder displayet, f.eks. touchkalibreringen, bevares.</string>
+    <string name="export_config">Eksportér CONFIG.TXT</string>
+    <string name="import_config">Importér CONFIG.TXT</string>
+    <string name="exported">Eksporteret. Kopiér CONFIG.TXT til displayets SD-kort, og genstart det.</string>
+    <string name="export_failed">Eksport mislykkedes: %1$s</string>
+    <string name="imported">Importeret. Tryk på Gem for at beholde disse indstillinger.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Importeret, men %1$d linje blev ikke forstået. Tryk på Gem for at beholde disse indstillinger.</item>
+        <item quantity="other">Importeret, men %1$d linjer blev ikke forstået. Tryk på Gem for at beholde disse indstillinger.</item>
+    </plurals>
+    <string name="import_failed">Import mislykkedes: %1$s</string>
+    <string name="about">Shunt Display %1$s\nLæser Victrons Instant Readout-udsendelser. Ikke tilknyttet Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunts i nærheden</string>
+    <string name="nearby_empty">Søger efter Victron-batterimonitorer…\n\nSørg for, at »Instant readout via Bluetooth« er slået til i VictronConnect.</string>
+    <string name="victron_device">Victron-batterimonitor</string>
+    <string name="scanning">Søger. Tryk på din shunt for at bruge den.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Søger. Tryk på din shunt for at bruge den. (%1$d anden Victron-enhed er ikke en batterimonitor.)</item>
+        <item quantity="other">Søger. Tryk på din shunt for at bruge den. (%1$d andre Victron-enheder er ikke batterimonitorer.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth-søgning mislykkedes (fejl %1$d)</string>
+    <string name="need_permission">Tillad »Enheder i nærheden« for at søge efter shunts.</string>
+    <string name="bluetooth_off">Bluetooth er slået fra.</string>
+    <string name="location_off">Lokation er slået fra. Ældre Android-versioner kræver det for at søge efter Bluetooth-enheder.</string>
+    <string name="dash_other">Andet</string>
+    <string name="dash_mains">Net</string>
+    <string name="dash_solar">Sol</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Generator</string>
+    <string name="stage_off">Fra</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorption</string>
+    <string name="stage_float">Float</string>
+    <string name="stage_storage">Opbevaring</string>
+    <string name="stage_recondition">Rekonditionering</string>
+    <string name="stage_psu">Strømforsyning</string>
+    <string name="stage_starting">Starter</string>
+    <string name="stage_fault">Fejl</string>
+    <string name="charger_error">Fejl %1$d</string>
+    <string name="section_chargers">Ladere</string>
+    <string name="charger_n">Lader %1$d</string>
+    <string name="charger_not_used">Ikke brugt</string>
+    <string name="other_source_label">Anden ladekilde</string>
+    <string name="source_auto">Automatisk</string>
+    <string name="chargers_help">Tilføj Victron-ladere, der sender »Instant readout« (Blue Smart IP22, SmartSolar MPPT, Orion XS), for at se deres effekt. Opladning, som de ikke forklarer, vises som den anden ladekilde, f.eks. en DC-DC-lader.</string>
+    <string name="charger_key_help">I VictronConnect: åbn laderen → ⚙ → ⋮ → »Product info« → slå »Instant readout via Bluetooth« til → »Show«.</string>
+    <string name="remove_charger">Fjern</string>
+    <string name="nearby_chargers_empty">Søger efter Victron-ladere…\n\nSørg for, at »Instant readout via Bluetooth« er slået til i VictronConnect.</string>
+    <string name="charger_ac">AC-lader</string>
+    <string name="charger_solar">Sollader</string>
+    <string name="charger_dcdc">DC-DC-lader</string>
+    <string name="nearby_chargers_title">Ladere i nærheden</string>
+    <string name="scanning_chargers">Søger. Tryk på din lader for at bruge den.</string>
+    <string name="loads_icon_label">Ikon for forbrugere</string>
+    <string name="icon_house">Hus</string>
+    <string name="icon_caravan">Campingvogn</string>
+    <string name="icon_boat">Båd</string>
+</resources>

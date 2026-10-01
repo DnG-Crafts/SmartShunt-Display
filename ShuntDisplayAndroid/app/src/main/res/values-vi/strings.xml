@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Mức sạc %1$s phần trăm, %2$s, %3$s, trạng thái %4$s. Nhấn đúp để mở cài đặt.</string>
+    <string name="dash_soc">Mức sạc</string>
+    <string name="dash_time_left">Còn lại</string>
+    <string name="dash_voltage">Điện áp</string>
+    <string name="dash_current">Dòng điện</string>
+    <string name="dash_power">Công suất</string>
+    <string name="dash_consumed">Đã dùng</string>
+    <string name="dash_status">Trạng thái</string>
+    <string name="dash_starter">Ắc quy đề</string>
+    <string name="dash_midpoint">Điểm giữa</string>
+    <string name="dash_temp">Nhiệt độ</string>
+    <string name="dash_charger">Bộ sạc</string>
+    <string name="dash_loads">Tải</string>
+    <string name="dash_readings">Số đo</string>
+    <string name="dash_signal">Tín hiệu</string>
+    <string name="dash_battery">Pin</string>
+    <string name="dash_discharging">Đang xả</string>
+    <string name="time_full">Đầy</string>
+    <string name="st_age_short">%1$d giây trước</string>
+
+    <string name="time_charging">Đang sạc</string>
+    <string name="time_idle">Nghỉ</string>
+    <string name="time_hours_minutes">%1$d giờ %2$02d phút</string>
+    <string name="time_days_hours">%1$d ngày %2$d giờ</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Cần cài đặt</string>
+    <string name="st_setup_detail">nhấn bánh răng</string>
+    <string name="st_demo_detail">dữ liệu demo</string>
+    <string name="st_no_ble">Không có BLE</string>
+    <string name="st_no_ble_detail">không hỗ trợ</string>
+    <string name="st_permission">Cấp quyền</string>
+    <string name="st_permission_detail">nhấn để cho phép</string>
+    <string name="st_bt_off">Bluetooth tắt</string>
+    <string name="st_bt_off_detail">nhấn để bật</string>
+    <string name="st_location_off">Vị trí tắt</string>
+    <string name="st_location_off_detail">cần để quét</string>
+    <string name="st_ble_fail">Lỗi BLE</string>
+    <string name="st_ble_fail_detail">lỗi %1$d</string>
+    <string name="st_bad_key">Sai khóa</string>
+    <string name="st_bad_key_detail">kiểm tra khóa</string>
+    <string name="st_searching">Đang tìm</string>
+    <string name="st_no_signal">Mất tín hiệu</string>
+    <string name="st_alarm">CẢNH BÁO</string>
+    <string name="st_age_detail">%1$ds trước  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Điện áp thấp</item>
+        <item>Điện áp cao</item>
+        <item>SOC thấp</item>
+        <item>Điện áp ắc quy đề thấp</item>
+        <item>Điện áp ắc quy đề cao</item>
+        <item>Nhiệt độ thấp</item>
+        <item>Nhiệt độ cao</item>
+        <item>Điện áp điểm giữa</item>
+        <item>Quá tải</item>
+        <item>Gợn sóng DC</item>
+        <item>Điện áp AC ra thấp</item>
+        <item>Điện áp AC ra cao</item>
+        <item>Ngắn mạch</item>
+        <item>BMS khóa</item>
+    </string-array>
+    <string name="alarm_code">Cảnh báo %1$s</string>
+
+    <string name="allow_nearby_devices">Cho phép “Thiết bị ở gần” (hoặc Vị trí trên Android cũ) để ứng dụng nhận được tín hiệu từ shunt của bạn.</string>
+
+    <!-- Settings -->
+    <string name="settings">Cài đặt</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="saved">Đã lưu cài đặt</string>
+    <string name="discard_changes">Bỏ các thay đổi của bạn?</string>
+    <string name="discard">Bỏ</string>
+    <string name="keep_editing">Tiếp tục sửa</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">Địa chỉ MAC</string>
+    <string name="find_nearby">Tìm quanh đây</string>
+    <string name="key_label">Khóa mã hóa</string>
+    <string name="key_hint">32 ký tự</string>
+    <string name="paste">Dán</string>
+    <string name="mac_key_help">Trong VictronConnect: mở SmartShunt → ⚙ → ⋮ → “Product info” → bật “Instant readout via Bluetooth” → “Show”. Dấu hai chấm và khoảng trắng không bắt buộc.</string>
+    <string name="mac_error">Cần 12 ký tự hex (0–9, a–f)</string>
+    <string name="key_error">Cần 32 ký tự hex (0–9, a–f)</string>
+    <string name="clip_key_found">Có khóa trong bộ nhớ tạm: %1$s</string>
+    <string name="clip_mac_found">Có địa chỉ MAC trong bộ nhớ tạm: %1$s</string>
+    <string name="use_it">Dùng</string>
+    <string name="dismiss">Bỏ qua</string>
+    <string name="clipboard_empty">Không có gì để dán</string>
+    <string name="demo_label">Dữ liệu demo (số đo giả, để thử nghiệm)</string>
+
+    <string name="section_display">Hiển thị</string>
+    <string name="language_label">Ngôn ngữ</string>
+    <string name="language_system">Mặc định của hệ thống</string>
+    <string name="theme_label">Giao diện</string>
+    <string name="theme_system">Theo hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="orientation_label">Hướng màn hình</string>
+    <string-array name="orientations">
+        <item>Tự động</item>
+        <item>Dọc</item>
+        <item>Ngang</item>
+        <item>Ngang (lật ngược)</item>
+    </string-array>
+    <string name="keep_awake_label">Giữ màn hình luôn sáng khi đang mở ứng dụng</string>
+    <string name="full_screen_label">Toàn màn hình</string>
+    <string name="full_screen_help">Ẩn thanh trạng thái và thanh điều hướng trên bảng điều khiển. Vuốt từ cạnh màn hình vào để hiện chúng trong giây lát.</string>
+
+    <string name="section_alerts">Cảnh báo</string>
+    <string name="stale_label">“Mất tín hiệu” sau</string>
+    <string name="amber_label">Mức sạc màu cam khi dưới</string>
+    <string name="red_label">Mức sạc màu đỏ khi dưới</string>
+    <string name="seconds_value">%1$d giây</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Màn hình Arduino</string>
+    <string name="share_help">Trao đổi cài đặt với thẻ SD của màn hình Arduino SmartShunt. Xuất sẽ ghi một tệp CONFIG.TXT mà màn hình đọc được; nhập sẽ đọc tệp đó từ thẻ. Các dòng chỉ dành cho màn hình, như hiệu chỉnh cảm ứng, được giữ nguyên.</string>
+    <string name="export_config">Xuất CONFIG.TXT</string>
+    <string name="import_config">Nhập CONFIG.TXT</string>
+    <string name="exported">Đã xuất. Hãy chép CONFIG.TXT vào thẻ SD của màn hình rồi khởi động lại màn hình.</string>
+    <string name="export_failed">Xuất không thành công: %1$s</string>
+    <string name="imported">Đã nhập. Nhấn Lưu để giữ các cài đặt này.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="other">Đã nhập, nhưng có %1$d dòng không đọc được. Nhấn Lưu để giữ các cài đặt này.</item>
+    </plurals>
+    <string name="import_failed">Nhập không thành công: %1$s</string>
+    <string name="about">Shunt Display %1$s\nĐọc dữ liệu phát Instant Readout của Victron. Không liên kết với Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunt ở gần</string>
+    <string name="nearby_empty">Đang tìm bộ theo dõi ắc quy Victron…\n\nHãy đảm bảo đã bật “Instant readout via Bluetooth” trong VictronConnect.</string>
+    <string name="victron_device">Bộ theo dõi ắc quy Victron</string>
+    <string name="scanning">Đang quét. Nhấn vào shunt của bạn để dùng.</string>
+    <plurals name="scanning_others">
+        <item quantity="other">Đang quét. Nhấn vào shunt của bạn để dùng. (%1$d thiết bị Victron khác không phải bộ theo dõi ắc quy.)</item>
+    </plurals>
+    <string name="scan_failed">Quét Bluetooth không thành công (lỗi %1$d)</string>
+    <string name="need_permission">Cho phép “Thiết bị ở gần” để quét tìm shunt.</string>
+    <string name="bluetooth_off">Bluetooth đang tắt.</string>
+    <string name="location_off">Vị trí đang tắt. Các phiên bản Android cũ cần bật vị trí để quét thiết bị Bluetooth.</string>
+    <string name="dash_other">Khác</string>
+    <string name="dash_mains">Điện lưới</string>
+    <string name="dash_solar">Mặt trời</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Máy phát</string>
+    <string name="stage_off">Tắt</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Hấp thụ</string>
+    <string name="stage_float">Duy trì</string>
+    <string name="stage_storage">Lưu trữ</string>
+    <string name="stage_recondition">Phục hồi</string>
+    <string name="stage_psu">Nguồn điện</string>
+    <string name="stage_starting">Đang khởi động</string>
+    <string name="stage_fault">Sự cố</string>
+    <string name="charger_error">Lỗi %1$d</string>
+    <string name="section_chargers">Bộ sạc</string>
+    <string name="charger_n">Bộ sạc %1$d</string>
+    <string name="charger_not_used">Không dùng</string>
+    <string name="other_source_label">Nguồn sạc khác</string>
+    <string name="source_auto">Tự động</string>
+    <string name="chargers_help">Thêm các bộ sạc Victron gửi “Instant readout” (Blue Smart IP22, SmartSolar MPPT, Orion XS) để xem công suất đầu ra của chúng. Phần sạc mà chúng không giải thích được sẽ hiển thị là nguồn sạc khác, chẳng hạn một bộ sạc DC-DC.</string>
+    <string name="charger_key_help">Trong VictronConnect: mở bộ sạc → ⚙ → ⋮ → “Product info” → bật “Instant readout via Bluetooth” → “Show”.</string>
+    <string name="remove_charger">Xóa</string>
+    <string name="nearby_chargers_empty">Đang tìm bộ sạc Victron…\n\nHãy đảm bảo đã bật “Instant readout via Bluetooth” trong VictronConnect.</string>
+    <string name="charger_ac">Bộ sạc AC</string>
+    <string name="charger_solar">Bộ sạc mặt trời</string>
+    <string name="charger_dcdc">Bộ sạc DC-DC</string>
+    <string name="nearby_chargers_title">Bộ sạc ở gần</string>
+    <string name="scanning_chargers">Đang quét. Nhấn vào bộ sạc của bạn để dùng.</string>
+    <string name="loads_icon_label">Biểu tượng tải</string>
+    <string name="icon_house">Nhà</string>
+    <string name="icon_caravan">Nhà di động</string>
+    <string name="icon_boat">Thuyền</string>
+</resources>

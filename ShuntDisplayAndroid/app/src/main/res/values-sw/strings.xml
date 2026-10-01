@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Kiwango cha chaji asilimia %1$s, %2$s, %3$s, hali %4$s. Gusa mara mbili kufungua mipangilio.</string>
+    <string name="dash_soc">Kiwango cha chaji</string>
+    <string name="dash_time_left">Muda uliobaki</string>
+    <string name="dash_voltage">Volteji</string>
+    <string name="dash_current">Mkondo</string>
+    <string name="dash_power">Nguvu</string>
+    <string name="dash_consumed">Imetumika</string>
+    <string name="dash_status">Hali</string>
+    <string name="dash_starter">Betri ya kuwasha</string>
+    <string name="dash_midpoint">Nukta ya kati</string>
+    <string name="dash_temp">Joto</string>
+    <string name="dash_charger">Chaja</string>
+    <string name="dash_loads">Mizigo</string>
+    <string name="dash_readings">Vipimo</string>
+    <string name="dash_signal">Mawimbi</string>
+    <string name="dash_battery">Betri</string>
+    <string name="dash_discharging">Inatoa chaji</string>
+    <string name="time_full">Imejaa</string>
+    <string name="st_age_short">sek %1$d zilizopita</string>
+
+    <string name="time_charging">Inachaji</string>
+    <string name="time_idle">Tulivu</string>
+    <string name="time_hours_minutes">saa %1$d dk %2$02d</string>
+    <string name="time_days_hours">siku %1$d saa %2$d</string>
+
+    <string name="st_ok">Sawa</string>
+    <string name="st_setup">Sanidi</string>
+    <string name="st_setup_detail">gusa aikoni ya gia</string>
+    <string name="st_demo_detail">data ya majaribio</string>
+    <string name="st_no_ble">Hakuna BLE</string>
+    <string name="st_no_ble_detail">haitumiki</string>
+    <string name="st_permission">Ruhusa</string>
+    <string name="st_permission_detail">gusa ili kuruhusu</string>
+    <string name="st_bt_off">Bluetooth imezimwa</string>
+    <string name="st_bt_off_detail">gusa ili kuwasha</string>
+    <string name="st_location_off">Mahali pamezimwa</string>
+    <string name="st_location_off_detail">inahitajika kutafuta</string>
+    <string name="st_ble_fail">Hitilafu ya BLE</string>
+    <string name="st_ble_fail_detail">hitilafu %1$d</string>
+    <string name="st_bad_key">Ufunguo mbaya</string>
+    <string name="st_bad_key_detail">kagua ufunguo</string>
+    <string name="st_searching">Inatafuta</string>
+    <string name="st_no_signal">Hakuna mawimbi</string>
+    <string name="st_alarm">KENGELE</string>
+    <string name="st_age_detail">%1$ds zilizopita  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Volteji ya chini</item>
+        <item>Volteji ya juu</item>
+        <item>SOC ya chini</item>
+        <item>Volteji ya kuwasha chini</item>
+        <item>Volteji ya kuwasha juu</item>
+        <item>Joto la chini</item>
+        <item>Joto la juu</item>
+        <item>Volteji ya nukta ya kati</item>
+        <item>Mzigo kupita kiasi</item>
+        <item>Mawimbi ya DC</item>
+        <item>Volteji ya AC ya kutoka chini</item>
+        <item>Volteji ya AC ya kutoka juu</item>
+        <item>Saketi fupi</item>
+        <item>BMS imefunga</item>
+    </string-array>
+    <string name="alarm_code">Kengele %1$s</string>
+
+    <string name="allow_nearby_devices">Ruhusu “Vifaa vilivyo karibu” (au Mahali kwenye Android ya zamani) ili programu iweze kusikia shunt yako.</string>
+
+    <!-- Settings -->
+    <string name="settings">Mipangilio</string>
+    <string name="cancel">Ghairi</string>
+    <string name="save">Hifadhi</string>
+    <string name="saved">Mipangilio imehifadhiwa</string>
+    <string name="discard_changes">Ungependa kutupa mabadiliko yako?</string>
+    <string name="discard">Tupa</string>
+    <string name="keep_editing">Endelea kuhariri</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">Anwani ya MAC</string>
+    <string name="find_nearby">Tafuta karibu</string>
+    <string name="key_label">Ufunguo wa usimbaji fiche</string>
+    <string name="key_hint">Herufi 32</string>
+    <string name="paste">Bandika</string>
+    <string name="mac_key_help">Kwenye VictronConnect: fungua SmartShunt → ⚙ → ⋮ → “Product info” → washa “Instant readout via Bluetooth” → “Show”. Nukta pacha na nafasi si lazima.</string>
+    <string name="mac_error">Inahitaji herufi 12 za heksadesimali (0–9, a–f)</string>
+    <string name="key_error">Inahitaji herufi 32 za heksadesimali (0–9, a–f)</string>
+    <string name="clip_key_found">Ufunguo kwenye ubao wa kunakili: %1$s</string>
+    <string name="clip_mac_found">Anwani ya MAC kwenye ubao wa kunakili: %1$s</string>
+    <string name="use_it">Tumia</string>
+    <string name="dismiss">Ondoa</string>
+    <string name="clipboard_empty">Hakuna cha kubandika</string>
+    <string name="demo_label">Data ya majaribio (vipimo bandia, kwa kujaribu)</string>
+
+    <string name="section_display">Onyesho</string>
+    <string name="language_label">Lugha</string>
+    <string name="language_system">Chaguomsingi la mfumo</string>
+    <string name="theme_label">Mandhari</string>
+    <string name="theme_system">Mfumo</string>
+    <string name="theme_light">Mwangaza</string>
+    <string name="theme_dark">Giza</string>
+    <string name="orientation_label">Mkao</string>
+    <string-array name="orientations">
+        <item>Otomatiki</item>
+        <item>Wima</item>
+        <item>Mlalo</item>
+        <item>Mlalo (uliopinduliwa)</item>
+    </string-array>
+    <string name="keep_awake_label">Skrini isizime programu ikiwa imefunguliwa</string>
+    <string name="full_screen_label">Skrini nzima</string>
+    <string name="full_screen_help">Huficha upau wa hali na upau wa kusogeza kwenye dashibodi. Telezesha kidole kutoka ukingoni ili kuziona kwa muda mfupi.</string>
+
+    <string name="section_alerts">Arifa</string>
+    <string name="stale_label">“Hakuna mawimbi” baada ya</string>
+    <string name="amber_label">Chaji rangi ya machungwa chini ya</string>
+    <string name="red_label">Chaji nyekundu chini ya</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Onyesho la Arduino</string>
+    <string name="share_help">Badilishana mipangilio na kadi ya SD ya onyesho la Arduino SmartShunt. Kuhamisha huandika CONFIG.TXT ambayo onyesho linaweza kusoma; kuleta husoma faili hiyo kutoka kwake. Mistari inayohusu onyesho pekee, kama urekebishaji wa mguso, huhifadhiwa.</string>
+    <string name="export_config">Hamisha CONFIG.TXT</string>
+    <string name="import_config">Leta CONFIG.TXT</string>
+    <string name="exported">Imehamishwa. Nakili CONFIG.TXT kwenye kadi ya SD ya onyesho kisha uliwashe upya.</string>
+    <string name="export_failed">Imeshindwa kuhamisha: %1$s</string>
+    <string name="imported">Imeletwa. Gusa Hifadhi ili kuweka mipangilio hii.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Imeletwa, lakini mstari %1$d haukueleweka. Gusa Hifadhi ili kuweka mipangilio hii.</item>
+        <item quantity="other">Imeletwa, lakini mistari %1$d haikueleweka. Gusa Hifadhi ili kuweka mipangilio hii.</item>
+    </plurals>
+    <string name="import_failed">Imeshindwa kuleta: %1$s</string>
+    <string name="about">Shunt Display %1$s\nHusoma matangazo ya Victron Instant Readout. Haihusiani na Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunt zilizo karibu</string>
+    <string name="nearby_empty">Inatafuta vifuatiliaji vya betri vya Victron…\n\nHakikisha “Instant readout via Bluetooth” imewashwa kwenye VictronConnect.</string>
+    <string name="victron_device">Kifuatiliaji cha betri cha Victron</string>
+    <string name="scanning">Inatafuta. Gusa shunt yako ili uitumie.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Inatafuta. Gusa shunt yako ili uitumie. (Kifaa %1$d kingine cha Victron si kifuatiliaji cha betri.)</item>
+        <item quantity="other">Inatafuta. Gusa shunt yako ili uitumie. (Vifaa %1$d vingine vya Victron si vifuatiliaji vya betri.)</item>
+    </plurals>
+    <string name="scan_failed">Utafutaji wa Bluetooth umeshindwa (hitilafu %1$d)</string>
+    <string name="need_permission">Ruhusu “Vifaa vilivyo karibu” ili kutafuta shunt.</string>
+    <string name="bluetooth_off">Bluetooth imezimwa.</string>
+    <string name="location_off">Mahali pamezimwa. Matoleo ya zamani ya Android yanahitaji Mahali pawashwe ili kutafuta vifaa vya Bluetooth.</string>
+    <string name="dash_other">Nyingine</string>
+    <string name="dash_mains">Gridi</string>
+    <string name="dash_solar">Jua</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Altaneta</string>
+    <string name="stage_off">Imezimwa</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorption</string>
+    <string name="stage_float">Float</string>
+    <string name="stage_storage">Uhifadhi</string>
+    <string name="stage_recondition">Urejeshaji</string>
+    <string name="stage_psu">Chanzo cha umeme</string>
+    <string name="stage_starting">Inaanza</string>
+    <string name="stage_fault">Kasoro</string>
+    <string name="charger_error">Hitilafu %1$d</string>
+    <string name="section_chargers">Chaja</string>
+    <string name="charger_n">Chaja %1$d</string>
+    <string name="charger_not_used">Haitumiki</string>
+    <string name="other_source_label">Chanzo kingine cha chaji</string>
+    <string name="source_auto">Otomatiki</string>
+    <string name="chargers_help">Ongeza chaja za Victron zinazotuma “Instant readout” (Blue Smart IP22, SmartSolar MPPT, Orion XS) ili kuona nguvu zinazotoa. Uchaji ambao hazielezi unaonyeshwa kama chanzo kingine cha chaji, kama vile chaja ya DC-DC.</string>
+    <string name="charger_key_help">Kwenye VictronConnect: fungua chaja → ⚙ → ⋮ → “Product info” → washa “Instant readout via Bluetooth” → “Show”.</string>
+    <string name="remove_charger">Ondoa</string>
+    <string name="nearby_chargers_empty">Inatafuta chaja za Victron…\n\nHakikisha “Instant readout via Bluetooth” imewashwa kwenye VictronConnect.</string>
+    <string name="charger_ac">Chaja ya AC</string>
+    <string name="charger_solar">Chaja ya jua</string>
+    <string name="charger_dcdc">Chaja ya DC-DC</string>
+    <string name="nearby_chargers_title">Chaja zilizo karibu</string>
+    <string name="scanning_chargers">Inatafuta. Gusa chaja yako ili uitumie.</string>
+    <string name="loads_icon_label">Ikoni ya mizigo</string>
+    <string name="icon_house">Nyumba</string>
+    <string name="icon_caravan">Karavani</string>
+    <string name="icon_boat">Mashua</string>
+</resources>

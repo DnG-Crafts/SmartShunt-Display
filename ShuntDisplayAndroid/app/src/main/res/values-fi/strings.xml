@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Varaustila %1$s prosenttia, %2$s, %3$s, tila %4$s. Avaa asetukset kaksoisnapauttamalla.</string>
+    <string name="dash_soc">Varaustila</string>
+    <string name="dash_time_left">Aikaa jäljellä</string>
+    <string name="dash_voltage">Jännite</string>
+    <string name="dash_current">Virta</string>
+    <string name="dash_power">Teho</string>
+    <string name="dash_consumed">Kulutettu</string>
+    <string name="dash_status">Tila</string>
+    <string name="dash_starter">Käynnistysakku</string>
+    <string name="dash_midpoint">Keskipiste</string>
+    <string name="dash_temp">Lämpötila</string>
+    <string name="dash_charger">Laturi</string>
+    <string name="dash_loads">Kuormat</string>
+    <string name="dash_readings">Lukemat</string>
+    <string name="dash_signal">Signaali</string>
+    <string name="dash_battery">Akku</string>
+    <string name="dash_discharging">Purkautuu</string>
+    <string name="time_full">Täynnä</string>
+    <string name="st_age_short">%1$d s sitten</string>
+
+    <string name="time_charging">Latautuu</string>
+    <string name="time_idle">Lepotila</string>
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d vrk %2$d h</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Määritys</string>
+    <string name="st_setup_detail">napauta ratasta</string>
+    <string name="st_demo_detail">demodata</string>
+    <string name="st_no_ble">Ei BLE:tä</string>
+    <string name="st_no_ble_detail">ei tuettu</string>
+    <string name="st_permission">Lupa</string>
+    <string name="st_permission_detail">napauta ja salli</string>
+    <string name="st_bt_off">Bluetooth pois</string>
+    <string name="st_bt_off_detail">napauta ja kytke</string>
+    <string name="st_location_off">Sijainti pois</string>
+    <string name="st_location_off_detail">tarvitaan hakuun</string>
+    <string name="st_ble_fail">BLE-virhe</string>
+    <string name="st_ble_fail_detail">virhe %1$d</string>
+    <string name="st_bad_key">Väärä avain</string>
+    <string name="st_bad_key_detail">tarkista avain</string>
+    <string name="st_searching">Haetaan</string>
+    <string name="st_no_signal">Ei signaalia</string>
+    <string name="st_alarm">HÄLYTYS</string>
+    <string name="st_age_detail">%1$d s sitten  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Alhainen jännite</item>
+        <item>Korkea jännite</item>
+        <item>Alhainen SOC</item>
+        <item>Alhainen käynnistysakun jännite</item>
+        <item>Korkea käynnistysakun jännite</item>
+        <item>Alhainen lämpötila</item>
+        <item>Korkea lämpötila</item>
+        <item>Keskipistejännite</item>
+        <item>Ylikuorma</item>
+        <item>DC-rippeli</item>
+        <item>Alhainen AC-lähtöjännite</item>
+        <item>Korkea AC-lähtöjännite</item>
+        <item>Oikosulku</item>
+        <item>BMS-lukitus</item>
+    </string-array>
+    <string name="alarm_code">Hälytys %1$s</string>
+
+    <string name="allow_nearby_devices">Salli ”Lähellä olevat laitteet” (tai vanhemmissa Android-versioissa Sijainti), jotta sovellus kuulee shunttisi.</string>
+
+    <!-- Settings -->
+    <string name="settings">Asetukset</string>
+    <string name="cancel">Peruuta</string>
+    <string name="save">Tallenna</string>
+    <string name="saved">Asetukset tallennettu</string>
+    <string name="discard_changes">Hylätäänkö muutokset?</string>
+    <string name="discard">Hylkää</string>
+    <string name="keep_editing">Jatka muokkausta</string>
+
+    <string name="section_shunt">Shuntti</string>
+    <string name="mac_label">MAC-osoite</string>
+    <string name="find_nearby">Hae läheltä</string>
+    <string name="key_label">Salausavain</string>
+    <string name="key_hint">32 merkkiä</string>
+    <string name="paste">Liitä</string>
+    <string name="mac_key_help">VictronConnectissa: avaa SmartShunt → ⚙ → ⋮ → ”Product info” → ota käyttöön ”Instant readout via Bluetooth” → ”Show”. Kaksoispisteet ja välilyönnit ovat valinnaisia.</string>
+    <string name="mac_error">Tarvitaan 12 heksamerkkiä (0–9, a–f)</string>
+    <string name="key_error">Tarvitaan 32 heksamerkkiä (0–9, a–f)</string>
+    <string name="clip_key_found">Avain leikepöydällä: %1$s</string>
+    <string name="clip_mac_found">MAC-osoite leikepöydällä: %1$s</string>
+    <string name="use_it">Käytä</string>
+    <string name="dismiss">Sulje</string>
+    <string name="clipboard_empty">Ei liitettävää</string>
+    <string name="demo_label">Demodata (keksityt lukemat testausta varten)</string>
+
+    <string name="section_display">Näyttö</string>
+    <string name="language_label">Kieli</string>
+    <string name="language_system">Järjestelmän oletus</string>
+    <string name="theme_label">Teema</string>
+    <string name="theme_system">Järjestelmä</string>
+    <string name="theme_light">Vaalea</string>
+    <string name="theme_dark">Tumma</string>
+    <string name="orientation_label">Suunta</string>
+    <string-array name="orientations">
+        <item>Automaattinen</item>
+        <item>Pysty</item>
+        <item>Vaaka</item>
+        <item>Vaaka (käännetty)</item>
+    </string-array>
+    <string name="keep_awake_label">Pidä puhelin hereillä, kun sovellus on auki</string>
+    <string name="full_screen_label">Koko näyttö</string>
+    <string name="full_screen_help">Piilottaa tila- ja navigointipalkin mittaristosta. Saat ne hetkeksi näkyviin pyyhkäisemällä reunasta.</string>
+
+    <string name="section_alerts">Varoitukset</string>
+    <string name="stale_label">”Ei signaalia” kun kulunut</string>
+    <string name="amber_label">Varaus keltainen alle</string>
+    <string name="red_label">Varaus punainen alle</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Arduino-näyttö</string>
+    <string name="share_help">Vaihda asetuksia Arduino SmartShunt -näytön SD-kortin kanssa. Vienti kirjoittaa CONFIG.TXT-tiedoston, jonka näyttö osaa lukea; tuonti lukee tiedoston näytöltä. Vain näyttöä koskevat rivit, kuten kosketuksen kalibrointi, säilytetään.</string>
+    <string name="export_config">Vie CONFIG.TXT</string>
+    <string name="import_config">Tuo CONFIG.TXT</string>
+    <string name="exported">Viety. Kopioi CONFIG.TXT näytön SD-kortille ja käynnistä näyttö uudelleen.</string>
+    <string name="export_failed">Vienti epäonnistui: %1$s</string>
+    <string name="imported">Tuotu. Säilytä asetukset napauttamalla Tallenna.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Tuotu, mutta %1$d rivi jäi tulkitsematta. Säilytä asetukset napauttamalla Tallenna.</item>
+        <item quantity="other">Tuotu, mutta %1$d riviä jäi tulkitsematta. Säilytä asetukset napauttamalla Tallenna.</item>
+    </plurals>
+    <string name="import_failed">Tuonti epäonnistui: %1$s</string>
+    <string name="about">Shunt Display %1$s\nLukee Victronin Instant Readout -lähetyksiä. Ei sidoksissa Victron Energyyn.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Lähellä olevat shuntit</string>
+    <string name="nearby_empty">Etsitään Victronin akkumonitoreja…\n\nVarmista, että ”Instant readout via Bluetooth” on käytössä VictronConnectissa.</string>
+    <string name="victron_device">Victron-akkumonitori</string>
+    <string name="scanning">Haetaan. Ota shunttisi käyttöön napauttamalla sitä.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Haetaan. Ota shunttisi käyttöön napauttamalla sitä. (%1$d muu Victron-laite ei ole akkumonitori.)</item>
+        <item quantity="other">Haetaan. Ota shunttisi käyttöön napauttamalla sitä. (%1$d muuta Victron-laitetta ei ole akkumonitoreja.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth-haku epäonnistui (virhe %1$d)</string>
+    <string name="need_permission">Salli ”Lähellä olevat laitteet”, jotta shuntteja voidaan hakea.</string>
+    <string name="bluetooth_off">Bluetooth on pois päältä.</string>
+    <string name="location_off">Sijainti on pois päältä. Vanhemmat Android-versiot tarvitsevat sitä Bluetooth-laitteiden hakuun.</string>
+    <string name="dash_other">Muu</string>
+    <string name="dash_mains">Verkko</string>
+    <string name="dash_solar">Aurinko</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Generaattori</string>
+    <string name="stage_off">Pois</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorptio</string>
+    <string name="stage_float">Ylläpito</string>
+    <string name="stage_storage">Varastointi</string>
+    <string name="stage_recondition">Elvytys</string>
+    <string name="stage_psu">Virtalähde</string>
+    <string name="stage_starting">Käynnistyy</string>
+    <string name="stage_fault">Vika</string>
+    <string name="charger_error">Virhe %1$d</string>
+    <string name="section_chargers">Laturit</string>
+    <string name="charger_n">Laturi %1$d</string>
+    <string name="charger_not_used">Ei käytössä</string>
+    <string name="other_source_label">Muu latauslähde</string>
+    <string name="source_auto">Automaattinen</string>
+    <string name="chargers_help">Lisää Victron-laturit, jotka lähettävät ”Instant readout” -tietoja (Blue Smart IP22, SmartSolar MPPT, Orion XS), niin näet niiden tehon. Lataus, jota ne eivät selitä, näytetään muuna latauslähteenä, esimerkiksi DC-DC-laturina.</string>
+    <string name="charger_key_help">VictronConnectissa: avaa laturi → ⚙ → ⋮ → ”Product info” → ota käyttöön ”Instant readout via Bluetooth” → ”Show”.</string>
+    <string name="remove_charger">Poista</string>
+    <string name="nearby_chargers_empty">Etsitään Victronin latureita…\n\nVarmista, että ”Instant readout via Bluetooth” on käytössä VictronConnectissa.</string>
+    <string name="charger_ac">AC-laturi</string>
+    <string name="charger_solar">Aurinkolaturi</string>
+    <string name="charger_dcdc">DC-DC-laturi</string>
+    <string name="nearby_chargers_title">Lähellä olevat laturit</string>
+    <string name="scanning_chargers">Haetaan. Ota laturisi käyttöön napauttamalla sitä.</string>
+    <string name="loads_icon_label">Kuormien kuvake</string>
+    <string name="icon_house">Talo</string>
+    <string name="icon_caravan">Asuntovaunu</string>
+    <string name="icon_boat">Vene</string>
+</resources>

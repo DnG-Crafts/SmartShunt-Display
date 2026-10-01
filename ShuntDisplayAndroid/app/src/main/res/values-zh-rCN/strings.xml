@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">荷电状态百分之%1$s，%2$s，%3$s，状态：%4$s。点按两次即可打开设置。</string>
+    <string name="dash_soc">荷电状态</string>
+    <string name="dash_time_left">剩余时间</string>
+    <string name="dash_voltage">电压</string>
+    <string name="dash_current">电流</string>
+    <string name="dash_power">功率</string>
+    <string name="dash_consumed">已消耗</string>
+    <string name="dash_status">状态</string>
+    <string name="dash_starter">启动电池</string>
+    <string name="dash_midpoint">中点电压</string>
+    <string name="dash_temp">温度</string>
+    <string name="dash_charger">充电器</string>
+    <string name="dash_loads">负载</string>
+    <string name="dash_readings">读数</string>
+    <string name="dash_signal">信号</string>
+    <string name="dash_battery">电池</string>
+    <string name="dash_discharging">正在放电</string>
+    <string name="time_full">已充满</string>
+    <string name="st_age_short">%1$d 秒前</string>
+
+    <string name="time_charging">充电中</string>
+    <string name="time_idle">空闲</string>
+    <string name="time_hours_minutes">%1$d小时%2$02d分</string>
+    <string name="time_days_hours">%1$d天%2$d小时</string>
+
+    <string name="st_ok">正常</string>
+    <string name="st_setup">待设置</string>
+    <string name="st_setup_detail">点按 ⚙</string>
+    <string name="st_demo_detail">演示数据</string>
+    <string name="st_no_ble">无 BLE</string>
+    <string name="st_no_ble_detail">设备不支持</string>
+    <string name="st_permission">需要权限</string>
+    <string name="st_permission_detail">点按以允许</string>
+    <string name="st_bt_off">Bluetooth 已关闭</string>
+    <string name="st_bt_off_detail">点按以开启</string>
+    <string name="st_location_off">位置信息已关闭</string>
+    <string name="st_location_off_detail">扫描需要开启</string>
+    <string name="st_ble_fail">BLE 失败</string>
+    <string name="st_ble_fail_detail">错误 %1$d</string>
+    <string name="st_bad_key">密钥错误</string>
+    <string name="st_bad_key_detail">请检查密钥</string>
+    <string name="st_searching">正在搜索</string>
+    <string name="st_no_signal">无信号</string>
+    <string name="st_alarm">报警</string>
+    <string name="st_age_detail">%1$d秒前  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>电压过低</item>
+        <item>电压过高</item>
+        <item>SOC 过低</item>
+        <item>启动电池电压过低</item>
+        <item>启动电池电压过高</item>
+        <item>温度过低</item>
+        <item>温度过高</item>
+        <item>中点电压</item>
+        <item>过载</item>
+        <item>直流纹波</item>
+        <item>交流输出电压过低</item>
+        <item>交流输出电压过高</item>
+        <item>短路</item>
+        <item>BMS 锁定</item>
+    </string-array>
+    <string name="alarm_code">报警 %1$s</string>
+
+    <string name="allow_nearby_devices">请允许“附近的设备”权限（旧版 Android 上为“位置信息”），以便应用接收分流器的信号。</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="saved">设置已保存</string>
+    <string name="discard_changes">要舍弃更改吗？</string>
+    <string name="discard">舍弃</string>
+    <string name="keep_editing">继续修改</string>
+
+    <string name="section_shunt">分流器</string>
+    <string name="mac_label">MAC 地址</string>
+    <string name="find_nearby">查找附近设备</string>
+    <string name="key_label">加密密钥</string>
+    <string name="key_hint">32 个字符</string>
+    <string name="paste">粘贴</string>
+    <string name="mac_key_help">在 VictronConnect 中：打开 SmartShunt → ⚙ → ⋮ → “Product info” → 开启“Instant readout via Bluetooth” → “Show”。冒号和空格可有可无。</string>
+    <string name="mac_error">需要 12 个十六进制字符（0–9、a–f）</string>
+    <string name="key_error">需要 32 个十六进制字符（0–9、a–f）</string>
+    <string name="clip_key_found">剪贴板中有密钥：%1$s</string>
+    <string name="clip_mac_found">剪贴板中有 MAC 地址：%1$s</string>
+    <string name="use_it">使用</string>
+    <string name="dismiss">关闭</string>
+    <string name="clipboard_empty">没有可粘贴的内容</string>
+    <string name="demo_label">演示数据（模拟读数，用于测试）</string>
+
+    <string name="section_display">显示</string>
+    <string name="language_label">语言</string>
+    <string name="language_system">跟随系统</string>
+    <string name="theme_label">主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="orientation_label">屏幕方向</string>
+    <string-array name="orientations">
+        <item>自动</item>
+        <item>竖屏</item>
+        <item>横屏</item>
+        <item>横屏（倒置）</item>
+    </string-array>
+    <string name="keep_awake_label">应用打开时保持屏幕常亮</string>
+    <string name="full_screen_label">全屏</string>
+    <string name="full_screen_help">在仪表盘上隐藏状态栏和导航栏。从屏幕边缘向内滑动可暂时显示。</string>
+
+    <string name="section_alerts">提醒</string>
+    <string name="stale_label">多久后显示“无信号”</string>
+    <string name="amber_label">电量低于此值显示黄色</string>
+    <string name="red_label">电量低于此值显示红色</string>
+    <string name="seconds_value">%1$d 秒</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino 显示屏</string>
+    <string name="share_help">与 Arduino SmartShunt 显示屏的 SD 卡交换设置。导出会生成显示屏可读取的 CONFIG.TXT；导入会从中读取设置。触摸校准等显示屏专用的行会保留。</string>
+    <string name="export_config">导出 CONFIG.TXT</string>
+    <string name="import_config">导入 CONFIG.TXT</string>
+    <string name="exported">已导出。请将 CONFIG.TXT 复制到显示屏的 SD 卡，然后重启显示屏。</string>
+    <string name="export_failed">导出失败：%1$s</string>
+    <string name="imported">已导入。点按“保存”即可保留这些设置。</string>
+    <plurals name="imported_with_errors">
+        <item quantity="other">已导入，但有 %1$d 行无法识别。点按“保存”即可保留这些设置。</item>
+    </plurals>
+    <string name="import_failed">导入失败：%1$s</string>
+    <string name="about">Shunt Display %1$s\n读取 Victron Instant Readout 广播数据。与 Victron Energy 无关联。</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">附近的分流器</string>
+    <string name="nearby_empty">正在查找 Victron 电池监测器…\n\n请确保已在 VictronConnect 中开启“Instant readout via Bluetooth”。</string>
+    <string name="victron_device">Victron 电池监测器</string>
+    <string name="scanning">正在扫描。点按您的分流器即可使用。</string>
+    <plurals name="scanning_others">
+        <item quantity="other">正在扫描。点按您的分流器即可使用。（另有 %1$d 台 Victron 设备不是电池监测器。）</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth 扫描失败（错误 %1$d）</string>
+    <string name="need_permission">请允许“附近的设备”权限以扫描分流器。</string>
+    <string name="bluetooth_off">Bluetooth 已关闭。</string>
+    <string name="location_off">位置信息已关闭。旧版 Android 需要开启位置信息才能扫描 Bluetooth 设备。</string>
+    <string name="dash_other">其他</string>
+    <string name="dash_mains">市电</string>
+    <string name="dash_solar">太阳能</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">发电机</string>
+    <string name="stage_off">关闭</string>
+    <string name="stage_bulk">恒流</string>
+    <string name="stage_absorption">吸收</string>
+    <string name="stage_float">浮充</string>
+    <string name="stage_storage">存储</string>
+    <string name="stage_recondition">修复</string>
+    <string name="stage_psu">电源模式</string>
+    <string name="stage_starting">正在启动</string>
+    <string name="stage_fault">故障</string>
+    <string name="charger_error">错误 %1$d</string>
+    <string name="section_chargers">充电器</string>
+    <string name="charger_n">充电器 %1$d</string>
+    <string name="charger_not_used">未使用</string>
+    <string name="other_source_label">其他充电来源</string>
+    <string name="source_auto">自动</string>
+    <string name="chargers_help">添加会发送“Instant readout”的 Victron 充电器（Blue Smart IP22、SmartSolar MPPT、Orion XS）即可查看其输出。它们无法解释的充电会显示为其他充电来源，例如 DC-DC 充电器。</string>
+    <string name="charger_key_help">在 VictronConnect 中：打开充电器 → ⚙ → ⋮ → “Product info” → 开启“Instant readout via Bluetooth” → “Show”。</string>
+    <string name="remove_charger">移除</string>
+    <string name="nearby_chargers_empty">正在查找 Victron 充电器…\n\n请确保已在 VictronConnect 中开启“Instant readout via Bluetooth”。</string>
+    <string name="charger_ac">交流充电器</string>
+    <string name="charger_solar">太阳能充电器</string>
+    <string name="charger_dcdc">DC-DC 充电器</string>
+    <string name="nearby_chargers_title">附近的充电器</string>
+    <string name="scanning_chargers">正在扫描。点按您的充电器即可使用。</string>
+    <string name="loads_icon_label">负载图标</string>
+    <string name="icon_house">房屋</string>
+    <string name="icon_caravan">拖挂房车</string>
+    <string name="icon_boat">船</string>
+</resources>

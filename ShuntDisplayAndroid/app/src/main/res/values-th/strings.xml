@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">สถานะการชาร์จ %1$s เปอร์เซ็นต์, %2$s, %3$s, สถานะ %4$s แตะสองครั้งเพื่อเปิดการตั้งค่า</string>
+    <string name="dash_soc">สถานะการชาร์จ</string>
+    <string name="dash_time_left">เวลาที่เหลือ</string>
+    <string name="dash_voltage">แรงดัน</string>
+    <string name="dash_current">กระแส</string>
+    <string name="dash_power">กำลังไฟ</string>
+    <string name="dash_consumed">ใช้ไปแล้ว</string>
+    <string name="dash_status">สถานะ</string>
+    <string name="dash_starter">แบตสตาร์ท</string>
+    <string name="dash_midpoint">จุดกึ่งกลาง</string>
+    <string name="dash_temp">อุณหภูมิ</string>
+    <string name="dash_charger">เครื่องชาร์จ</string>
+    <string name="dash_loads">โหลด</string>
+    <string name="dash_readings">ค่าที่วัดได้</string>
+    <string name="dash_signal">สัญญาณ</string>
+    <string name="dash_battery">แบตเตอรี่</string>
+    <string name="dash_discharging">กำลังคายประจุ</string>
+    <string name="time_full">เต็ม</string>
+    <string name="st_age_short">%1$d วินาทีที่แล้ว</string>
+
+    <string name="time_charging">กำลังชาร์จ</string>
+    <string name="time_idle">ว่าง</string>
+    <string name="time_hours_minutes">%1$d ชม. %2$02d นาที</string>
+    <string name="time_days_hours">%1$d วัน %2$d ชม.</string>
+
+    <string name="st_ok">ปกติ</string>
+    <string name="st_setup">ต้องตั้งค่า</string>
+    <string name="st_setup_detail">แตะไอคอนเฟือง</string>
+    <string name="st_demo_detail">ข้อมูลสาธิต</string>
+    <string name="st_no_ble">ไม่มี BLE</string>
+    <string name="st_no_ble_detail">ไม่รองรับ</string>
+    <string name="st_permission">สิทธิ์</string>
+    <string name="st_permission_detail">แตะเพื่ออนุญาต</string>
+    <string name="st_bt_off">Bluetooth ปิด</string>
+    <string name="st_bt_off_detail">แตะเพื่อเปิด</string>
+    <string name="st_location_off">ตำแหน่งปิด</string>
+    <string name="st_location_off_detail">จำเป็นต่อการสแกน</string>
+    <string name="st_ble_fail">BLE ขัดข้อง</string>
+    <string name="st_ble_fail_detail">ข้อผิดพลาด %1$d</string>
+    <string name="st_bad_key">คีย์ผิด</string>
+    <string name="st_bad_key_detail">ตรวจสอบคีย์</string>
+    <string name="st_searching">กำลังค้นหา</string>
+    <string name="st_no_signal">ไม่มีสัญญาณ</string>
+    <string name="st_alarm">สัญญาณเตือน</string>
+    <string name="st_age_detail">%1$d วิ.ที่แล้ว  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>แรงดันต่ำ</item>
+        <item>แรงดันสูง</item>
+        <item>SOC ต่ำ</item>
+        <item>แรงดันแบตสตาร์ทต่ำ</item>
+        <item>แรงดันแบตสตาร์ทสูง</item>
+        <item>อุณหภูมิต่ำ</item>
+        <item>อุณหภูมิสูง</item>
+        <item>แรงดันจุดกึ่งกลาง</item>
+        <item>โหลดเกิน</item>
+        <item>ริปเปิล DC</item>
+        <item>แรงดัน AC ขาออกต่ำ</item>
+        <item>แรงดัน AC ขาออกสูง</item>
+        <item>ลัดวงจร</item>
+        <item>BMS ตัดการทำงาน</item>
+    </string-array>
+    <string name="alarm_code">สัญญาณเตือน %1$s</string>
+
+    <string name="allow_nearby_devices">อนุญาต “อุปกรณ์ที่อยู่ใกล้เคียง” (หรือ “ตำแหน่ง” ใน Android รุ่นเก่า) เพื่อให้แอปรับสัญญาณจาก Shunt ของคุณได้</string>
+
+    <!-- Settings -->
+    <string name="settings">การตั้งค่า</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="save">บันทึก</string>
+    <string name="saved">บันทึกการตั้งค่าแล้ว</string>
+    <string name="discard_changes">ทิ้งการเปลี่ยนแปลงไหม</string>
+    <string name="discard">ทิ้ง</string>
+    <string name="keep_editing">แก้ไขต่อ</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">ที่อยู่ MAC</string>
+    <string name="find_nearby">ค้นหาใกล้เคียง</string>
+    <string name="key_label">คีย์เข้ารหัส</string>
+    <string name="key_hint">32 ตัวอักษร</string>
+    <string name="paste">วาง</string>
+    <string name="mac_key_help">ใน VictronConnect: เปิด SmartShunt → ⚙ → ⋮ → “Product info” → เปิด “Instant readout via Bluetooth” → “Show” จะใส่เครื่องหมายโคลอนและช่องว่างหรือไม่ก็ได้</string>
+    <string name="mac_error">ต้องเป็นเลขฐานสิบหก 12 ตัว (0–9, a–f)</string>
+    <string name="key_error">ต้องเป็นเลขฐานสิบหก 32 ตัว (0–9, a–f)</string>
+    <string name="clip_key_found">มีคีย์ในคลิปบอร์ด: %1$s</string>
+    <string name="clip_mac_found">มีที่อยู่ MAC ในคลิปบอร์ด: %1$s</string>
+    <string name="use_it">ใช้</string>
+    <string name="dismiss">ปิด</string>
+    <string name="clipboard_empty">ไม่มีอะไรให้วาง</string>
+    <string name="demo_label">ข้อมูลสาธิต (ค่าจำลอง สำหรับทดสอบ)</string>
+
+    <string name="section_display">การแสดงผล</string>
+    <string name="language_label">ภาษา</string>
+    <string name="language_system">ค่าเริ่มต้นของระบบ</string>
+    <string name="theme_label">ธีม</string>
+    <string name="theme_system">ตามระบบ</string>
+    <string name="theme_light">สว่าง</string>
+    <string name="theme_dark">มืด</string>
+    <string name="orientation_label">การวางแนว</string>
+    <string-array name="orientations">
+        <item>อัตโนมัติ</item>
+        <item>แนวตั้ง</item>
+        <item>แนวนอน</item>
+        <item>แนวนอน (กลับด้าน)</item>
+    </string-array>
+    <string name="keep_awake_label">ไม่ให้หน้าจอดับขณะเปิดแอป</string>
+    <string name="full_screen_label">เต็มหน้าจอ</string>
+    <string name="full_screen_help">ซ่อนแถบสถานะและแถบนำทางบนแดชบอร์ด ปัดเข้ามาจากขอบจอเพื่อแสดงแถบชั่วคราว</string>
+
+    <string name="section_alerts">การแจ้งเตือน</string>
+    <string name="stale_label">แสดง “ไม่มีสัญญาณ” หลังจาก</string>
+    <string name="amber_label">แสดงสีส้มเมื่อประจุต่ำกว่า</string>
+    <string name="red_label">แสดงสีแดงเมื่อประจุต่ำกว่า</string>
+    <string name="seconds_value">%1$d วินาที</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">จอแสดงผล Arduino</string>
+    <string name="share_help">แลกเปลี่ยนการตั้งค่ากับการ์ด SD ของจอแสดงผล Arduino SmartShunt การส่งออกจะเขียนไฟล์ CONFIG.TXT ที่จออ่านได้ ส่วนการนำเข้าจะอ่านไฟล์นั้นจากการ์ด บรรทัดที่ใช้เฉพาะกับจอ เช่น การปรับเทียบหน้าจอสัมผัส จะยังคงอยู่</string>
+    <string name="export_config">ส่งออก CONFIG.TXT</string>
+    <string name="import_config">นำเข้า CONFIG.TXT</string>
+    <string name="exported">ส่งออกแล้ว คัดลอก CONFIG.TXT ไปยังการ์ด SD ของจอแสดงผล แล้วรีสตาร์ทจอ</string>
+    <string name="export_failed">ส่งออกไม่สำเร็จ: %1$s</string>
+    <string name="imported">นำเข้าแล้ว แตะ “บันทึก” เพื่อเก็บการตั้งค่าเหล่านี้</string>
+    <plurals name="imported_with_errors">
+        <item quantity="other">นำเข้าแล้ว แต่มี %1$d บรรทัดที่อ่านไม่ออก แตะ “บันทึก” เพื่อเก็บการตั้งค่าเหล่านี้</item>
+    </plurals>
+    <string name="import_failed">นำเข้าไม่สำเร็จ: %1$s</string>
+    <string name="about">Shunt Display %1$s\nอ่านข้อมูลที่ส่งผ่าน Instant Readout ของ Victron ไม่มีส่วนเกี่ยวข้องกับ Victron Energy</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunt ใกล้เคียง</string>
+    <string name="nearby_empty">กำลังค้นหาเครื่องวัดแบตเตอรี่ Victron…\n\nตรวจสอบว่าได้เปิด “Instant readout via Bluetooth” ใน VictronConnect แล้ว</string>
+    <string name="victron_device">เครื่องวัดแบตเตอรี่ Victron</string>
+    <string name="scanning">กำลังสแกน แตะ Shunt ของคุณเพื่อใช้งาน</string>
+    <plurals name="scanning_others">
+        <item quantity="other">กำลังสแกน แตะ Shunt ของคุณเพื่อใช้งาน (มีอุปกรณ์ Victron อื่นอีก %1$d เครื่องที่ไม่ใช่เครื่องวัดแบตเตอรี่)</item>
+    </plurals>
+    <string name="scan_failed">สแกน Bluetooth ไม่สำเร็จ (ข้อผิดพลาด %1$d)</string>
+    <string name="need_permission">อนุญาต “อุปกรณ์ที่อยู่ใกล้เคียง” เพื่อสแกนหา Shunt</string>
+    <string name="bluetooth_off">Bluetooth ปิดอยู่</string>
+    <string name="location_off">ตำแหน่งปิดอยู่ Android รุ่นเก่าต้องเปิดตำแหน่งจึงจะสแกนหาอุปกรณ์ Bluetooth ได้</string>
+    <string name="dash_other">อื่นๆ</string>
+    <string name="dash_mains">ไฟบ้าน</string>
+    <string name="dash_solar">โซลาร์</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">ไดชาร์จ</string>
+    <string name="stage_off">ปิด</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorption</string>
+    <string name="stage_float">Float</string>
+    <string name="stage_storage">Storage</string>
+    <string name="stage_recondition">ฟื้นฟู</string>
+    <string name="stage_psu">แหล่งจ่ายไฟ</string>
+    <string name="stage_starting">กำลังเริ่ม</string>
+    <string name="stage_fault">ขัดข้อง</string>
+    <string name="charger_error">ข้อผิดพลาด %1$d</string>
+    <string name="section_chargers">เครื่องชาร์จ</string>
+    <string name="charger_n">เครื่องชาร์จ %1$d</string>
+    <string name="charger_not_used">ไม่ได้ใช้</string>
+    <string name="other_source_label">แหล่งชาร์จอื่น</string>
+    <string name="source_auto">อัตโนมัติ</string>
+    <string name="chargers_help">เพิ่มเครื่องชาร์จ Victron ที่ส่ง “Instant readout” (Blue Smart IP22, SmartSolar MPPT, Orion XS) เพื่อดูกำลังไฟขาออก การชาร์จที่เครื่องเหล่านี้อธิบายไม่ได้จะแสดงเป็นแหล่งชาร์จอื่น เช่น เครื่องชาร์จ DC-DC</string>
+    <string name="charger_key_help">ใน VictronConnect: เปิดเครื่องชาร์จ → ⚙ → ⋮ → “Product info” → เปิด “Instant readout via Bluetooth” → “Show”</string>
+    <string name="remove_charger">นำออก</string>
+    <string name="nearby_chargers_empty">กำลังค้นหาเครื่องชาร์จ Victron…\n\nตรวจสอบว่าได้เปิด “Instant readout via Bluetooth” ใน VictronConnect แล้ว</string>
+    <string name="charger_ac">เครื่องชาร์จ AC</string>
+    <string name="charger_solar">เครื่องชาร์จโซลาร์</string>
+    <string name="charger_dcdc">เครื่องชาร์จ DC-DC</string>
+    <string name="nearby_chargers_title">เครื่องชาร์จใกล้เคียง</string>
+    <string name="scanning_chargers">กำลังสแกน แตะเครื่องชาร์จของคุณเพื่อใช้งาน</string>
+    <string name="loads_icon_label">ไอคอนโหลด</string>
+    <string name="icon_house">บ้าน</string>
+    <string name="icon_caravan">รถคาราวาน</string>
+    <string name="icon_boat">เรือ</string>
+</resources>

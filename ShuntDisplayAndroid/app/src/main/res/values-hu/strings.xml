@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Töltöttség %1$s százalék, %2$s, %3$s, állapot: %4$s. A beállításokhoz koppintson duplán.</string>
+    <string name="dash_soc">Töltöttség</string>
+    <string name="dash_time_left">Hátralévő idő</string>
+    <string name="dash_voltage">Feszültség</string>
+    <string name="dash_current">Áram</string>
+    <string name="dash_power">Teljesítmény</string>
+    <string name="dash_consumed">Felhasznált</string>
+    <string name="dash_status">Állapot</string>
+    <string name="dash_starter">Indítóakku</string>
+    <string name="dash_midpoint">Középpont</string>
+    <string name="dash_temp">Hőmérséklet</string>
+    <string name="dash_charger">Töltő</string>
+    <string name="dash_loads">Fogyasztók</string>
+    <string name="dash_readings">Mért értékek</string>
+    <string name="dash_signal">Jel</string>
+    <string name="dash_battery">Akku</string>
+    <string name="dash_discharging">Merül</string>
+    <string name="time_full">Tele</string>
+    <string name="st_age_short">%1$d mp-e</string>
+
+    <string name="time_charging">Töltés</string>
+    <string name="time_idle">Nyugalmi</string>
+    <string name="time_hours_minutes">%1$d ó %2$02d p</string>
+    <string name="time_days_hours">%1$d n %2$d ó</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Beállítás</string>
+    <string name="st_setup_detail">koppintson a ⚙-ra</string>
+    <string name="st_demo_detail">demóadatok</string>
+    <string name="st_no_ble">Nincs BLE</string>
+    <string name="st_no_ble_detail">nem támogatott</string>
+    <string name="st_permission">Engedély</string>
+    <string name="st_permission_detail">koppintson ide</string>
+    <string name="st_bt_off">Bluetooth ki</string>
+    <string name="st_bt_off_detail">bekapcsolás: koppintás</string>
+    <string name="st_location_off">Hely ki</string>
+    <string name="st_location_off_detail">kell a kereséshez</string>
+    <string name="st_ble_fail">BLE-hiba</string>
+    <string name="st_ble_fail_detail">hiba: %1$d</string>
+    <string name="st_bad_key">Hibás kulcs</string>
+    <string name="st_bad_key_detail">ellenőrizze</string>
+    <string name="st_searching">Keresés</string>
+    <string name="st_no_signal">Nincs jel</string>
+    <string name="st_alarm">RIASZTÁS</string>
+    <string name="st_age_detail">%1$d mp-e  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Alacsony feszültség</item>
+        <item>Magas feszültség</item>
+        <item>Alacsony SOC</item>
+        <item>Alacsony indítóakku-feszültség</item>
+        <item>Magas indítóakku-feszültség</item>
+        <item>Alacsony hőmérséklet</item>
+        <item>Magas hőmérséklet</item>
+        <item>Középponti feszültség</item>
+        <item>Túlterhelés</item>
+        <item>DC hullámosság</item>
+        <item>Alacsony AC kimeneti feszültség</item>
+        <item>Magas AC kimeneti feszültség</item>
+        <item>Rövidzárlat</item>
+        <item>BMS-zárolás</item>
+    </string-array>
+    <string name="alarm_code">Riasztás: %1$s</string>
+
+    <string name="allow_nearby_devices">Engedélyezze a „Közeli eszközök” hozzáférést (régebbi Androidon a helymeghatározást), hogy az alkalmazás vehesse a söntje jelét.</string>
+
+    <!-- Settings -->
+    <string name="settings">Beállítások</string>
+    <string name="cancel">Mégse</string>
+    <string name="save">Mentés</string>
+    <string name="saved">Beállítások mentve</string>
+    <string name="discard_changes">Elveti a módosításokat?</string>
+    <string name="discard">Elvetés</string>
+    <string name="keep_editing">Szerkesztés folytatása</string>
+
+    <string name="section_shunt">Sönt</string>
+    <string name="mac_label">MAC-cím</string>
+    <string name="find_nearby">Közeli keresése</string>
+    <string name="key_label">Titkosítási kulcs</string>
+    <string name="key_hint">32 karakter</string>
+    <string name="paste">Beillesztés</string>
+    <string name="mac_key_help">A VictronConnectben: nyissa meg a SmartShuntot → ⚙ → ⋮ → „Product info” → kapcsolja be az „Instant readout via Bluetooth” lehetőséget → „Show”. A kettőspontok és szóközök elhagyhatók.</string>
+    <string name="mac_error">12 hexadecimális karakter szükséges (0–9, a–f)</string>
+    <string name="key_error">32 hexadecimális karakter szükséges (0–9, a–f)</string>
+    <string name="clip_key_found">Kulcs a vágólapon: %1$s</string>
+    <string name="clip_mac_found">MAC-cím a vágólapon: %1$s</string>
+    <string name="use_it">Használat</string>
+    <string name="dismiss">Bezárás</string>
+    <string name="clipboard_empty">Nincs mit beilleszteni</string>
+    <string name="demo_label">Demóadatok (kitalált értékek teszteléshez)</string>
+
+    <string name="section_display">Kijelző</string>
+    <string name="language_label">Nyelv</string>
+    <string name="language_system">Rendszer alapértelmezése</string>
+    <string name="theme_label">Téma</string>
+    <string name="theme_system">Rendszer</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_dark">Sötét</string>
+    <string name="orientation_label">Tájolás</string>
+    <string-array name="orientations">
+        <item>Automatikus</item>
+        <item>Álló</item>
+        <item>Fekvő</item>
+        <item>Fekvő (fordított)</item>
+    </string-array>
+    <string name="keep_awake_label">Telefon ébren tartása, amíg az alkalmazás nyitva van</string>
+    <string name="full_screen_label">Teljes képernyő</string>
+    <string name="full_screen_help">Elrejti az állapot- és a navigációs sávot az irányítópulton. Rövid megjelenítésükhöz csúsztasson befelé a képernyő széléről.</string>
+
+    <string name="section_alerts">Figyelmeztetések</string>
+    <string name="stale_label">„Nincs jel” ennyi után</string>
+    <string name="amber_label">Sárga töltöttség ez alatt</string>
+    <string name="red_label">Piros töltöttség ez alatt</string>
+    <string name="seconds_value">%1$d mp</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino-kijelző</string>
+    <string name="share_help">Beállítások cseréje az Arduino SmartShunt-kijelző SD-kártyájával. Az exportálás egy olyan CONFIG.TXT fájlt ír, amelyet a kijelző be tud olvasni; az importálás egy ilyen fájlt olvas be róla. A csak a kijelzőre vonatkozó sorok, például az érintőképernyő kalibrálása, megmaradnak.</string>
+    <string name="export_config">CONFIG.TXT exportálása</string>
+    <string name="import_config">CONFIG.TXT importálása</string>
+    <string name="exported">Exportálva. Másolja a CONFIG.TXT fájlt a kijelző SD-kártyájára, majd indítsa újra a kijelzőt.</string>
+    <string name="export_failed">Sikertelen exportálás: %1$s</string>
+    <string name="imported">Importálva. A beállítások megtartásához koppintson a Mentés gombra.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Importálva, de %1$d sort nem sikerült értelmezni. A beállítások megtartásához koppintson a Mentés gombra.</item>
+        <item quantity="other">Importálva, de %1$d sort nem sikerült értelmezni. A beállítások megtartásához koppintson a Mentés gombra.</item>
+    </plurals>
+    <string name="import_failed">Sikertelen importálás: %1$s</string>
+    <string name="about">Shunt Display %1$s\nA Victron Instant Readout adásait olvassa. Nem áll kapcsolatban a Victron Energyvel.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Közeli söntök</string>
+    <string name="nearby_empty">Victron akkumulátorfigyelők keresése…\n\nEllenőrizze, hogy az „Instant readout via Bluetooth” be van-e kapcsolva a VictronConnectben.</string>
+    <string name="victron_device">Victron akkumulátorfigyelő</string>
+    <string name="scanning">Keresés. Koppintson a söntjére a használatához.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Keresés. Koppintson a söntjére a használatához. (%1$d másik Victron-eszköz nem akkumulátorfigyelő.)</item>
+        <item quantity="other">Keresés. Koppintson a söntjére a használatához. (%1$d másik Victron-eszköz nem akkumulátorfigyelő.)</item>
+    </plurals>
+    <string name="scan_failed">Sikertelen Bluetooth-keresés (hiba: %1$d)</string>
+    <string name="need_permission">A söntök kereséséhez engedélyezze a „Közeli eszközök” hozzáférést.</string>
+    <string name="bluetooth_off">A Bluetooth ki van kapcsolva.</string>
+    <string name="location_off">A helymeghatározás ki van kapcsolva. Régebbi Android-verziókon ez szükséges a Bluetooth-eszközök kereséséhez.</string>
+    <string name="dash_other">Egyéb</string>
+    <string name="dash_mains">Hálózat</string>
+    <string name="dash_solar">Napelem</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Generátor</string>
+    <string name="stage_off">Ki</string>
+    <string name="stage_bulk">Főtöltés</string>
+    <string name="stage_absorption">Abszorpció</string>
+    <string name="stage_float">Csepptöltés</string>
+    <string name="stage_storage">Tárolás</string>
+    <string name="stage_recondition">Regenerálás</string>
+    <string name="stage_psu">Tápegység</string>
+    <string name="stage_starting">Indul</string>
+    <string name="stage_fault">Meghibásodás</string>
+    <string name="charger_error">Hiba: %1$d</string>
+    <string name="section_chargers">Töltők</string>
+    <string name="charger_n">%1$d. töltő</string>
+    <string name="charger_not_used">Nincs használva</string>
+    <string name="other_source_label">Egyéb töltőforrás</string>
+    <string name="source_auto">Automatikus</string>
+    <string name="chargers_help">Adjon hozzá „Instant readout” adatot küldő Victron töltőket (Blue Smart IP22, SmartSolar MPPT, Orion XS), hogy lássa a teljesítményüket. Az általuk nem magyarázott töltés egyéb töltőforrásként jelenik meg, például egy DC-DC töltő.</string>
+    <string name="charger_key_help">A VictronConnectben: nyissa meg a töltőt → ⚙ → ⋮ → „Product info” → kapcsolja be az „Instant readout via Bluetooth” lehetőséget → „Show”.</string>
+    <string name="remove_charger">Eltávolítás</string>
+    <string name="nearby_chargers_empty">Victron töltők keresése…\n\nEllenőrizze, hogy az „Instant readout via Bluetooth” be van-e kapcsolva a VictronConnectben.</string>
+    <string name="charger_ac">AC töltő</string>
+    <string name="charger_solar">Napelemes töltő</string>
+    <string name="charger_dcdc">DC-DC töltő</string>
+    <string name="nearby_chargers_title">Közeli töltők</string>
+    <string name="scanning_chargers">Keresés. Koppintson a töltőjére a használatához.</string>
+    <string name="loads_icon_label">Fogyasztók ikonja</string>
+    <string name="icon_house">Ház</string>
+    <string name="icon_caravan">Lakókocsi</string>
+    <string name="icon_boat">Hajó</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Įkrovos lygis %1$s procentų, %2$s, %3$s, būsena %4$s. Dukart palieskite, kad atidarytumėte nustatymus.</string>
+    <string name="dash_soc">Įkrovos lygis</string>
+    <string name="dash_time_left">Liko laiko</string>
+    <string name="dash_voltage">Įtampa</string>
+    <string name="dash_current">Srovė</string>
+    <string name="dash_power">Galia</string>
+    <string name="dash_consumed">Suvartota</string>
+    <string name="dash_status">Būsena</string>
+    <string name="dash_starter">Starteris</string>
+    <string name="dash_midpoint">Vidurio taškas</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Įkroviklis</string>
+    <string name="dash_loads">Apkrovos</string>
+    <string name="dash_readings">Rodmenys</string>
+    <string name="dash_signal">Signalas</string>
+    <string name="dash_battery">Baterija</string>
+    <string name="dash_discharging">Iškraunama</string>
+    <string name="time_full">Pilna</string>
+    <string name="st_age_short">prieš %1$d s</string>
+
+    <string name="time_charging">Kraunama</string>
+    <string name="time_idle">Ramybė</string>
+    <string name="time_hours_minutes">%1$d val. %2$02d min.</string>
+    <string name="time_days_hours">%1$d d. %2$d val.</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Sąranka</string>
+    <string name="st_setup_detail">palieskite ⚙</string>
+    <string name="st_demo_detail">demo duomenys</string>
+    <string name="st_no_ble">Nėra BLE</string>
+    <string name="st_no_ble_detail">nepalaikoma</string>
+    <string name="st_permission">Leidimas</string>
+    <string name="st_permission_detail">palieskite ir leiskite</string>
+    <string name="st_bt_off">Bluetooth išjungtas</string>
+    <string name="st_bt_off_detail">palieskite ir įjunkite</string>
+    <string name="st_location_off">Vietovė išjungta</string>
+    <string name="st_location_off_detail">reikia paieškai</string>
+    <string name="st_ble_fail">BLE klaida</string>
+    <string name="st_ble_fail_detail">klaida %1$d</string>
+    <string name="st_bad_key">Blogas raktas</string>
+    <string name="st_bad_key_detail">patikrinkite raktą</string>
+    <string name="st_searching">Ieškoma</string>
+    <string name="st_no_signal">Nėra signalo</string>
+    <string name="st_alarm">ALIARMAS</string>
+    <string name="st_age_detail">prieš %1$d s  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Žema įtampa</item>
+        <item>Aukšta įtampa</item>
+        <item>Žemas SOC</item>
+        <item>Žema starterio įtampa</item>
+        <item>Aukšta starterio įtampa</item>
+        <item>Žema temperatūra</item>
+        <item>Aukšta temperatūra</item>
+        <item>Vidurio taško įtampa</item>
+        <item>Perkrova</item>
+        <item>DC pulsacijos</item>
+        <item>Žema AC išėjimo įtampa</item>
+        <item>Aukšta AC išėjimo įtampa</item>
+        <item>Trumpasis jungimas</item>
+        <item>BMS blokavimas</item>
+    </string-array>
+    <string name="alarm_code">Aliarmas %1$s</string>
+
+    <string name="allow_nearby_devices">Leiskite „Įrenginiai netoliese“ (senesnėse Android versijose – vietovę), kad programa galėtų priimti jūsų šunto signalą.</string>
+
+    <!-- Settings -->
+    <string name="settings">Nustatymai</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="save">Išsaugoti</string>
+    <string name="saved">Nustatymai išsaugoti</string>
+    <string name="discard_changes">Atmesti pakeitimus?</string>
+    <string name="discard">Atmesti</string>
+    <string name="keep_editing">Tęsti redagavimą</string>
+
+    <string name="section_shunt">Šuntas</string>
+    <string name="mac_label">MAC adresas</string>
+    <string name="find_nearby">Ieškoti netoliese</string>
+    <string name="key_label">Šifravimo raktas</string>
+    <string name="key_hint">32 simboliai</string>
+    <string name="paste">Įklijuoti</string>
+    <string name="mac_key_help">Programoje VictronConnect: atidarykite SmartShunt → ⚙ → ⋮ → „Product info“ → įjunkite „Instant readout via Bluetooth“ → „Show“. Dvitaškiai ir tarpai neprivalomi.</string>
+    <string name="mac_error">Reikia 12 šešioliktainių simbolių (0–9, a–f)</string>
+    <string name="key_error">Reikia 32 šešioliktainių simbolių (0–9, a–f)</string>
+    <string name="clip_key_found">Iškarpinėje yra raktas: %1$s</string>
+    <string name="clip_mac_found">Iškarpinėje yra MAC adresas: %1$s</string>
+    <string name="use_it">Naudoti</string>
+    <string name="dismiss">Uždaryti</string>
+    <string name="clipboard_empty">Nėra ką įklijuoti</string>
+    <string name="demo_label">Demonstraciniai duomenys (netikri rodmenys, testavimui)</string>
+
+    <string name="section_display">Ekranas</string>
+    <string name="language_label">Kalba</string>
+    <string name="language_system">Numatytoji sistemos</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">Sistemos</string>
+    <string name="theme_light">Šviesi</string>
+    <string name="theme_dark">Tamsi</string>
+    <string name="orientation_label">Orientacija</string>
+    <string-array name="orientations">
+        <item>Automatinė</item>
+        <item>Stačias</item>
+        <item>Gulsčias</item>
+        <item>Gulsčias (apverstas)</item>
+    </string-array>
+    <string name="keep_awake_label">Neleisti telefonui užmigti, kol programa atidaryta</string>
+    <string name="full_screen_label">Visas ekranas</string>
+    <string name="full_screen_help">Prietaisų skydelyje paslepia būsenos ir naršymo juostas. Norėdami trumpam jas parodyti, perbraukite nuo krašto.</string>
+
+    <string name="section_alerts">Įspėjimai</string>
+    <string name="stale_label">„Nėra signalo“ po</string>
+    <string name="amber_label">Įkrova geltona, kai mažiau nei</string>
+    <string name="red_label">Įkrova raudona, kai mažiau nei</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Arduino ekranas</string>
+    <string name="share_help">Keiskitės nustatymais su Arduino SmartShunt ekrano SD kortele. Eksportuojant įrašomas CONFIG.TXT failas, kurį ekranas gali nuskaityti; importuojant jis nuskaitomas iš kortelės. Tik ekranui skirtos eilutės, pvz., jutiklinio ekrano kalibravimas, išlaikomos.</string>
+    <string name="export_config">Eksportuoti CONFIG.TXT</string>
+    <string name="import_config">Importuoti CONFIG.TXT</string>
+    <string name="exported">Eksportuota. Nukopijuokite CONFIG.TXT į ekrano SD kortelę ir paleiskite ekraną iš naujo.</string>
+    <string name="export_failed">Eksportuoti nepavyko: %1$s</string>
+    <string name="imported">Importuota. Palieskite „Išsaugoti“, kad šie nustatymai būtų išsaugoti.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Importuota, bet %1$d eilutė nesuprasta. Palieskite „Išsaugoti“, kad šie nustatymai būtų išsaugoti.</item>
+        <item quantity="few">Importuota, bet %1$d eilutės nesuprastos. Palieskite „Išsaugoti“, kad šie nustatymai būtų išsaugoti.</item>
+        <item quantity="many">Importuota, bet %1$d eilutės nesuprasta. Palieskite „Išsaugoti“, kad šie nustatymai būtų išsaugoti.</item>
+        <item quantity="other">Importuota, bet %1$d eilučių nesuprasta. Palieskite „Išsaugoti“, kad šie nustatymai būtų išsaugoti.</item>
+    </plurals>
+    <string name="import_failed">Importuoti nepavyko: %1$s</string>
+    <string name="about">Shunt Display %1$s\nNuskaito Victron Instant Readout transliacijas. Nesusijusi su Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Šuntai netoliese</string>
+    <string name="nearby_empty">Ieškoma Victron akumuliatorių monitorių…\n\nĮsitikinkite, kad programoje VictronConnect įjungta „Instant readout via Bluetooth“.</string>
+    <string name="victron_device">Victron akumuliatoriaus monitorius</string>
+    <string name="scanning">Ieškoma. Palieskite savo šuntą, kad jį naudotumėte.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Ieškoma. Palieskite savo šuntą, kad jį naudotumėte. (%1$d kitas Victron įrenginys nėra akumuliatoriaus monitorius.)</item>
+        <item quantity="few">Ieškoma. Palieskite savo šuntą, kad jį naudotumėte. (%1$d kiti Victron įrenginiai nėra akumuliatorių monitoriai.)</item>
+        <item quantity="many">Ieškoma. Palieskite savo šuntą, kad jį naudotumėte. (Kitų Victron įrenginių, kurie nėra akumuliatorių monitoriai: %1$d.)</item>
+        <item quantity="other">Ieškoma. Palieskite savo šuntą, kad jį naudotumėte. (Kitų Victron įrenginių, kurie nėra akumuliatorių monitoriai: %1$d.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth paieška nepavyko (klaida %1$d)</string>
+    <string name="need_permission">Leiskite „Įrenginiai netoliese“, kad būtų galima ieškoti šuntų.</string>
+    <string name="bluetooth_off">Bluetooth išjungtas.</string>
+    <string name="location_off">Vietovė išjungta. Senesnėse Android versijose ji reikalinga Bluetooth įrenginių paieškai.</string>
+    <string name="dash_other">Kita</string>
+    <string name="dash_mains">Tinklas</string>
+    <string name="dash_solar">Saulė</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Generatorius</string>
+    <string name="stage_off">Išjungta</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorbcija</string>
+    <string name="stage_float">Palaikymas</string>
+    <string name="stage_storage">Saugojimas</string>
+    <string name="stage_recondition">Atkūrimas</string>
+    <string name="stage_psu">Maitinimo šaltinis</string>
+    <string name="stage_starting">Paleidžiama</string>
+    <string name="stage_fault">Gedimas</string>
+    <string name="charger_error">Klaida %1$d</string>
+    <string name="section_chargers">Įkrovikliai</string>
+    <string name="charger_n">Įkroviklis %1$d</string>
+    <string name="charger_not_used">Nenaudojama</string>
+    <string name="other_source_label">Kitas įkrovimo šaltinis</string>
+    <string name="source_auto">Automatiškai</string>
+    <string name="chargers_help">Pridėkite Victron įkroviklius, siunčiančius „Instant readout“ (Blue Smart IP22, SmartSolar MPPT, Orion XS), kad matytumėte jų galią. Įkrovimas, kurio jie nepaaiškina, rodomas kaip kitas įkrovimo šaltinis, pvz., DC-DC įkroviklis.</string>
+    <string name="charger_key_help">Programoje VictronConnect: atidarykite įkroviklį → ⚙ → ⋮ → „Product info“ → įjunkite „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">Pašalinti</string>
+    <string name="nearby_chargers_empty">Ieškoma Victron įkroviklių…\n\nĮsitikinkite, kad programoje VictronConnect įjungta „Instant readout via Bluetooth“.</string>
+    <string name="charger_ac">Tinklo įkroviklis</string>
+    <string name="charger_solar">Saulės įkroviklis</string>
+    <string name="charger_dcdc">DC-DC įkroviklis</string>
+    <string name="nearby_chargers_title">Įkrovikliai netoliese</string>
+    <string name="scanning_chargers">Ieškoma. Palieskite savo įkroviklį, kad jį naudotumėte.</string>
+    <string name="loads_icon_label">Apkrovų piktograma</string>
+    <string name="icon_house">Namas</string>
+    <string name="icon_caravan">Namelis ant ratų</string>
+    <string name="icon_boat">Valtis</string>
+</resources>

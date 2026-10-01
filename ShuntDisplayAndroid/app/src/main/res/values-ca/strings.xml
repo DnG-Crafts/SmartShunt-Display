@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Estat de càrrega %1$s per cent, %2$s, %3$s, estat %4$s. Fes doble toc per obrir la configuració.</string>
+    <string name="dash_soc">Estat de càrrega</string>
+    <string name="dash_time_left">Autonomia</string>
+    <string name="dash_voltage">Tensió</string>
+    <string name="dash_current">Corrent</string>
+    <string name="dash_power">Potència</string>
+    <string name="dash_consumed">Consumit</string>
+    <string name="dash_status">Estat</string>
+    <string name="dash_starter">Arrencada</string>
+    <string name="dash_midpoint">Punt mitjà</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Carregador</string>
+    <string name="dash_loads">Consums</string>
+    <string name="dash_readings">Lectures</string>
+    <string name="dash_signal">Senyal</string>
+    <string name="dash_battery">Bateria</string>
+    <string name="dash_discharging">Descarregant</string>
+    <string name="time_full">Plena</string>
+    <string name="st_age_short">fa %1$d s</string>
+
+    <string name="time_charging">Carregant</string>
+    <string name="time_idle">En repòs</string>
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d h</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Configura</string>
+    <string name="st_setup_detail">toca l\'engranatge</string>
+    <string name="st_demo_detail">dades de demo</string>
+    <string name="st_no_ble">Sense BLE</string>
+    <string name="st_no_ble_detail">no compatible</string>
+    <string name="st_permission">Permís</string>
+    <string name="st_permission_detail">toca per permetre</string>
+    <string name="st_bt_off">Sense Bluetooth</string>
+    <string name="st_bt_off_detail">toca per activar</string>
+    <string name="st_location_off">Sense ubicació</string>
+    <string name="st_location_off_detail">cal per cercar</string>
+    <string name="st_ble_fail">Error BLE</string>
+    <string name="st_ble_fail_detail">error %1$d</string>
+    <string name="st_bad_key">Clau errònia</string>
+    <string name="st_bad_key_detail">revisa la clau</string>
+    <string name="st_searching">Cercant</string>
+    <string name="st_no_signal">Sense senyal</string>
+    <string name="st_alarm">ALARMA</string>
+    <string name="st_age_detail">fa %1$ds  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Tensió baixa</item>
+        <item>Tensió alta</item>
+        <item>SOC baix</item>
+        <item>Tensió d\'arrencada baixa</item>
+        <item>Tensió d\'arrencada alta</item>
+        <item>Temperatura baixa</item>
+        <item>Temperatura alta</item>
+        <item>Tensió del punt mitjà</item>
+        <item>Sobrecàrrega</item>
+        <item>Arrissat de CC</item>
+        <item>Tensió de sortida CA baixa</item>
+        <item>Tensió de sortida CA alta</item>
+        <item>Curtcircuit</item>
+        <item>Bloqueig del BMS</item>
+    </string-array>
+    <string name="alarm_code">Alarma %1$s</string>
+
+    <string name="allow_nearby_devices">Permet «Dispositius propers» (o Ubicació en versions antigues d\'Android) perquè l\'aplicació pugui sentir el teu shunt.</string>
+
+    <!-- Settings -->
+    <string name="settings">Configuració</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="save">Desa</string>
+    <string name="saved">S\'ha desat la configuració</string>
+    <string name="discard_changes">Vols descartar els canvis?</string>
+    <string name="discard">Descarta</string>
+    <string name="keep_editing">Continua editant</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">Adreça MAC</string>
+    <string name="find_nearby">Cerca a prop</string>
+    <string name="key_label">Clau d\'encriptació</string>
+    <string name="key_hint">32 caràcters</string>
+    <string name="paste">Enganxa</string>
+    <string name="mac_key_help">A VictronConnect: obre el SmartShunt → ⚙ → ⋮ → «Product info» → activa «Instant readout via Bluetooth» → «Show». Els dos punts i els espais són opcionals.</string>
+    <string name="mac_error">Calen 12 caràcters hexadecimals (0–9, a–f)</string>
+    <string name="key_error">Calen 32 caràcters hexadecimals (0–9, a–f)</string>
+    <string name="clip_key_found">Clau al porta-retalls: %1$s</string>
+    <string name="clip_mac_found">Adreça MAC al porta-retalls: %1$s</string>
+    <string name="use_it">Utilitza</string>
+    <string name="dismiss">Ignora</string>
+    <string name="clipboard_empty">No hi ha res per enganxar</string>
+    <string name="demo_label">Dades de demostració (lectures fictícies, per fer proves)</string>
+
+    <string name="section_display">Pantalla</string>
+    <string name="language_label">Idioma</string>
+    <string name="language_system">Idioma del sistema</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="orientation_label">Orientació</string>
+    <string-array name="orientations">
+        <item>Automàtica</item>
+        <item>Vertical</item>
+        <item>Horitzontal</item>
+        <item>Horitzontal (invertida)</item>
+    </string-array>
+    <string name="keep_awake_label">Mantén la pantalla encesa amb l\'aplicació oberta</string>
+    <string name="full_screen_label">Pantalla completa</string>
+    <string name="full_screen_help">Amaga les barres d\'estat i de navegació al tauler. Llisca des de la vora per veure-les un moment.</string>
+
+    <string name="section_alerts">Alertes</string>
+    <string name="stale_label">«Sense senyal» després de</string>
+    <string name="amber_label">Càrrega en ambre per sota de</string>
+    <string name="red_label">Càrrega en vermell per sota de</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Pantalla Arduino</string>
+    <string name="share_help">Intercanvia la configuració amb la targeta SD de la pantalla Arduino per a SmartShunt. Exportar crea un CONFIG.TXT que la pantalla pot llegir; importar en llegeix un d\'ella. Es conserven les línies exclusives de la pantalla, com ara el calibratge tàctil.</string>
+    <string name="export_config">Exporta CONFIG.TXT</string>
+    <string name="import_config">Importa CONFIG.TXT</string>
+    <string name="exported">S\'ha exportat. Copia CONFIG.TXT a la targeta SD de la pantalla i reinicia-la.</string>
+    <string name="export_failed">No s\'ha pogut exportar: %1$s</string>
+    <string name="imported">S\'ha importat. Toca Desa per conservar aquesta configuració.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">S\'ha importat, però no s\'ha entès %1$d línia. Toca Desa per conservar aquesta configuració.</item>
+        <item quantity="many">S\'ha importat, però no s\'han entès %1$d línies. Toca Desa per conservar aquesta configuració.</item>
+        <item quantity="other">S\'ha importat, però no s\'han entès %1$d línies. Toca Desa per conservar aquesta configuració.</item>
+    </plurals>
+    <string name="import_failed">No s\'ha pogut importar: %1$s</string>
+    <string name="about">Shunt Display %1$s\nLlegeix les emissions Instant Readout de Victron. Sense cap vincle amb Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunts propers</string>
+    <string name="nearby_empty">Cercant monitors de bateria Victron…\n\nComprova que «Instant readout via Bluetooth» estigui activat a VictronConnect.</string>
+    <string name="victron_device">Monitor de bateria Victron</string>
+    <string name="scanning">Cercant. Toca el teu shunt per utilitzar-lo.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Cercant. Toca el teu shunt per utilitzar-lo. (Hi ha %1$d altre dispositiu Victron que no és un monitor de bateria.)</item>
+        <item quantity="many">Cercant. Toca el teu shunt per utilitzar-lo. (Hi ha %1$d dispositius Victron més que no són monitors de bateria.)</item>
+        <item quantity="other">Cercant. Toca el teu shunt per utilitzar-lo. (Hi ha %1$d dispositius Victron més que no són monitors de bateria.)</item>
+    </plurals>
+    <string name="scan_failed">Ha fallat la cerca de Bluetooth (error %1$d)</string>
+    <string name="need_permission">Permet «Dispositius propers» per cercar shunts.</string>
+    <string name="bluetooth_off">El Bluetooth està desactivat.</string>
+    <string name="location_off">La ubicació està desactivada. Les versions antigues d\'Android la necessiten activada per cercar dispositius Bluetooth.</string>
+    <string name="dash_other">Altres</string>
+    <string name="dash_mains">Xarxa</string>
+    <string name="dash_solar">Solar</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternador</string>
+    <string name="stage_off">Apagat</string>
+    <string name="stage_bulk">Inicial</string>
+    <string name="stage_absorption">Absorció</string>
+    <string name="stage_float">Flotació</string>
+    <string name="stage_storage">Emmagatzematge</string>
+    <string name="stage_recondition">Recondicionament</string>
+    <string name="stage_psu">Font d’alimentació</string>
+    <string name="stage_starting">Engegant</string>
+    <string name="stage_fault">Avaria</string>
+    <string name="charger_error">Error %1$d</string>
+    <string name="section_chargers">Carregadors</string>
+    <string name="charger_n">Carregador %1$d</string>
+    <string name="charger_not_used">No utilitzat</string>
+    <string name="other_source_label">Altra font de càrrega</string>
+    <string name="source_auto">Automàtic</string>
+    <string name="chargers_help">Afegeix carregadors Victron que enviïn «Instant readout» (Blue Smart IP22, SmartSolar MPPT, Orion XS) per veure’n la potència. La càrrega que no expliquen es mostra com l’altra font de càrrega, com ara un carregador DC-DC.</string>
+    <string name="charger_key_help">A VictronConnect: obre el carregador → ⚙ → ⋮ → «Product info» → activa «Instant readout via Bluetooth» → «Show».</string>
+    <string name="remove_charger">Elimina</string>
+    <string name="nearby_chargers_empty">Cercant carregadors Victron…\n\nComprova que «Instant readout via Bluetooth» estigui activat a VictronConnect.</string>
+    <string name="charger_ac">Carregador de CA</string>
+    <string name="charger_solar">Carregador solar</string>
+    <string name="charger_dcdc">Carregador DC-DC</string>
+    <string name="nearby_chargers_title">Carregadors propers</string>
+    <string name="scanning_chargers">Cercant. Toca el teu carregador per utilitzar-lo.</string>
+    <string name="loads_icon_label">Icona de consums</string>
+    <string name="icon_house">Casa</string>
+    <string name="icon_caravan">Caravana</string>
+    <string name="icon_boat">Vaixell</string>
+</resources>

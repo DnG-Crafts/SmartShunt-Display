@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">சார்ஜ் அளவு %1$s சதவீதம், %2$s, %3$s, நிலை %4$s. அமைப்புகளுக்கு இருமுறை தட்டவும்.</string>
+    <string name="dash_soc">சார்ஜ் அளவு</string>
+    <string name="dash_time_left">மீதி நேரம்</string>
+    <string name="dash_voltage">வோல்டேஜ்</string>
+    <string name="dash_current">கரண்ட்</string>
+    <string name="dash_power">பவர்</string>
+    <string name="dash_consumed">செலவானது</string>
+    <string name="dash_status">நிலை</string>
+    <string name="dash_starter">ஸ்டார்ட்டர்</string>
+    <string name="dash_midpoint">மிட்பாயிண்ட்</string>
+    <string name="dash_temp">வெப்பநிலை</string>
+    <string name="dash_charger">சார்ஜர்</string>
+    <string name="dash_loads">லோடுகள்</string>
+    <string name="dash_readings">அளவீடுகள்</string>
+    <string name="dash_signal">சிக்னல்</string>
+    <string name="dash_battery">பேட்டரி</string>
+    <string name="dash_discharging">டிஸ்சார்ஜ் ஆகிறது</string>
+    <string name="time_full">நிரம்பியது</string>
+    <string name="st_age_short">%1$d வி. முன்</string>
+
+    <string name="time_charging">சார்ஜாகிறது</string>
+    <string name="time_idle">ஓய்வில்</string>
+    <string name="time_hours_minutes">%1$d மணி %2$02d நிமி</string>
+    <string name="time_days_hours">%1$d நாள் %2$d மணி</string>
+
+    <string name="st_ok">சரி</string>
+    <string name="st_setup">அமைவு</string>
+    <string name="st_setup_detail">கியரைத் தட்டவும்</string>
+    <string name="st_demo_detail">டெமோ தரவு</string>
+    <string name="st_no_ble">BLE இல்லை</string>
+    <string name="st_no_ble_detail">ஆதரவு இல்லை</string>
+    <string name="st_permission">அனுமதி</string>
+    <string name="st_permission_detail">அனுமதிக்கத் தட்டவும்</string>
+    <string name="st_bt_off">Bluetooth ஆஃப்</string>
+    <string name="st_bt_off_detail">இயக்கத் தட்டவும்</string>
+    <string name="st_location_off">இருப்பிடம் ஆஃப்</string>
+    <string name="st_location_off_detail">ஸ்கேனுக்குத் தேவை</string>
+    <string name="st_ble_fail">BLE பிழை</string>
+    <string name="st_ble_fail_detail">பிழை %1$d</string>
+    <string name="st_bad_key">தவறான கீ</string>
+    <string name="st_bad_key_detail">கீயைச் சரிபார்க்கவும்</string>
+    <string name="st_searching">தேடுகிறது</string>
+    <string name="st_no_signal">சிக்னல் இல்லை</string>
+    <string name="st_alarm">அலாரம்</string>
+    <string name="st_age_detail">%1$d வி. முன்  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>குறைந்த வோல்டேஜ்</item>
+        <item>அதிக வோல்டேஜ்</item>
+        <item>குறைந்த சார்ஜ்</item>
+        <item>குறைந்த ஸ்டார்ட்டர் வோல்டேஜ்</item>
+        <item>அதிக ஸ்டார்ட்டர் வோல்டேஜ்</item>
+        <item>குறைந்த வெப்பநிலை</item>
+        <item>அதிக வெப்பநிலை</item>
+        <item>மிட்பாயிண்ட் வோல்டேஜ்</item>
+        <item>ஓவர்லோடு</item>
+        <item>DC ரிப்பிள்</item>
+        <item>குறைந்த AC அவுட்புட் வோல்டேஜ்</item>
+        <item>அதிக AC அவுட்புட் வோல்டேஜ்</item>
+        <item>ஷார்ட் சர்க்யூட்</item>
+        <item>BMS லாக்அவுட்</item>
+    </string-array>
+    <string name="alarm_code">அலாரம் %1$s</string>
+
+    <string name="allow_nearby_devices">உங்கள் ஷன்ட்டிலிருந்து ஆப்ஸ் சிக்னலைப் பெற, “அருகிலுள்ள சாதனங்கள்” அனுமதியை வழங்கவும் (பழைய Android பதிப்புகளில் இருப்பிடம்).</string>
+
+    <!-- Settings -->
+    <string name="settings">அமைப்புகள்</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="save">சேமி</string>
+    <string name="saved">அமைப்புகள் சேமிக்கப்பட்டன</string>
+    <string name="discard_changes">உங்கள் மாற்றங்களை நிராகரிக்கவா?</string>
+    <string name="discard">நிராகரி</string>
+    <string name="keep_editing">தொடர்ந்து திருத்து</string>
+
+    <string name="section_shunt">ஷன்ட்</string>
+    <string name="mac_label">MAC முகவரி</string>
+    <string name="find_nearby">அருகில் தேடு</string>
+    <string name="key_label">என்க்ரிப்ஷன் கீ</string>
+    <string name="key_hint">32 எழுத்துகள்</string>
+    <string name="paste">ஒட்டு</string>
+    <string name="mac_key_help">VictronConnect-இல்: SmartShunt-ஐத் திறக்கவும் → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” என்பதை இயக்கவும் → “Show”. முக்காற்புள்ளிகளும் இடைவெளிகளும் கட்டாயமில்லை.</string>
+    <string name="mac_error">12 ஹெக்ஸ் எழுத்துகள் தேவை (0–9, a–f)</string>
+    <string name="key_error">32 ஹெக்ஸ் எழுத்துகள் தேவை (0–9, a–f)</string>
+    <string name="clip_key_found">கிளிப்போர்டில் உள்ள கீ: %1$s</string>
+    <string name="clip_mac_found">கிளிப்போர்டில் உள்ள MAC முகவரி: %1$s</string>
+    <string name="use_it">பயன்படுத்து</string>
+    <string name="dismiss">மூடு</string>
+    <string name="clipboard_empty">ஒட்டுவதற்கு எதுவுமில்லை</string>
+    <string name="demo_label">டெமோ தரவு (சோதனைக்கான போலி அளவீடுகள்)</string>
+
+    <string name="section_display">டிஸ்ப்ளே</string>
+    <string name="language_label">மொழி</string>
+    <string name="language_system">மொபைலின் மொழி</string>
+    <string name="theme_label">தீம்</string>
+    <string name="theme_system">மொபைல் அமைப்பு</string>
+    <string name="theme_light">லைட்</string>
+    <string name="theme_dark">டார்க்</string>
+    <string name="orientation_label">திசையமைப்பு</string>
+    <string-array name="orientations">
+        <item>தானியங்கு</item>
+        <item>போர்ட்ரெய்ட்</item>
+        <item>லேண்ட்ஸ்கேப்</item>
+        <item>லேண்ட்ஸ்கேப் (தலைகீழ்)</item>
+    </string-array>
+    <string name="keep_awake_label">ஆப்ஸ் திறந்திருக்கும்போது திரையை ஆனில் வைத்திரு</string>
+    <string name="full_screen_label">முழுத்திரை</string>
+    <string name="full_screen_help">டாஷ்போர்டில் நிலைப் பட்டியையும் வழிசெலுத்தல் பட்டியையும் மறைக்கும். அவற்றைச் சிறிது நேரம் காட்ட, ஓரத்திலிருந்து உள்நோக்கி ஸ்வைப் செய்யவும்.</string>
+
+    <string name="section_alerts">விழிப்பூட்டல்கள்</string>
+    <string name="stale_label">இவ்வளவு நேரத்திற்குப் பின் “சிக்னல் இல்லை”</string>
+    <string name="amber_label">சார்ஜ் இதைவிடக் குறைந்தால் மஞ்சள்</string>
+    <string name="red_label">சார்ஜ் இதைவிடக் குறைந்தால் சிவப்பு</string>
+    <string name="seconds_value">%1$d வி.</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino டிஸ்ப்ளே</string>
+    <string name="share_help">Arduino SmartShunt டிஸ்ப்ளேயின் SD கார்டுடன் அமைப்புகளைப் பரிமாறிக்கொள்ளவும். ஏற்றுமதி செய்தால் டிஸ்ப்ளே படிக்கக்கூடிய CONFIG.TXT உருவாகும்; இறக்குமதி செய்தால் அதிலிருந்து ஒரு CONFIG.TXT படிக்கப்படும். டச் அளவுத்திருத்தம் போன்ற டிஸ்ப்ளேக்கு மட்டுமான வரிகள் அப்படியே வைக்கப்படும்.</string>
+    <string name="export_config">CONFIG.TXT-ஐ ஏற்றுமதி செய்</string>
+    <string name="import_config">CONFIG.TXT-ஐ இறக்குமதி செய்</string>
+    <string name="exported">ஏற்றுமதி செய்யப்பட்டது. CONFIG.TXT-ஐ டிஸ்ப்ளேயின் SD கார்டுக்கு நகலெடுத்து, டிஸ்ப்ளேயை மீண்டும் தொடங்கவும்.</string>
+    <string name="export_failed">ஏற்றுமதி தோல்வியடைந்தது: %1$s</string>
+    <string name="imported">இறக்குமதி செய்யப்பட்டது. இந்த அமைப்புகளை வைத்திருக்க “சேமி” என்பதைத் தட்டவும்.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">இறக்குமதி செய்யப்பட்டது, ஆனால் %1$d வரி புரியவில்லை. இந்த அமைப்புகளை வைத்திருக்க “சேமி” என்பதைத் தட்டவும்.</item>
+        <item quantity="other">இறக்குமதி செய்யப்பட்டது, ஆனால் %1$d வரிகள் புரியவில்லை. இந்த அமைப்புகளை வைத்திருக்க “சேமி” என்பதைத் தட்டவும்.</item>
+    </plurals>
+    <string name="import_failed">இறக்குமதி தோல்வியடைந்தது: %1$s</string>
+    <string name="about">Shunt Display %1$s\nVictron Instant Readout ஒளிபரப்புகளைப் படிக்கிறது. Victron Energy-உடன் தொடர்புடையது அல்ல.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">அருகிலுள்ள ஷன்ட்கள்</string>
+    <string name="nearby_empty">Victron பேட்டரி மானிட்டர்களைத் தேடுகிறது…\n\nVictronConnect-இல் “Instant readout via Bluetooth” இயக்கப்பட்டுள்ளதா எனப் பார்க்கவும்.</string>
+    <string name="victron_device">Victron பேட்டரி மானிட்டர்</string>
+    <string name="scanning">ஸ்கேன் செய்கிறது. பயன்படுத்த உங்கள் ஷன்ட்டைத் தட்டவும்.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">ஸ்கேன் செய்கிறது. பயன்படுத்த உங்கள் ஷன்ட்டைத் தட்டவும். (வேறு %1$d Victron சாதனம் பேட்டரி மானிட்டர் அல்ல.)</item>
+        <item quantity="other">ஸ்கேன் செய்கிறது. பயன்படுத்த உங்கள் ஷன்ட்டைத் தட்டவும். (வேறு %1$d Victron சாதனங்கள் பேட்டரி மானிட்டர்கள் அல்ல.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth ஸ்கேன் தோல்வியடைந்தது (பிழை %1$d)</string>
+    <string name="need_permission">ஷன்ட்களைத் தேட “அருகிலுள்ள சாதனங்கள்” அனுமதியை வழங்கவும்.</string>
+    <string name="bluetooth_off">Bluetooth ஆஃப் செய்யப்பட்டுள்ளது.</string>
+    <string name="location_off">இருப்பிடம் ஆஃப் செய்யப்பட்டுள்ளது. பழைய Android பதிப்புகளில் Bluetooth சாதனங்களை ஸ்கேன் செய்ய இது இயக்கத்தில் இருக்க வேண்டும்.</string>
+    <string name="dash_other">மற்றவை</string>
+    <string name="dash_mains">மெயின்ஸ்</string>
+    <string name="dash_solar">சோலார்</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">ஆல்டர்னேட்டர்</string>
+    <string name="stage_off">ஆஃப்</string>
+    <string name="stage_bulk">பல்க்</string>
+    <string name="stage_absorption">அப்சார்ப்ஷன்</string>
+    <string name="stage_float">ஃப்ளோட்</string>
+    <string name="stage_storage">ஸ்டோரேஜ்</string>
+    <string name="stage_recondition">ரீகண்டிஷன்</string>
+    <string name="stage_psu">பவர் சப்ளை</string>
+    <string name="stage_starting">தொடங்குகிறது</string>
+    <string name="stage_fault">கோளாறு</string>
+    <string name="charger_error">பிழை %1$d</string>
+    <string name="section_chargers">சார்ஜர்கள்</string>
+    <string name="charger_n">சார்ஜர் %1$d</string>
+    <string name="charger_not_used">பயன்பாட்டில் இல்லை</string>
+    <string name="other_source_label">பிற சார்ஜ் மூலம்</string>
+    <string name="source_auto">தானியங்கு</string>
+    <string name="chargers_help">“Instant readout” அனுப்பும் Victron சார்ஜர்களை (Blue Smart IP22, SmartSolar MPPT, Orion XS) சேர்த்து அவற்றின் வெளியீட்டைப் பார்க்கவும். அவை விளக்காத சார்ஜிங், DC-DC சார்ஜர் போன்ற பிற சார்ஜ் மூலமாகக் காட்டப்படும்.</string>
+    <string name="charger_key_help">VictronConnect-இல்: சார்ஜரைத் திறக்கவும் → ⚙ → ⋮ → “Product info” → “Instant readout via Bluetooth” என்பதை இயக்கவும் → “Show”.</string>
+    <string name="remove_charger">அகற்று</string>
+    <string name="nearby_chargers_empty">Victron சார்ஜர்களைத் தேடுகிறது…\n\nVictronConnect-இல் “Instant readout via Bluetooth” இயக்கப்பட்டுள்ளதா எனப் பார்க்கவும்.</string>
+    <string name="charger_ac">AC சார்ஜர்</string>
+    <string name="charger_solar">சோலார் சார்ஜர்</string>
+    <string name="charger_dcdc">DC-DC சார்ஜர்</string>
+    <string name="nearby_chargers_title">அருகிலுள்ள சார்ஜர்கள்</string>
+    <string name="scanning_chargers">ஸ்கேன் செய்கிறது. பயன்படுத்த உங்கள் சார்ஜரைத் தட்டவும்.</string>
+    <string name="loads_icon_label">லோடுகள் ஐகான்</string>
+    <string name="icon_house">வீடு</string>
+    <string name="icon_caravan">கேரவன்</string>
+    <string name="icon_boat">படகு</string>
+</resources>

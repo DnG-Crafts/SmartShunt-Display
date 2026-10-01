@@ -1,0 +1,38 @@
+# SmartShunt display settings
+# Edit here, or on the display: tap the cog in the top-right corner.
+# Lines starting with # are ignored. Restart the display after editing.
+
+# From VictronConnect: SmartShunt > settings > ... > Product info >
+# Instant readout via Bluetooth > Show
+# The MAC can be pasted as-is, with or without colons.
+mac = aa:bb:cc:dd:ee:ff
+key = 0123456789abcdef0123456789abcdef
+
+# Extra Victron chargers (optional): Blue Smart IP22, SmartSolar MPPT or Orion XS,
+# with Instant readout turned on. MAC and key from VictronConnect, as for the shunt.
+# charger1_mac = aa:bb:cc:dd:ee:01
+# charger1_key = 0123456789abcdef0123456789abcdef
+# Name for charging they don't account for: auto, dcdc, solar, mains or alternator
+other_source = auto
+
+# Picture on the Loads node: house, caravan or boat
+loads_icon = house
+
+# 1 = show fake data (to test the screen), 0 = read the shunt
+demo = 0
+
+# Screen: 1 = landscape, 3 = landscape upside down
+rotation = 1
+# Screen chip if it can't be detected automatically: 9341 (current XC4630) or 8230 (older)
+lcd_chip = 9341
+# 1 if colours look inverted
+invert = 0
+
+# Seconds without data before showing 'No signal'
+stale_after = 30
+# State of charge colours: amber below this %, red below the next
+soc_amber = 50
+soc_red = 20
+
+# Seconds without a touch before the screen goes dark (a tap wakes it). 0 = always on
+screen_off = 30

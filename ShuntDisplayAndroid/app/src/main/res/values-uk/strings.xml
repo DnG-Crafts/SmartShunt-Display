@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Рівень заряду у відсотках: %1$s, %2$s, %3$s, стан: %4$s. Двічі торкніться, щоб відкрити налаштування.</string>
+    <string name="dash_soc">Рівень заряду</string>
+    <string name="dash_time_left">Залишилось</string>
+    <string name="dash_voltage">Напруга</string>
+    <string name="dash_current">Струм</string>
+    <string name="dash_power">Потужність</string>
+    <string name="dash_consumed">Витрачено</string>
+    <string name="dash_status">Стан</string>
+    <string name="dash_starter">Стартерна АКБ</string>
+    <string name="dash_midpoint">Середня точка</string>
+    <string name="dash_temp">Темп.</string>
+    <string name="dash_charger">Зарядний</string>
+    <string name="dash_loads">Навантаження</string>
+    <string name="dash_readings">Показники</string>
+    <string name="dash_signal">Сигнал</string>
+    <string name="dash_battery">Батарея</string>
+    <string name="dash_discharging">Розряд</string>
+    <string name="time_full">Повна</string>
+    <string name="st_age_short">%1$d с тому</string>
+
+    <string name="time_charging">Заряджання</string>
+    <string name="time_idle">Спокій</string>
+    <string name="time_hours_minutes">%1$d год %2$02d хв</string>
+    <string name="time_days_hours">%1$d дн %2$d год</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Налаштування</string>
+    <string name="st_setup_detail">торкніться ⚙</string>
+    <string name="st_demo_detail">демо-дані</string>
+    <string name="st_no_ble">Немає BLE</string>
+    <string name="st_no_ble_detail">не підтримується</string>
+    <string name="st_permission">Дозвіл</string>
+    <string name="st_permission_detail">торкніться, щоб дати</string>
+    <string name="st_bt_off">Bluetooth вимк.</string>
+    <string name="st_bt_off_detail">торкніться, щоб увімк.</string>
+    <string name="st_location_off">Геодані вимк.</string>
+    <string name="st_location_off_detail">потрібні для пошуку</string>
+    <string name="st_ble_fail">Збій BLE</string>
+    <string name="st_ble_fail_detail">помилка %1$d</string>
+    <string name="st_bad_key">Хибний ключ</string>
+    <string name="st_bad_key_detail">перевірте ключ</string>
+    <string name="st_searching">Пошук</string>
+    <string name="st_no_signal">Немає сигналу</string>
+    <string name="st_alarm">ТРИВОГА</string>
+    <string name="st_age_detail">%1$d с тому  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Низька напруга</item>
+        <item>Висока напруга</item>
+        <item>Низький заряд</item>
+        <item>Низька напруга стартера</item>
+        <item>Висока напруга стартера</item>
+        <item>Низька температура</item>
+        <item>Висока температура</item>
+        <item>Напруга середньої точки</item>
+        <item>Перевантаження</item>
+        <item>Пульсації DC</item>
+        <item>Низька вихідна напруга AC</item>
+        <item>Висока вихідна напруга AC</item>
+        <item>Коротке замикання</item>
+        <item>Блокування BMS</item>
+    </string-array>
+    <string name="alarm_code">Тривога %1$s</string>
+
+    <string name="allow_nearby_devices">Надайте дозвіл «Пристрої поблизу» (або «Геодані» на старіших версіях Android), щоб додаток міг отримувати дані від шунта.</string>
+
+    <!-- Settings -->
+    <string name="settings">Налаштування</string>
+    <string name="cancel">Скасувати</string>
+    <string name="save">Зберегти</string>
+    <string name="saved">Налаштування збережено</string>
+    <string name="discard_changes">Не зберігати зміни?</string>
+    <string name="discard">Не зберігати</string>
+    <string name="keep_editing">Продовжити</string>
+
+    <string name="section_shunt">Шунт</string>
+    <string name="mac_label">MAC-адреса</string>
+    <string name="find_nearby">Знайти поблизу</string>
+    <string name="key_label">Ключ шифрування</string>
+    <string name="key_hint">32 символи</string>
+    <string name="paste">Вставити</string>
+    <string name="mac_key_help">У VictronConnect: відкрийте SmartShunt → ⚙ → ⋮ → «Product info» → увімкніть «Instant readout via Bluetooth» → «Show». Двокрапки й пробіли вводити необов’язково.</string>
+    <string name="mac_error">Потрібно 12 шістнадцяткових символів (0–9, a–f)</string>
+    <string name="key_error">Потрібно 32 шістнадцяткові символи (0–9, a–f)</string>
+    <string name="clip_key_found">Ключ у буфері обміну: %1$s</string>
+    <string name="clip_mac_found">MAC-адреса в буфері обміну: %1$s</string>
+    <string name="use_it">Застосувати</string>
+    <string name="dismiss">Закрити</string>
+    <string name="clipboard_empty">Нічого вставити</string>
+    <string name="demo_label">Демо-дані (несправжні показники для перевірки)</string>
+
+    <string name="section_display">Екран</string>
+    <string name="language_label">Мова</string>
+    <string name="language_system">Як у системі</string>
+    <string name="theme_label">Тема</string>
+    <string name="theme_system">Як у системі</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="orientation_label">Орієнтація</string>
+    <string-array name="orientations">
+        <item>Автоматично</item>
+        <item>Книжкова</item>
+        <item>Альбомна</item>
+        <item>Альбомна (перевернута)</item>
+    </string-array>
+    <string name="keep_awake_label">Не вимикати екран, поки додаток відкрито</string>
+    <string name="full_screen_label">Повноекранний режим</string>
+    <string name="full_screen_help">Приховує рядок стану й панель навігації на головному екрані. Щоб ненадовго їх показати, проведіть від краю екрана.</string>
+
+    <string name="section_alerts">Сповіщення</string>
+    <string name="stale_label">«Немає сигналу» через</string>
+    <string name="amber_label">Заряд жовтим нижче</string>
+    <string name="red_label">Заряд червоним нижче</string>
+    <string name="seconds_value">%1$d с</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Дисплей на Arduino</string>
+    <string name="share_help">Обмін налаштуваннями через SD-карту дисплея SmartShunt на Arduino. Експорт створює файл CONFIG.TXT, який дисплей може прочитати; імпорт читає такий файл з карти. Рядки, що стосуються лише дисплея (наприклад, калібрування сенсора), зберігаються.</string>
+    <string name="export_config">Експорт CONFIG.TXT</string>
+    <string name="import_config">Імпорт CONFIG.TXT</string>
+    <string name="exported">Експортовано. Скопіюйте CONFIG.TXT на SD-карту дисплея й перезапустіть його.</string>
+    <string name="export_failed">Помилка експорту: %1$s</string>
+    <string name="imported">Імпортовано. Торкніться «Зберегти», щоб застосувати ці налаштування.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Імпортовано, але %1$d рядок не розпізнано. Торкніться «Зберегти», щоб застосувати ці налаштування.</item>
+        <item quantity="few">Імпортовано, але %1$d рядки не розпізнано. Торкніться «Зберегти», щоб застосувати ці налаштування.</item>
+        <item quantity="many">Імпортовано, але %1$d рядків не розпізнано. Торкніться «Зберегти», щоб застосувати ці налаштування.</item>
+        <item quantity="other">Імпортовано, але %1$d рядка не розпізнано. Торкніться «Зберегти», щоб застосувати ці налаштування.</item>
+    </plurals>
+    <string name="import_failed">Помилка імпорту: %1$s</string>
+    <string name="about">Shunt Display %1$s\nПриймає дані Victron Instant Readout. Не пов’язано з Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Шунти поблизу</string>
+    <string name="nearby_empty">Пошук батарейних моніторів Victron…\n\nПереконайтеся, що у VictronConnect увімкнено функцію «Instant readout via Bluetooth».</string>
+    <string name="victron_device">Батарейний монітор Victron</string>
+    <string name="scanning">Пошук. Торкніться свого шунта, щоб вибрати його.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Пошук. Торкніться свого шунта, щоб вибрати його. (Ще %1$d пристрій Victron не є батарейним монітором.)</item>
+        <item quantity="few">Пошук. Торкніться свого шунта, щоб вибрати його. (Ще %1$d пристрої Victron не є батарейними моніторами.)</item>
+        <item quantity="many">Пошук. Торкніться свого шунта, щоб вибрати його. (Ще %1$d пристроїв Victron не є батарейними моніторами.)</item>
+        <item quantity="other">Пошук. Торкніться свого шунта, щоб вибрати його. (Ще %1$d пристрою Victron не є батарейними моніторами.)</item>
+    </plurals>
+    <string name="scan_failed">Збій пошуку Bluetooth (помилка %1$d)</string>
+    <string name="need_permission">Надайте дозвіл «Пристрої поблизу», щоб шукати шунти.</string>
+    <string name="bluetooth_off">Bluetooth вимкнено.</string>
+    <string name="location_off">Геодані вимкнено. На старіших версіях Android вони потрібні для пошуку пристроїв Bluetooth.</string>
+    <string name="dash_other">Інше</string>
+    <string name="dash_mains">Мережа</string>
+    <string name="dash_solar">Сонце</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Генератор</string>
+    <string name="stage_off">Вимк.</string>
+    <string name="stage_bulk">Основний</string>
+    <string name="stage_absorption">Абсорбція</string>
+    <string name="stage_float">Підтримка</string>
+    <string name="stage_storage">Зберігання</string>
+    <string name="stage_recondition">Відновлення</string>
+    <string name="stage_psu">Блок живлення</string>
+    <string name="stage_starting">Запуск</string>
+    <string name="stage_fault">Несправність</string>
+    <string name="charger_error">Помилка %1$d</string>
+    <string name="section_chargers">Зарядні пристрої</string>
+    <string name="charger_n">Зарядний %1$d</string>
+    <string name="charger_not_used">Не використовується</string>
+    <string name="other_source_label">Інше джерело заряду</string>
+    <string name="source_auto">Автоматично</string>
+    <string name="chargers_help">Додайте зарядні пристрої Victron, що передають «Instant readout» (Blue Smart IP22, SmartSolar MPPT, Orion XS), щоб бачити їхню потужність. Заряд, який ними не пояснюється, показується як інше джерело заряду, наприклад зарядний DC-DC.</string>
+    <string name="charger_key_help">У VictronConnect: відкрийте зарядний пристрій → ⚙ → ⋮ → «Product info» → увімкніть «Instant readout via Bluetooth» → «Show».</string>
+    <string name="remove_charger">Видалити</string>
+    <string name="nearby_chargers_empty">Пошук зарядних пристроїв Victron…\n\nПереконайтеся, що у VictronConnect увімкнено функцію «Instant readout via Bluetooth».</string>
+    <string name="charger_ac">Мережевий зарядний</string>
+    <string name="charger_solar">Сонячний контролер</string>
+    <string name="charger_dcdc">Зарядний DC-DC</string>
+    <string name="nearby_chargers_title">Зарядні пристрої поблизу</string>
+    <string name="scanning_chargers">Пошук. Торкніться свого зарядного пристрою, щоб вибрати його.</string>
+    <string name="loads_icon_label">Значок навантаження</string>
+    <string name="icon_house">Будинок</string>
+    <string name="icon_caravan">Будинок на колесах</string>
+    <string name="icon_boat">Човен</string>
+</resources>

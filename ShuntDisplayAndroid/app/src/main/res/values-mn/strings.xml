@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Цэнэгийн түвшин %1$s хувь, %2$s, %3$s, төлөв: %4$s. Тохиргоо нээхийн тулд хоёр товшино уу.</string>
+    <string name="dash_soc">Цэнэг</string>
+    <string name="dash_time_left">Үлдсэн хугацаа</string>
+    <string name="dash_voltage">Хүчдэл</string>
+    <string name="dash_current">Гүйдэл</string>
+    <string name="dash_power">Чадал</string>
+    <string name="dash_consumed">Зарцуулсан</string>
+    <string name="dash_status">Төлөв</string>
+    <string name="dash_starter">Стартер</string>
+    <string name="dash_midpoint">Дунд цэг</string>
+    <string name="dash_temp">Темп.</string>
+    <string name="dash_charger">Цэнэглэгч</string>
+    <string name="dash_loads">Хэрэглэгчид</string>
+    <string name="dash_readings">Заалт</string>
+    <string name="dash_signal">Дохио</string>
+    <string name="dash_battery">Батарей</string>
+    <string name="dash_discharging">Цэнэг алдаж байна</string>
+    <string name="time_full">Дүүрэн</string>
+    <string name="st_age_short">%1$d с өмнө</string>
+
+    <string name="time_charging">Цэнэглэлт</string>
+    <string name="time_idle">Сул</string>
+    <string name="time_hours_minutes">%1$d ц %2$02d мин</string>
+    <string name="time_days_hours">%1$d хоног %2$d ц</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Тохируулах</string>
+    <string name="st_setup_detail">⚙ дээр товшино уу</string>
+    <string name="st_demo_detail">демо өгөгдөл</string>
+    <string name="st_no_ble">BLE алга</string>
+    <string name="st_no_ble_detail">дэмжигдэхгүй</string>
+    <string name="st_permission">Зөвшөөрөл</string>
+    <string name="st_permission_detail">товшиж зөвшөөрнө үү</string>
+    <string name="st_bt_off">Bluetooth унтарсан</string>
+    <string name="st_bt_off_detail">товшиж асаана уу</string>
+    <string name="st_location_off">Байршил унтарсан</string>
+    <string name="st_location_off_detail">хайхад хэрэгтэй</string>
+    <string name="st_ble_fail">BLE алдаа</string>
+    <string name="st_ble_fail_detail">алдаа %1$d</string>
+    <string name="st_bad_key">Буруу түлхүүр</string>
+    <string name="st_bad_key_detail">түлхүүрээ шалгана уу</string>
+    <string name="st_searching">Хайж байна</string>
+    <string name="st_no_signal">Дохио алга</string>
+    <string name="st_alarm">ТҮГШҮҮР</string>
+    <string name="st_age_detail">%1$d с өмнө  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Хүчдэл бага</item>
+        <item>Хүчдэл өндөр</item>
+        <item>Цэнэг бага</item>
+        <item>Стартерийн хүчдэл бага</item>
+        <item>Стартерийн хүчдэл өндөр</item>
+        <item>Температур бага</item>
+        <item>Температур өндөр</item>
+        <item>Дунд цэгийн хүчдэл</item>
+        <item>Хэт ачаалал</item>
+        <item>DC долгион</item>
+        <item>AC гаралтын хүчдэл бага</item>
+        <item>AC гаралтын хүчдэл өндөр</item>
+        <item>Богино холболт</item>
+        <item>BMS түгжсэн</item>
+    </string-array>
+    <string name="alarm_code">Түгшүүр %1$s</string>
+
+    <string name="allow_nearby_devices">Апп таны шунтаас мэдээлэл авч чадахын тулд «Ойролцоох төхөөрөмжүүд» (хуучин Android дээр «Байршил») зөвшөөрлийг олгоно уу.</string>
+
+    <!-- Settings -->
+    <string name="settings">Тохиргоо</string>
+    <string name="cancel">Цуцлах</string>
+    <string name="save">Хадгалах</string>
+    <string name="saved">Тохиргоог хадгаллаа</string>
+    <string name="discard_changes">Өөрчлөлтөө хаях уу?</string>
+    <string name="discard">Хаях</string>
+    <string name="keep_editing">Үргэлжлүүлэн засах</string>
+
+    <string name="section_shunt">Шунт</string>
+    <string name="mac_label">MAC хаяг</string>
+    <string name="find_nearby">Ойролцоо хайх</string>
+    <string name="key_label">Шифрлэлтийн түлхүүр</string>
+    <string name="key_hint">32 тэмдэгт</string>
+    <string name="paste">Буулгах</string>
+    <string name="mac_key_help">VictronConnect дээр: SmartShunt-ийг нээнэ → ⚙ → ⋮ → «Product info» → «Instant readout via Bluetooth»-ийг асаана → «Show». Хоёр цэг, зай оруулах шаардлагагүй.</string>
+    <string name="mac_error">12 арван зургаатын тэмдэгт шаардлагатай (0–9, a–f)</string>
+    <string name="key_error">32 арван зургаатын тэмдэгт шаардлагатай (0–9, a–f)</string>
+    <string name="clip_key_found">Санах ойд түлхүүр байна: %1$s</string>
+    <string name="clip_mac_found">Санах ойд MAC хаяг байна: %1$s</string>
+    <string name="use_it">Ашиглах</string>
+    <string name="dismiss">Хаах</string>
+    <string name="clipboard_empty">Буулгах зүйл алга</string>
+    <string name="demo_label">Демо өгөгдөл (туршихад зориулсан хуурамч заалт)</string>
+
+    <string name="section_display">Дэлгэц</string>
+    <string name="language_label">Хэл</string>
+    <string name="language_system">Системийн хэл</string>
+    <string name="theme_label">Загвар</string>
+    <string name="theme_system">Системийн</string>
+    <string name="theme_light">Цайвар</string>
+    <string name="theme_dark">Бараан</string>
+    <string name="orientation_label">Чиглэл</string>
+    <string-array name="orientations">
+        <item>Автомат</item>
+        <item>Босоо</item>
+        <item>Хэвтээ</item>
+        <item>Хэвтээ (эргүүлсэн)</item>
+    </string-array>
+    <string name="keep_awake_label">Апп нээлттэй үед дэлгэцийг унтраахгүй байх</string>
+    <string name="full_screen_label">Бүтэн дэлгэц</string>
+    <string name="full_screen_help">Хяналтын самбар дээр төлөвийн болон навигацын мөрийг нууна. Түр харуулахын тулд дэлгэцийн захаас дотогш шударна уу.</string>
+
+    <string name="section_alerts">Сэрэмжлүүлэг</string>
+    <string name="stale_label">«Дохио алга» болох хугацаа</string>
+    <string name="amber_label">Цэнэг шар болох түвшин</string>
+    <string name="red_label">Цэнэг улаан болох түвшин</string>
+    <string name="seconds_value">%1$d с</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino дэлгэц</string>
+    <string name="share_help">Arduino SmartShunt дэлгэцийн SD карттай тохиргоо солилцоно. Экспорт нь дэлгэцийн уншиж чадах CONFIG.TXT файл бичнэ; импорт нь картаас ийм файл уншина. Мэдрэгч дэлгэцийн тохируулга зэрэг зөвхөн дэлгэцэд хамаарах мөрүүд хадгалагдана.</string>
+    <string name="export_config">CONFIG.TXT экспортлох</string>
+    <string name="import_config">CONFIG.TXT импортлох</string>
+    <string name="exported">Экспортлолоо. CONFIG.TXT-г дэлгэцийн SD карт руу хуулаад дэлгэцийг дахин асаана уу.</string>
+    <string name="export_failed">Экспорт амжилтгүй: %1$s</string>
+    <string name="imported">Импортлолоо. Эдгээр тохиргоог хадгалахын тулд «Хадгалах» дээр товшино уу.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Импортлолоо, гэхдээ %1$d мөрийг ойлгосонгүй. Эдгээр тохиргоог хадгалахын тулд «Хадгалах» дээр товшино уу.</item>
+        <item quantity="other">Импортлолоо, гэхдээ %1$d мөрийг ойлгосонгүй. Эдгээр тохиргоог хадгалахын тулд «Хадгалах» дээр товшино уу.</item>
+    </plurals>
+    <string name="import_failed">Импорт амжилтгүй: %1$s</string>
+    <string name="about">Shunt Display %1$s\nVictron Instant Readout дамжуулалтыг уншина. Victron Energy-тэй холбоогүй.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Ойролцоох шунтууд</string>
+    <string name="nearby_empty">Victron батарейн мониторыг хайж байна…\n\nVictronConnect дээр «Instant readout via Bluetooth» асаалттай эсэхийг шалгана уу.</string>
+    <string name="victron_device">Victron батарейн монитор</string>
+    <string name="scanning">Хайж байна. Ашиглах шунт дээрээ товшино уу.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Хайж байна. Ашиглах шунт дээрээ товшино уу. (Өөр %1$d Victron төхөөрөмж батарейн монитор биш.)</item>
+        <item quantity="other">Хайж байна. Ашиглах шунт дээрээ товшино уу. (Өөр %1$d Victron төхөөрөмж батарейн монитор биш.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth хайлт амжилтгүй (алдаа %1$d)</string>
+    <string name="need_permission">Шунт хайхын тулд «Ойролцоох төхөөрөмжүүд» зөвшөөрлийг олгоно уу.</string>
+    <string name="bluetooth_off">Bluetooth унтарсан байна.</string>
+    <string name="location_off">Байршил унтарсан байна. Хуучин Android хувилбарууд Bluetooth төхөөрөмж хайхын тулд үүнийг асаалттай байхыг шаарддаг.</string>
+    <string name="dash_other">Бусад</string>
+    <string name="dash_mains">Сүлжээ</string>
+    <string name="dash_solar">Нар</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Генератор</string>
+    <string name="stage_off">Унтарсан</string>
+    <string name="stage_bulk">Үндсэн</string>
+    <string name="stage_absorption">Шингээлт</string>
+    <string name="stage_float">Дэмжих</string>
+    <string name="stage_storage">Хадгалалт</string>
+    <string name="stage_recondition">Сэргээх</string>
+    <string name="stage_psu">Тэжээлийн эх үүсвэр</string>
+    <string name="stage_starting">Асаж байна</string>
+    <string name="stage_fault">Гэмтэл</string>
+    <string name="charger_error">Алдаа %1$d</string>
+    <string name="section_chargers">Цэнэглэгчүүд</string>
+    <string name="charger_n">Цэнэглэгч %1$d</string>
+    <string name="charger_not_used">Ашиглаагүй</string>
+    <string name="other_source_label">Цэнэглэлтийн бусад эх үүсвэр</string>
+    <string name="source_auto">Автомат</string>
+    <string name="chargers_help">«Instant readout» илгээдэг Victron цэнэглэгчдийг (Blue Smart IP22, SmartSolar MPPT, Orion XS) нэмж, тэдгээрийн гаралтын чадлыг харна уу. Тэдгээрээр тайлбарлагдахгүй цэнэглэлтийг цэнэглэлтийн бусад эх үүсвэр, жишээ нь DC-DC цэнэглэгч гэж харуулна.</string>
+    <string name="charger_key_help">VictronConnect дээр: цэнэглэгчийг нээнэ → ⚙ → ⋮ → «Product info» → «Instant readout via Bluetooth»-ийг асаана → «Show».</string>
+    <string name="remove_charger">Хасах</string>
+    <string name="nearby_chargers_empty">Victron цэнэглэгчийг хайж байна…\n\nVictronConnect дээр «Instant readout via Bluetooth» асаалттай эсэхийг шалгана уу.</string>
+    <string name="charger_ac">Сүлжээний цэнэглэгч</string>
+    <string name="charger_solar">Нарны цэнэглэгч</string>
+    <string name="charger_dcdc">DC-DC цэнэглэгч</string>
+    <string name="nearby_chargers_title">Ойролцоох цэнэглэгчүүд</string>
+    <string name="scanning_chargers">Хайж байна. Ашиглах цэнэглэгч дээрээ товшино уу.</string>
+    <string name="loads_icon_label">Хэрэглэгчдийн дүрс</string>
+    <string name="icon_house">Байшин</string>
+    <string name="icon_caravan">Чиргүүл байшин</string>
+    <string name="icon_boat">Завь</string>
+</resources>

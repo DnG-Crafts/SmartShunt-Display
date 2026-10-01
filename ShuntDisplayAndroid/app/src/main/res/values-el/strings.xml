@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Κατάσταση φόρτισης %1$s τοις εκατό, %2$s, %3$s, κατάσταση λειτουργίας %4$s. Πατήστε δύο φορές για ρυθμίσεις.</string>
+    <string name="dash_soc">Φόρτιση</string>
+    <string name="dash_time_left">Απομένει</string>
+    <string name="dash_voltage">Τάση</string>
+    <string name="dash_current">Ρεύμα</string>
+    <string name="dash_power">Ισχύς</string>
+    <string name="dash_consumed">Κατανάλωση</string>
+    <string name="dash_status">Κατάσταση</string>
+    <string name="dash_starter">Εκκίνηση</string>
+    <string name="dash_midpoint">Μέσο σημείο</string>
+    <string name="dash_temp">Θερμ.</string>
+    <string name="dash_charger">Φορτιστής</string>
+    <string name="dash_loads">Φορτία</string>
+    <string name="dash_readings">Μετρήσεις</string>
+    <string name="dash_signal">Σήμα</string>
+    <string name="dash_battery">Μπαταρία</string>
+    <string name="dash_discharging">Εκφόρτιση</string>
+    <string name="time_full">Γεμάτη</string>
+    <string name="st_age_short">πριν %1$d δλ</string>
+
+    <string name="time_charging">Φορτίζει</string>
+    <string name="time_idle">Αδράνεια</string>
+    <string name="time_hours_minutes">%1$d ώ %2$02d λ</string>
+    <string name="time_days_hours">%1$d ημ %2$d ώ</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Ρύθμιση</string>
+    <string name="st_setup_detail">πατήστε το γρανάζι</string>
+    <string name="st_demo_detail">δεδομένα επίδειξης</string>
+    <string name="st_no_ble">Χωρίς BLE</string>
+    <string name="st_no_ble_detail">δεν υποστηρίζεται</string>
+    <string name="st_permission">Άδεια</string>
+    <string name="st_permission_detail">πατήστε για άδεια</string>
+    <string name="st_bt_off">Bluetooth κλειστό</string>
+    <string name="st_bt_off_detail">πατήστε να ανοίξει</string>
+    <string name="st_location_off">Τοποθεσία κλειστή</string>
+    <string name="st_location_off_detail">χρειάζεται για σάρωση</string>
+    <string name="st_ble_fail">Σφάλμα BLE</string>
+    <string name="st_ble_fail_detail">σφάλμα %1$d</string>
+    <string name="st_bad_key">Λάθος κλειδί</string>
+    <string name="st_bad_key_detail">ελέγξτε το κλειδί</string>
+    <string name="st_searching">Αναζήτηση</string>
+    <string name="st_no_signal">Χωρίς σήμα</string>
+    <string name="st_alarm">ΣΥΝΑΓΕΡΜΟΣ</string>
+    <string name="st_age_detail">πριν %1$dδ  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Χαμηλή τάση</item>
+        <item>Υψηλή τάση</item>
+        <item>Χαμηλό SOC</item>
+        <item>Χαμηλή τάση εκκίνησης</item>
+        <item>Υψηλή τάση εκκίνησης</item>
+        <item>Χαμηλή θερμοκρασία</item>
+        <item>Υψηλή θερμοκρασία</item>
+        <item>Τάση μέσου σημείου</item>
+        <item>Υπερφόρτωση</item>
+        <item>Κυμάτωση DC</item>
+        <item>Χαμηλή τάση εξόδου AC</item>
+        <item>Υψηλή τάση εξόδου AC</item>
+        <item>Βραχυκύκλωμα</item>
+        <item>Κλείδωμα BMS</item>
+    </string-array>
+    <string name="alarm_code">Συναγερμός %1$s</string>
+
+    <string name="allow_nearby_devices">Επιτρέψτε τις «Συσκευές σε κοντινή απόσταση» (ή την Τοποθεσία σε παλαιότερο Android) ώστε η εφαρμογή να λαμβάνει το shunt σας.</string>
+
+    <!-- Settings -->
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="saved">Οι ρυθμίσεις αποθηκεύτηκαν</string>
+    <string name="discard_changes">Απόρριψη των αλλαγών σας;</string>
+    <string name="discard">Απόρριψη</string>
+    <string name="keep_editing">Συνέχεια επεξεργασίας</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">Διεύθυνση MAC</string>
+    <string name="find_nearby">Εύρεση κοντινών</string>
+    <string name="key_label">Κλειδί κρυπτογράφησης</string>
+    <string name="key_hint">32 χαρακτήρες</string>
+    <string name="paste">Επικόλληση</string>
+    <string name="mac_key_help">Στο VictronConnect: ανοίξτε το SmartShunt → ⚙ → ⋮ → «Product info» → ενεργοποιήστε το «Instant readout via Bluetooth» → «Show». Οι άνω και κάτω τελείες και τα κενά είναι προαιρετικά.</string>
+    <string name="mac_error">Απαιτούνται 12 δεκαεξαδικοί χαρακτήρες (0–9, a–f)</string>
+    <string name="key_error">Απαιτούνται 32 δεκαεξαδικοί χαρακτήρες (0–9, a–f)</string>
+    <string name="clip_key_found">Κλειδί στο πρόχειρο: %1$s</string>
+    <string name="clip_mac_found">Διεύθυνση MAC στο πρόχειρο: %1$s</string>
+    <string name="use_it">Χρήση</string>
+    <string name="dismiss">Παράβλεψη</string>
+    <string name="clipboard_empty">Τίποτα για επικόλληση</string>
+    <string name="demo_label">Δεδομένα επίδειξης (ψεύτικες μετρήσεις, για δοκιμή)</string>
+
+    <string name="section_display">Οθόνη</string>
+    <string name="language_label">Γλώσσα</string>
+    <string name="language_system">Προεπιλογή συστήματος</string>
+    <string name="theme_label">Θέμα</string>
+    <string name="theme_system">Σύστημα</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκοτεινό</string>
+    <string name="orientation_label">Προσανατολισμός</string>
+    <string-array name="orientations">
+        <item>Αυτόματος</item>
+        <item>Κατακόρυφος</item>
+        <item>Οριζόντιος</item>
+        <item>Οριζόντιος (ανεστραμμένος)</item>
+    </string-array>
+    <string name="keep_awake_label">Η οθόνη μένει ενεργή όσο η εφαρμογή είναι ανοιχτή</string>
+    <string name="full_screen_label">Πλήρης οθόνη</string>
+    <string name="full_screen_help">Κρύβει τη γραμμή κατάστασης και τη γραμμή πλοήγησης στον πίνακα ενδείξεων. Σύρετε από την άκρη για να εμφανιστούν για λίγο.</string>
+
+    <string name="section_alerts">Ειδοποιήσεις</string>
+    <string name="stale_label">«Χωρίς σήμα» μετά από</string>
+    <string name="amber_label">Φόρτιση πορτοκαλί κάτω από</string>
+    <string name="red_label">Φόρτιση κόκκινη κάτω από</string>
+    <string name="seconds_value">%1$d δ</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Οθόνη Arduino</string>
+    <string name="share_help">Ανταλλαγή ρυθμίσεων με την κάρτα SD της οθόνης Arduino SmartShunt. Η εξαγωγή γράφει ένα CONFIG.TXT που μπορεί να διαβάσει· η εισαγωγή διαβάζει ένα από αυτήν. Οι γραμμές που αφορούν μόνο την οθόνη, όπως η βαθμονόμηση αφής, διατηρούνται.</string>
+    <string name="export_config">Εξαγωγή CONFIG.TXT</string>
+    <string name="import_config">Εισαγωγή CONFIG.TXT</string>
+    <string name="exported">Η εξαγωγή ολοκληρώθηκε. Αντιγράψτε το CONFIG.TXT στην κάρτα SD της οθόνης και επανεκκινήστε την.</string>
+    <string name="export_failed">Η εξαγωγή απέτυχε: %1$s</string>
+    <string name="imported">Η εισαγωγή ολοκληρώθηκε. Πατήστε «Αποθήκευση» για να κρατήσετε αυτές τις ρυθμίσεις.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Η εισαγωγή ολοκληρώθηκε, αλλά %1$d γραμμή δεν αναγνωρίστηκε. Πατήστε «Αποθήκευση» για να κρατήσετε αυτές τις ρυθμίσεις.</item>
+        <item quantity="other">Η εισαγωγή ολοκληρώθηκε, αλλά %1$d γραμμές δεν αναγνωρίστηκαν. Πατήστε «Αποθήκευση» για να κρατήσετε αυτές τις ρυθμίσεις.</item>
+    </plurals>
+    <string name="import_failed">Η εισαγωγή απέτυχε: %1$s</string>
+    <string name="about">Shunt Display %1$s\nΔιαβάζει τις εκπομπές Victron Instant Readout. Δεν σχετίζεται με τη Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Κοντινά shunt</string>
+    <string name="nearby_empty">Αναζήτηση για μετρητές μπαταρίας Victron…\n\nΒεβαιωθείτε ότι το «Instant readout via Bluetooth» είναι ενεργό στο VictronConnect.</string>
+    <string name="victron_device">Μετρητής μπαταρίας Victron</string>
+    <string name="scanning">Σάρωση. Πατήστε το shunt σας για να το χρησιμοποιήσετε.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Σάρωση. Πατήστε το shunt σας για να το χρησιμοποιήσετε. (%1$d ακόμη συσκευή Victron δεν είναι μετρητής μπαταρίας.)</item>
+        <item quantity="other">Σάρωση. Πατήστε το shunt σας για να το χρησιμοποιήσετε. (%1$d ακόμη συσκευές Victron δεν είναι μετρητές μπαταρίας.)</item>
+    </plurals>
+    <string name="scan_failed">Η σάρωση Bluetooth απέτυχε (σφάλμα %1$d)</string>
+    <string name="need_permission">Επιτρέψτε τις «Συσκευές σε κοντινή απόσταση» για αναζήτηση shunt.</string>
+    <string name="bluetooth_off">Το Bluetooth είναι απενεργοποιημένο.</string>
+    <string name="location_off">Η τοποθεσία είναι απενεργοποιημένη. Οι παλαιότερες εκδόσεις Android τη χρειάζονται ενεργή για σάρωση συσκευών Bluetooth.</string>
+    <string name="dash_other">Άλλη</string>
+    <string name="dash_mains">Δίκτυο</string>
+    <string name="dash_solar">Ηλιακό</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Δυναμό</string>
+    <string name="stage_off">Ανενεργός</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Απορρόφηση</string>
+    <string name="stage_float">Συντήρηση</string>
+    <string name="stage_storage">Αποθήκευση</string>
+    <string name="stage_recondition">Αναζωογόνηση</string>
+    <string name="stage_psu">Τροφοδοτικό</string>
+    <string name="stage_starting">Εκκίνηση</string>
+    <string name="stage_fault">Βλάβη</string>
+    <string name="charger_error">Σφάλμα %1$d</string>
+    <string name="section_chargers">Φορτιστές</string>
+    <string name="charger_n">Φορτιστής %1$d</string>
+    <string name="charger_not_used">Δεν χρησιμοποιείται</string>
+    <string name="other_source_label">Άλλη πηγή φόρτισης</string>
+    <string name="source_auto">Αυτόματα</string>
+    <string name="chargers_help">Προσθέστε φορτιστές Victron που στέλνουν «Instant readout» (Blue Smart IP22, SmartSolar MPPT, Orion XS) για να βλέπετε την έξοδό τους. Η φόρτιση που δεν εξηγούν εμφανίζεται ως η άλλη πηγή φόρτισης, π.χ. ένας φορτιστής DC-DC.</string>
+    <string name="charger_key_help">Στο VictronConnect: ανοίξτε τον φορτιστή → ⚙ → ⋮ → «Product info» → ενεργοποιήστε το «Instant readout via Bluetooth» → «Show».</string>
+    <string name="remove_charger">Αφαίρεση</string>
+    <string name="nearby_chargers_empty">Αναζήτηση για φορτιστές Victron…\n\nΒεβαιωθείτε ότι το «Instant readout via Bluetooth» είναι ενεργό στο VictronConnect.</string>
+    <string name="charger_ac">Φορτιστής AC</string>
+    <string name="charger_solar">Ηλιακός φορτιστής</string>
+    <string name="charger_dcdc">Φορτιστής DC-DC</string>
+    <string name="nearby_chargers_title">Κοντινοί φορτιστές</string>
+    <string name="scanning_chargers">Σάρωση. Πατήστε τον φορτιστή σας για να τον χρησιμοποιήσετε.</string>
+    <string name="loads_icon_label">Εικονίδιο φορτίων</string>
+    <string name="icon_house">Σπίτι</string>
+    <string name="icon_caravan">Τροχόσπιτο</string>
+    <string name="icon_boat">Σκάφος</string>
+</resources>

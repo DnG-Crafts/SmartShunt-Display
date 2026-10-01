@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark: the same palette as the Arduino display -->
+    <color name="dark_bg">#0E1116</color>
+    <color name="dark_panel">#1C212A</color>
+    <color name="dark_track">#0E1116</color>
+    <color name="dark_text">#EBEEF3</color>
+    <color name="dark_muted">#8C96A5</color>
+    <color name="dark_good">#3CC878</color>
+    <color name="dark_warn">#F0B432</color>
+    <color name="dark_bad">#E64646</color>
+    <color name="dark_line">#2A313C</color>
+    <!-- Energy-flow colours: fixed hues, checked for colour-blind separation on the panel colour
+         (the same as the AlphaESS display's solar, house, battery and grid) -->
+    <color name="dark_charger">#C98500</color>
+    <color name="dark_loads">#3987E5</color>
+    <color name="dark_battery">#008300</color>
+    <color name="dark_accent">#D55181</color>
+
+    <!-- Light -->
+    <color name="light_bg">#F1F3F6</color>
+    <color name="light_panel">#FFFFFF</color>
+    <color name="light_track">#E3E7ED</color>
+    <color name="light_text">#14181F</color>
+    <color name="light_muted">#6B7482</color>
+    <color name="light_good">#1F9D55</color>
+    <color name="light_warn">#C27E00</color>
+    <color name="light_bad">#D83A3A</color>
+    <color name="light_line">#E3E7ED</color>
+    <color name="light_charger">#EDA100</color>
+    <color name="light_loads">#2A78D6</color>
+    <color name="light_battery">#008300</color>
+    <color name="light_accent">#E87BA4</color>
+
+    <color name="icon_bg">#0E1116</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colours used by the dashboard and screens; set by the dark and light themes -->
+    <attr name="colorBg" format="color" />
+    <attr name="colorPanel" format="color" />
+    <attr name="colorTrack" format="color" />
+    <attr name="colorText" format="color" />
+    <attr name="colorMuted" format="color" />
+    <attr name="colorGood" format="color" />
+    <attr name="colorWarn" format="color" />
+    <attr name="colorBad" format="color" />
+    <attr name="colorLine" format="color" />
+    <!-- Energy-flow picture: the charger, the loads, the battery, and an accent for the readings -->
+    <attr name="colorCharger" format="color" />
+    <attr name="colorLoads" format="color" />
+    <attr name="colorBattery" format="color" />
+    <attr name="colorFlowAccent" format="color" />
+</resources>

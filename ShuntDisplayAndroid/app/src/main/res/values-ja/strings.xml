@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">充電状態 %1$s パーセント、%2$s、%3$s、ステータス %4$s。ダブルタップで設定を開きます。</string>
+    <string name="dash_soc">充電状態</string>
+    <string name="dash_time_left">残り時間</string>
+    <string name="dash_voltage">電圧</string>
+    <string name="dash_current">電流</string>
+    <string name="dash_power">電力</string>
+    <string name="dash_consumed">消費量</string>
+    <string name="dash_status">ステータス</string>
+    <string name="dash_starter">始動用電池</string>
+    <string name="dash_midpoint">中点電圧</string>
+    <string name="dash_temp">温度</string>
+    <string name="dash_charger">充電器</string>
+    <string name="dash_loads">負荷</string>
+    <string name="dash_readings">測定値</string>
+    <string name="dash_signal">信号</string>
+    <string name="dash_battery">バッテリー</string>
+    <string name="dash_discharging">放電中</string>
+    <string name="time_full">満充電</string>
+    <string name="st_age_short">%1$d秒前</string>
+
+    <string name="time_charging">充電中</string>
+    <string name="time_idle">待機中</string>
+    <string name="time_hours_minutes">%1$d時間%2$02d分</string>
+    <string name="time_days_hours">%1$d日%2$d時間</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">未設定</string>
+    <string name="st_setup_detail">⚙をタップ</string>
+    <string name="st_demo_detail">デモデータ</string>
+    <string name="st_no_ble">BLEなし</string>
+    <string name="st_no_ble_detail">非対応</string>
+    <string name="st_permission">権限が必要</string>
+    <string name="st_permission_detail">タップして許可</string>
+    <string name="st_bt_off">Bluetooth オフ</string>
+    <string name="st_bt_off_detail">タップしてオン</string>
+    <string name="st_location_off">位置情報オフ</string>
+    <string name="st_location_off_detail">スキャンに必要</string>
+    <string name="st_ble_fail">BLEエラー</string>
+    <string name="st_ble_fail_detail">エラー %1$d</string>
+    <string name="st_bad_key">キー不一致</string>
+    <string name="st_bad_key_detail">キーを確認</string>
+    <string name="st_searching">検索中</string>
+    <string name="st_no_signal">信号なし</string>
+    <string name="st_alarm">アラーム</string>
+    <string name="st_age_detail">%1$d秒前  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>低電圧</item>
+        <item>高電圧</item>
+        <item>SOC低下</item>
+        <item>始動用電池 低電圧</item>
+        <item>始動用電池 高電圧</item>
+        <item>低温</item>
+        <item>高温</item>
+        <item>中点電圧</item>
+        <item>過負荷</item>
+        <item>DCリップル</item>
+        <item>AC出力 低電圧</item>
+        <item>AC出力 高電圧</item>
+        <item>短絡</item>
+        <item>BMSロックアウト</item>
+    </string-array>
+    <string name="alarm_code">アラーム %1$s</string>
+
+    <string name="allow_nearby_devices">シャントの信号を受信できるよう、「付近のデバイス」(古い Android では「位置情報」)を許可してください。</string>
+
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="saved">設定を保存しました</string>
+    <string name="discard_changes">変更を破棄しますか?</string>
+    <string name="discard">破棄</string>
+    <string name="keep_editing">編集を続ける</string>
+
+    <string name="section_shunt">シャント</string>
+    <string name="mac_label">MAC アドレス</string>
+    <string name="find_nearby">付近を検索</string>
+    <string name="key_label">暗号化キー</string>
+    <string name="key_hint">32 文字</string>
+    <string name="paste">貼り付け</string>
+    <string name="mac_key_help">VictronConnect で SmartShunt を開き、⚙ → ⋮ →「Product info」→「Instant readout via Bluetooth」をオン →「Show」をタップします。コロンとスペースは省略できます。</string>
+    <string name="mac_error">16 進数 12 文字で入力してください(0〜9、a〜f)</string>
+    <string name="key_error">16 進数 32 文字で入力してください(0〜9、a〜f)</string>
+    <string name="clip_key_found">クリップボードにキーがあります: %1$s</string>
+    <string name="clip_mac_found">クリップボードに MAC アドレスがあります: %1$s</string>
+    <string name="use_it">使用</string>
+    <string name="dismiss">閉じる</string>
+    <string name="clipboard_empty">貼り付ける内容がありません</string>
+    <string name="demo_label">デモデータ(テスト用の架空の測定値)</string>
+
+    <string name="section_display">表示</string>
+    <string name="language_label">言語</string>
+    <string name="language_system">システムのデフォルト</string>
+    <string name="theme_label">テーマ</string>
+    <string name="theme_system">システム設定に従う</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="orientation_label">画面の向き</string>
+    <string-array name="orientations">
+        <item>自動</item>
+        <item>縦向き</item>
+        <item>横向き</item>
+        <item>横向き(上下反転)</item>
+    </string-array>
+    <string name="keep_awake_label">アプリ表示中は画面をオンのままにする</string>
+    <string name="full_screen_label">全画面表示</string>
+    <string name="full_screen_help">ダッシュボードでステータスバーとナビゲーションバーを非表示にします。画面の端からスワイプすると一時的に表示されます。</string>
+
+    <string name="section_alerts">アラート</string>
+    <string name="stale_label">「信号なし」までの時間</string>
+    <string name="amber_label">充電状態が黄色になる値</string>
+    <string name="red_label">充電状態が赤になる値</string>
+    <string name="seconds_value">%1$d 秒</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino ディスプレイ</string>
+    <string name="share_help">Arduino SmartShunt ディスプレイの SD カードと設定をやり取りします。エクスポートするとディスプレイで読み込める CONFIG.TXT を書き出し、インポートするとその CONFIG.TXT を読み込みます。タッチ調整値などディスプレイ専用の行はそのまま残ります。</string>
+    <string name="export_config">CONFIG.TXT をエクスポート</string>
+    <string name="import_config">CONFIG.TXT をインポート</string>
+    <string name="exported">エクスポートしました。CONFIG.TXT をディスプレイの SD カードにコピーして、ディスプレイを再起動してください。</string>
+    <string name="export_failed">エクスポートに失敗しました: %1$s</string>
+    <string name="imported">インポートしました。この設定を残すには [保存] をタップしてください。</string>
+    <plurals name="imported_with_errors">
+        <item quantity="other">インポートしましたが、%1$d 行を読み取れませんでした。この設定を残すには [保存] をタップしてください。</item>
+    </plurals>
+    <string name="import_failed">インポートに失敗しました: %1$s</string>
+    <string name="about">Shunt Display %1$s\nVictron の Instant Readout ブロードキャストを受信します。Victron Energy とは提携していません。</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">付近のシャント</string>
+    <string name="nearby_empty">Victron のバッテリーモニターを探しています…\n\nVictronConnect で「Instant readout via Bluetooth」がオンになっていることを確認してください。</string>
+    <string name="victron_device">Victron バッテリーモニター</string>
+    <string name="scanning">スキャン中。使用するシャントをタップしてください。</string>
+    <plurals name="scanning_others">
+        <item quantity="other">スキャン中。使用するシャントをタップしてください(ほかに %1$d 台の Victron デバイスがありますが、バッテリーモニターではありません)。</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth のスキャンに失敗しました(エラー %1$d)</string>
+    <string name="need_permission">シャントを検索するには「付近のデバイス」を許可してください。</string>
+    <string name="bluetooth_off">Bluetooth がオフになっています。</string>
+    <string name="location_off">位置情報がオフになっています。古いバージョンの Android では、Bluetooth デバイスをスキャンするために位置情報をオンにする必要があります。</string>
+    <string name="dash_other">その他</string>
+    <string name="dash_mains">AC電源</string>
+    <string name="dash_solar">ソーラー</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">オルタネーター</string>
+    <string name="stage_off">オフ</string>
+    <string name="stage_bulk">バルク</string>
+    <string name="stage_absorption">吸収</string>
+    <string name="stage_float">フロート</string>
+    <string name="stage_storage">保管</string>
+    <string name="stage_recondition">リコンディション</string>
+    <string name="stage_psu">電源モード</string>
+    <string name="stage_starting">起動中</string>
+    <string name="stage_fault">故障</string>
+    <string name="charger_error">エラー %1$d</string>
+    <string name="section_chargers">充電器</string>
+    <string name="charger_n">充電器 %1$d</string>
+    <string name="charger_not_used">未使用</string>
+    <string name="other_source_label">その他の充電源</string>
+    <string name="source_auto">自動</string>
+    <string name="chargers_help">「Instant readout」を送信する Victron 充電器(Blue Smart IP22, SmartSolar MPPT, Orion XS)を追加すると、その出力を表示できます。これらで説明できない充電は、DC-DC 充電器などのその他の充電源として表示されます。</string>
+    <string name="charger_key_help">VictronConnect で充電器を開き、⚙ → ⋮ →「Product info」→「Instant readout via Bluetooth」をオン →「Show」をタップします。</string>
+    <string name="remove_charger">削除</string>
+    <string name="nearby_chargers_empty">Victron の充電器を探しています…\n\nVictronConnect で「Instant readout via Bluetooth」がオンになっていることを確認してください。</string>
+    <string name="charger_ac">AC 充電器</string>
+    <string name="charger_solar">ソーラー充電器</string>
+    <string name="charger_dcdc">DC-DC 充電器</string>
+    <string name="nearby_chargers_title">付近の充電器</string>
+    <string name="scanning_chargers">スキャン中。使用する充電器をタップしてください。</string>
+    <string name="loads_icon_label">負荷のアイコン</string>
+    <string name="icon_house">家</string>
+    <string name="icon_caravan">キャンピングトレーラー</string>
+    <string name="icon_boat">ボート</string>
+</resources>

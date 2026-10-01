@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Laadtoestand %1$s procent, %2$s, %3$s, status %4$s. Dubbeltik voor instellingen.</string>
+    <string name="dash_soc">Laadtoestand</string>
+    <string name="dash_time_left">Resterend</string>
+    <string name="dash_voltage">Spanning</string>
+    <string name="dash_current">Stroom</string>
+    <string name="dash_power">Vermogen</string>
+    <string name="dash_consumed">Verbruikt</string>
+    <string name="dash_status">Status</string>
+    <string name="dash_starter">Startaccu</string>
+    <string name="dash_midpoint">Middelpunt</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Lader</string>
+    <string name="dash_loads">Verbruikers</string>
+    <string name="dash_readings">Metingen</string>
+    <string name="dash_signal">Signaal</string>
+    <string name="dash_battery">Accu</string>
+    <string name="dash_discharging">Ontladen</string>
+    <string name="time_full">Vol</string>
+    <string name="st_age_short">%1$d s geleden</string>
+
+    <string name="time_charging">Laden</string>
+    <string name="time_idle">Rust</string>
+    <string name="time_hours_minutes">%1$d u %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d u</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Instellen</string>
+    <string name="st_setup_detail">tik op tandwiel</string>
+    <string name="st_demo_detail">demogegevens</string>
+    <string name="st_no_ble">Geen BLE</string>
+    <string name="st_no_ble_detail">niet ondersteund</string>
+    <string name="st_permission">Toestemming</string>
+    <string name="st_permission_detail">tik om toe te staan</string>
+    <string name="st_bt_off">Bluetooth uit</string>
+    <string name="st_bt_off_detail">tik om aan te zetten</string>
+    <string name="st_location_off">Locatie uit</string>
+    <string name="st_location_off_detail">nodig om te zoeken</string>
+    <string name="st_ble_fail">BLE-fout</string>
+    <string name="st_ble_fail_detail">fout %1$d</string>
+    <string name="st_bad_key">Foute sleutel</string>
+    <string name="st_bad_key_detail">controleer sleutel</string>
+    <string name="st_searching">Zoeken</string>
+    <string name="st_no_signal">Geen signaal</string>
+    <string name="st_alarm">ALARM</string>
+    <string name="st_age_detail">%1$ds geleden  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Lage spanning</item>
+        <item>Hoge spanning</item>
+        <item>Lage SOC</item>
+        <item>Lage startaccuspanning</item>
+        <item>Hoge startaccuspanning</item>
+        <item>Lage temperatuur</item>
+        <item>Hoge temperatuur</item>
+        <item>Middelpuntspanning</item>
+        <item>Overbelasting</item>
+        <item>DC-rimpel</item>
+        <item>Lage AC-uitgangsspanning</item>
+        <item>Hoge AC-uitgangsspanning</item>
+        <item>Kortsluiting</item>
+        <item>BMS-blokkering</item>
+    </string-array>
+    <string name="alarm_code">Alarm %1$s</string>
+
+    <string name="allow_nearby_devices">Sta “Apparaten in de buurt” toe (of “Locatie” op oudere Android-versies) zodat de app je shunt kan ontvangen.</string>
+
+    <!-- Settings -->
+    <string name="settings">Instellingen</string>
+    <string name="cancel">Annuleren</string>
+    <string name="save">Opslaan</string>
+    <string name="saved">Instellingen opgeslagen</string>
+    <string name="discard_changes">Je wijzigingen weggooien?</string>
+    <string name="discard">Weggooien</string>
+    <string name="keep_editing">Verder bewerken</string>
+
+    <string name="section_shunt">Shunt</string>
+    <string name="mac_label">MAC-adres</string>
+    <string name="find_nearby">Zoeken in de buurt</string>
+    <string name="key_label">Encryptiesleutel</string>
+    <string name="key_hint">32 tekens</string>
+    <string name="paste">Plakken</string>
+    <string name="mac_key_help">In VictronConnect: open de SmartShunt → ⚙ → ⋮ → “Product info” → zet “Instant readout via Bluetooth” aan → “Show”. Dubbele punten en spaties zijn optioneel.</string>
+    <string name="mac_error">Vereist 12 hexadecimale tekens (0–9, a–f)</string>
+    <string name="key_error">Vereist 32 hexadecimale tekens (0–9, a–f)</string>
+    <string name="clip_key_found">Sleutel op het klembord: %1$s</string>
+    <string name="clip_mac_found">MAC-adres op het klembord: %1$s</string>
+    <string name="use_it">Gebruiken</string>
+    <string name="dismiss">Sluiten</string>
+    <string name="clipboard_empty">Niets om te plakken</string>
+    <string name="demo_label">Demogegevens (nepwaarden, om te testen)</string>
+
+    <string name="section_display">Weergave</string>
+    <string name="language_label">Taal</string>
+    <string name="language_system">Systeemstandaard</string>
+    <string name="theme_label">Thema</string>
+    <string name="theme_system">Systeem</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Donker</string>
+    <string name="orientation_label">Stand</string>
+    <string-array name="orientations">
+        <item>Automatisch</item>
+        <item>Staand</item>
+        <item>Liggend</item>
+        <item>Liggend (omgekeerd)</item>
+    </string-array>
+    <string name="keep_awake_label">Scherm aan houden terwijl de app open is</string>
+    <string name="full_screen_label">Volledig scherm</string>
+    <string name="full_screen_help">Verbergt de status- en navigatiebalk op het dashboard. Swipe vanaf de rand om ze even te tonen.</string>
+
+    <string name="section_alerts">Waarschuwingen</string>
+    <string name="stale_label">“Geen signaal” na</string>
+    <string name="amber_label">Lading oranje onder</string>
+    <string name="red_label">Lading rood onder</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino-display</string>
+    <string name="share_help">Wissel instellingen uit met de SD-kaart van het Arduino SmartShunt-display. Exporteren schrijft een CONFIG.TXT die het display kan lezen; importeren leest er een van de kaart. Regels die alleen voor het display zijn, zoals de touchkalibratie, blijven behouden.</string>
+    <string name="export_config">CONFIG.TXT exporteren</string>
+    <string name="import_config">CONFIG.TXT importeren</string>
+    <string name="exported">Geëxporteerd. Kopieer CONFIG.TXT naar de SD-kaart van het display en start het opnieuw op.</string>
+    <string name="export_failed">Exporteren mislukt: %1$s</string>
+    <string name="imported">Geïmporteerd. Tik op Opslaan om deze instellingen te bewaren.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Geïmporteerd, maar %1$d regel werd niet begrepen. Tik op Opslaan om deze instellingen te bewaren.</item>
+        <item quantity="other">Geïmporteerd, maar %1$d regels werden niet begrepen. Tik op Opslaan om deze instellingen te bewaren.</item>
+    </plurals>
+    <string name="import_failed">Importeren mislukt: %1$s</string>
+    <string name="about">Shunt Display %1$s\nLeest Victron Instant Readout-uitzendingen. Niet gelieerd aan Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Shunts in de buurt</string>
+    <string name="nearby_empty">Zoeken naar Victron-accumonitors…\n\nZorg dat “Instant readout via Bluetooth” aanstaat in VictronConnect.</string>
+    <string name="victron_device">Victron-accumonitor</string>
+    <string name="scanning">Zoeken. Tik op je shunt om die te gebruiken.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Zoeken. Tik op je shunt om die te gebruiken. (%1$d ander Victron-apparaat is geen accumonitor.)</item>
+        <item quantity="other">Zoeken. Tik op je shunt om die te gebruiken. (%1$d andere Victron-apparaten zijn geen accumonitors.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth-scan mislukt (fout %1$d)</string>
+    <string name="need_permission">Sta “Apparaten in de buurt” toe om naar shunts te zoeken.</string>
+    <string name="bluetooth_off">Bluetooth staat uit.</string>
+    <string name="location_off">Locatie staat uit. Oudere Android-versies hebben dit nodig om naar Bluetooth-apparaten te zoeken.</string>
+    <string name="dash_other">Overig</string>
+    <string name="dash_mains">Net</string>
+    <string name="dash_solar">Zon</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Dynamo</string>
+    <string name="stage_off">Uit</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorptie</string>
+    <string name="stage_float">Druppel</string>
+    <string name="stage_storage">Opslag</string>
+    <string name="stage_recondition">Herstel</string>
+    <string name="stage_psu">Voeding</string>
+    <string name="stage_starting">Opstarten</string>
+    <string name="stage_fault">Storing</string>
+    <string name="charger_error">Fout %1$d</string>
+    <string name="section_chargers">Laders</string>
+    <string name="charger_n">Lader %1$d</string>
+    <string name="charger_not_used">Niet gebruikt</string>
+    <string name="other_source_label">Andere laadbron</string>
+    <string name="source_auto">Automatisch</string>
+    <string name="chargers_help">Voeg Victron-laders toe die “Instant readout” versturen (Blue Smart IP22, SmartSolar MPPT, Orion XS) om hun vermogen te zien. Laden dat ze niet verklaren, wordt getoond als de andere laadbron, zoals een DC-DC-lader.</string>
+    <string name="charger_key_help">In VictronConnect: open de lader → ⚙ → ⋮ → “Product info” → zet “Instant readout via Bluetooth” aan → “Show”.</string>
+    <string name="remove_charger">Verwijderen</string>
+    <string name="nearby_chargers_empty">Zoeken naar Victron-laders…\n\nZorg dat “Instant readout via Bluetooth” aanstaat in VictronConnect.</string>
+    <string name="charger_ac">Netlader</string>
+    <string name="charger_solar">Zonnelader</string>
+    <string name="charger_dcdc">DC-DC-lader</string>
+    <string name="nearby_chargers_title">Laders in de buurt</string>
+    <string name="scanning_chargers">Zoeken. Tik op je lader om die te gebruiken.</string>
+    <string name="loads_icon_label">Pictogram verbruikers</string>
+    <string name="icon_house">Huis</string>
+    <string name="icon_caravan">Caravan</string>
+    <string name="icon_boat">Boot</string>
+</resources>

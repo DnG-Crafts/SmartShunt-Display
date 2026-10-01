@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Լիցքի մակարդակը՝ %1$s տոկոս, %2$s, %3$s, կարգավիճակը՝ %4$s։ Կրկնակի հպեք՝ կարգավորումները բացելու համար։</string>
+    <string name="dash_soc">Լիցքի մակարդակ</string>
+    <string name="dash_time_left">Մնացած ժամանակ</string>
+    <string name="dash_voltage">Լարում</string>
+    <string name="dash_current">Հոսանք</string>
+    <string name="dash_power">Հզորություն</string>
+    <string name="dash_consumed">Ծախսված</string>
+    <string name="dash_status">Կարգավիճակ</string>
+    <string name="dash_starter">Ստարտեր</string>
+    <string name="dash_midpoint">Միջին կետ</string>
+    <string name="dash_temp">Ջերմ.</string>
+    <string name="dash_charger">Լիցքավորիչ</string>
+    <string name="dash_loads">Սպառողներ</string>
+    <string name="dash_readings">Ցուցմունքներ</string>
+    <string name="dash_signal">Ազդանշան</string>
+    <string name="dash_battery">Մարտկոց</string>
+    <string name="dash_discharging">Լիցքաթափվում է</string>
+    <string name="time_full">Լիքը</string>
+    <string name="st_age_short">%1$d վ առաջ</string>
+
+    <string name="time_charging">Լիցքավորում</string>
+    <string name="time_idle">Անգործ</string>
+    <string name="time_hours_minutes">%1$d ժ %2$02d ր</string>
+    <string name="time_days_hours">%1$d օր %2$d ժ</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Կարգավորում</string>
+    <string name="st_setup_detail">հպեք ատամնանիվին</string>
+    <string name="st_demo_detail">դեմո տվյալներ</string>
+    <string name="st_no_ble">BLE չկա</string>
+    <string name="st_no_ble_detail">չի աջակցվում</string>
+    <string name="st_permission">Թույլտվություն</string>
+    <string name="st_permission_detail">հպեք՝ թույլատրելու</string>
+    <string name="st_bt_off">Bluetooth-ն անջատ է</string>
+    <string name="st_bt_off_detail">հպեք՝ միացնելու</string>
+    <string name="st_location_off">Տեղորոշումն անջատ է</string>
+    <string name="st_location_off_detail">պետք է որոնման համար</string>
+    <string name="st_ble_fail">BLE սխալ</string>
+    <string name="st_ble_fail_detail">սխալ %1$d</string>
+    <string name="st_bad_key">Սխալ բանալի</string>
+    <string name="st_bad_key_detail">ստուգեք բանալին</string>
+    <string name="st_searching">Որոնում</string>
+    <string name="st_no_signal">Ազդանշան չկա</string>
+    <string name="st_alarm">ՏԱԳՆԱՊ</string>
+    <string name="st_age_detail">%1$dվ առաջ  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Ցածր լարում</item>
+        <item>Բարձր լարում</item>
+        <item>Ցածր SOC</item>
+        <item>Ստարտերի ցածր լարում</item>
+        <item>Ստարտերի բարձր լարում</item>
+        <item>Ցածր ջերմաստիճան</item>
+        <item>Բարձր ջերմաստիճան</item>
+        <item>Միջին կետի լարում</item>
+        <item>Գերբեռնվածություն</item>
+        <item>DC պուլսացիա</item>
+        <item>AC ելքի ցածր լարում</item>
+        <item>AC ելքի բարձր լարում</item>
+        <item>Կարճ միացում</item>
+        <item>BMS արգելափակում</item>
+    </string-array>
+    <string name="alarm_code">Տագնապ %1$s</string>
+
+    <string name="allow_nearby_devices">Թույլատրեք «Մոտակա սարքեր»-ը (կամ Տեղորոշումը Android-ի հին տարբերակներում), որպեսզի հավելվածը լսի ձեր շունտը։</string>
+
+    <!-- Settings -->
+    <string name="settings">Կարգավորումներ</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="save">Պահել</string>
+    <string name="saved">Կարգավորումները պահվեցին</string>
+    <string name="discard_changes">Հրաժարվե՞լ փոփոխություններից</string>
+    <string name="discard">Հրաժարվել</string>
+    <string name="keep_editing">Շարունակել խմբագրումը</string>
+
+    <string name="section_shunt">Շունտ</string>
+    <string name="mac_label">MAC հասցե</string>
+    <string name="find_nearby">Գտնել մոտակա</string>
+    <string name="key_label">Գաղտնագրման բանալի</string>
+    <string name="key_hint">32 նիշ</string>
+    <string name="paste">Տեղադրել</string>
+    <string name="mac_key_help">VictronConnect-ում՝ բացեք SmartShunt → ⚙ → ⋮ → «Product info» → միացրեք «Instant readout via Bluetooth» → «Show»։ Երկու կետերն ու բացատները պարտադիր չեն։</string>
+    <string name="mac_error">Պետք է 12 տասնվեցական նիշ (0–9, a–f)</string>
+    <string name="key_error">Պետք է 32 տասնվեցական նիշ (0–9, a–f)</string>
+    <string name="clip_key_found">Բանալի սեղմատախտակում՝ %1$s</string>
+    <string name="clip_mac_found">MAC հասցե սեղմատախտակում՝ %1$s</string>
+    <string name="use_it">Օգտագործել</string>
+    <string name="dismiss">Փակել</string>
+    <string name="clipboard_empty">Տեղադրելու ոչինչ չկա</string>
+    <string name="demo_label">Դեմո տվյալներ (կեղծ ցուցմունքներ՝ փորձարկման համար)</string>
+
+    <string name="section_display">Էկրան</string>
+    <string name="language_label">Լեզու</string>
+    <string name="language_system">Համակարգի լեզուն</string>
+    <string name="theme_label">Թեմա</string>
+    <string name="theme_system">Համակարգային</string>
+    <string name="theme_light">Բաց</string>
+    <string name="theme_dark">Մուգ</string>
+    <string name="orientation_label">Կողմնորոշում</string>
+    <string-array name="orientations">
+        <item>Ավտոմատ</item>
+        <item>Ուղղաձիգ</item>
+        <item>Հորիզոնական</item>
+        <item>Հորիզոնական (շրջված)</item>
+    </string-array>
+    <string name="keep_awake_label">Չանջատել էկրանը, քանի դեռ հավելվածը բաց է</string>
+    <string name="full_screen_label">Լիաէկրան ռեժիմ</string>
+    <string name="full_screen_help">Թաքցնում է կարգավիճակի և նավիգացիայի գոտիները վահանակում։ Սահեցրեք եզրից՝ դրանք կարճ ժամանակով ցուցադրելու համար։</string>
+
+    <string name="section_alerts">Ծանուցումներ</string>
+    <string name="stale_label">«Ազդանշան չկա»՝ որքան հետո</string>
+    <string name="amber_label">Նարնջագույն, եթե լիցքը ցածր է</string>
+    <string name="red_label">Կարմիր, եթե լիցքը ցածր է</string>
+    <string name="seconds_value">%1$d վ</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino էկրան</string>
+    <string name="share_help">Կարգավորումների փոխանակում Arduino SmartShunt էկրանի SD քարտի հետ։ Արտահանումը գրում է CONFIG.TXT, որը էկրանը կարող է կարդալ, իսկ ներմուծումը կարդում է այն քարտից։ Միայն էկրանին վերաբերող տողերը, օրինակ՝ սենսորային չափաբերումը, պահպանվում են։</string>
+    <string name="export_config">Արտահանել CONFIG.TXT</string>
+    <string name="import_config">Ներմուծել CONFIG.TXT</string>
+    <string name="exported">Արտահանվեց։ Պատճենեք CONFIG.TXT-ը էկրանի SD քարտի վրա և վերագործարկեք էկրանը։</string>
+    <string name="export_failed">Արտահանումը ձախողվեց՝ %1$s</string>
+    <string name="imported">Ներմուծվեց։ Հպեք «Պահել»՝ այս կարգավորումները պահպանելու համար։</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Ներմուծվեց, բայց %1$d տող չհասկացվեց։ Հպեք «Պահել»՝ այս կարգավորումները պահպանելու համար։</item>
+        <item quantity="other">Ներմուծվեց, բայց %1$d տող չհասկացվեց։ Հպեք «Պահել»՝ այս կարգավորումները պահպանելու համար։</item>
+    </plurals>
+    <string name="import_failed">Ներմուծումը ձախողվեց՝ %1$s</string>
+    <string name="about">Shunt Display %1$s\nԿարդում է Victron Instant Readout հեռարձակումները։ Կապված չէ Victron Energy-ի հետ։</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Մոտակա շունտեր</string>
+    <string name="nearby_empty">Victron մարտկոցի մոնիտորների որոնում…\n\nՀամոզվեք, որ VictronConnect-ում միացված է «Instant readout via Bluetooth»-ը։</string>
+    <string name="victron_device">Victron մարտկոցի մոնիտոր</string>
+    <string name="scanning">Որոնում։ Հպեք ձեր շունտին՝ այն օգտագործելու համար։</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Որոնում։ Հպեք ձեր շունտին՝ այն օգտագործելու համար։ (%1$d այլ Victron սարք մարտկոցի մոնիտոր չէ)։</item>
+        <item quantity="other">Որոնում։ Հպեք ձեր շունտին՝ այն օգտագործելու համար։ (%1$d այլ Victron սարք մարտկոցի մոնիտոր չէ)։</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth որոնումը ձախողվեց (սխալ %1$d)</string>
+    <string name="need_permission">Թույլատրեք «Մոտակա սարքեր»-ը՝ շունտեր որոնելու համար։</string>
+    <string name="bluetooth_off">Bluetooth-ն անջատված է։</string>
+    <string name="location_off">Տեղորոշումն անջատված է։ Android-ի հին տարբերակներում այն պետք է միացված լինի Bluetooth սարքեր որոնելու համար։</string>
+    <string name="dash_other">Այլ</string>
+    <string name="dash_mains">Ցանց</string>
+    <string name="dash_solar">Արև</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Գեներատոր</string>
+    <string name="stage_off">Անջատված</string>
+    <string name="stage_bulk">Հիմնական</string>
+    <string name="stage_absorption">Աբսորբցիա</string>
+    <string name="stage_float">Պահպանում</string>
+    <string name="stage_storage">Պահեստավորում</string>
+    <string name="stage_recondition">Վերականգնում</string>
+    <string name="stage_psu">Սնուցման աղբյուր</string>
+    <string name="stage_starting">Միանում է</string>
+    <string name="stage_fault">Անսարքություն</string>
+    <string name="charger_error">Սխալ %1$d</string>
+    <string name="section_chargers">Լիցքավորիչներ</string>
+    <string name="charger_n">Լիցքավորիչ %1$d</string>
+    <string name="charger_not_used">Չի օգտագործվում</string>
+    <string name="other_source_label">Լիցքավորման այլ աղբյուր</string>
+    <string name="source_auto">Ավտոմատ</string>
+    <string name="chargers_help">Ավելացրեք Victron լիցքավորիչներ, որոնք ուղարկում են «Instant readout» (Blue Smart IP22, SmartSolar MPPT, Orion XS), որպեսզի տեսնեք դրանց հզորությունը։ Լիցքավորումը, որը դրանք չեն բացատրում, ցույց է տրվում որպես լիցքավորման այլ աղբյուր, օրինակ՝ DC-DC լիցքավորիչ։</string>
+    <string name="charger_key_help">VictronConnect-ում՝ բացեք լիցքավորիչը → ⚙ → ⋮ → «Product info» → միացրեք «Instant readout via Bluetooth» → «Show»։</string>
+    <string name="remove_charger">Հեռացնել</string>
+    <string name="nearby_chargers_empty">Victron լիցքավորիչների որոնում…\n\nՀամոզվեք, որ VictronConnect-ում միացված է «Instant readout via Bluetooth»-ը։</string>
+    <string name="charger_ac">Ցանցային լիցքավորիչ</string>
+    <string name="charger_solar">Արևային լիցքավորիչ</string>
+    <string name="charger_dcdc">DC-DC լիցքավորիչ</string>
+    <string name="nearby_chargers_title">Մոտակա լիցքավորիչներ</string>
+    <string name="scanning_chargers">Որոնում։ Հպեք ձեր լիցքավորիչին՝ այն օգտագործելու համար։</string>
+    <string name="loads_icon_label">Սպառողների պատկերակ</string>
+    <string name="icon_house">Տուն</string>
+    <string name="icon_caravan">Կցասայլ-տնակ</string>
+    <string name="icon_boat">Նավակ</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">დამუხტვის დონე %1$s პროცენტი, %2$s, %3$s, სტატუსი %4$s. პარამეტრებისთვის შეეხეთ ორჯერ.</string>
+    <string name="dash_soc">დამუხტვის დონე</string>
+    <string name="dash_time_left">დარჩენილი დრო</string>
+    <string name="dash_voltage">ძაბვა</string>
+    <string name="dash_current">დენი</string>
+    <string name="dash_power">სიმძლავრე</string>
+    <string name="dash_consumed">დახარჯული</string>
+    <string name="dash_status">სტატუსი</string>
+    <string name="dash_starter">სტარტერი</string>
+    <string name="dash_midpoint">შუა წერტილი</string>
+    <string name="dash_temp">ტემპ.</string>
+    <string name="dash_charger">დამტენი</string>
+    <string name="dash_loads">მომხმარებლები</string>
+    <string name="dash_readings">ჩვენებები</string>
+    <string name="dash_signal">სიგნალი</string>
+    <string name="dash_battery">ბატარეა</string>
+    <string name="dash_discharging">იცლება</string>
+    <string name="time_full">სავსე</string>
+    <string name="st_age_short">%1$d წმ-ის წინ</string>
+
+    <string name="time_charging">იმუხტება</string>
+    <string name="time_idle">უმოქმედო</string>
+    <string name="time_hours_minutes">%1$d სთ %2$02d წთ</string>
+    <string name="time_days_hours">%1$d დღ %2$d სთ</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">დაყენება</string>
+    <string name="st_setup_detail">შეეხეთ კბილანას</string>
+    <string name="st_demo_detail">დემო მონაცემები</string>
+    <string name="st_no_ble">BLE არ არის</string>
+    <string name="st_no_ble_detail">არ არის მხარდაჭერილი</string>
+    <string name="st_permission">ნებართვა</string>
+    <string name="st_permission_detail">შეეხეთ დასაშვებად</string>
+    <string name="st_bt_off">Bluetooth გამორთულია</string>
+    <string name="st_bt_off_detail">შეეხეთ ჩასართავად</string>
+    <string name="st_location_off">მდებარეობა გამორთულია</string>
+    <string name="st_location_off_detail">საჭიროა სკანირებისთვის</string>
+    <string name="st_ble_fail">BLE შეცდომა</string>
+    <string name="st_ble_fail_detail">შეცდომა %1$d</string>
+    <string name="st_bad_key">არასწორი გასაღები</string>
+    <string name="st_bad_key_detail">შეამოწმეთ გასაღები</string>
+    <string name="st_searching">ძიება</string>
+    <string name="st_no_signal">სიგნალი არ არის</string>
+    <string name="st_alarm">განგაში</string>
+    <string name="st_age_detail">%1$d წმ წინ  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>დაბალი ძაბვა</item>
+        <item>მაღალი ძაბვა</item>
+        <item>დაბალი SOC</item>
+        <item>სტარტერის დაბალი ძაბვა</item>
+        <item>სტარტერის მაღალი ძაბვა</item>
+        <item>დაბალი ტემპერატურა</item>
+        <item>მაღალი ტემპერატურა</item>
+        <item>შუა წერტილის ძაბვა</item>
+        <item>გადატვირთვა</item>
+        <item>DC პულსაცია</item>
+        <item>AC გამოსავლის დაბალი ძაბვა</item>
+        <item>AC გამოსავლის მაღალი ძაბვა</item>
+        <item>მოკლე ჩართვა</item>
+        <item>BMS ბლოკირება</item>
+    </string-array>
+    <string name="alarm_code">განგაში %1$s</string>
+
+    <string name="allow_nearby_devices">დაუშვით „ახლომდებარე მოწყობილობები“ (ან მდებარეობა Android-ის ძველ ვერსიებზე), რათა აპმა თქვენი შუნტის სიგნალი მიიღოს.</string>
+
+    <!-- Settings -->
+    <string name="settings">პარამეტრები</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="save">შენახვა</string>
+    <string name="saved">პარამეტრები შენახულია</string>
+    <string name="discard_changes">უარყოფთ ცვლილებებს?</string>
+    <string name="discard">უარყოფა</string>
+    <string name="keep_editing">რედაქტირების გაგრძელება</string>
+
+    <string name="section_shunt">შუნტი</string>
+    <string name="mac_label">MAC მისამართი</string>
+    <string name="find_nearby">ახლოს ძიება</string>
+    <string name="key_label">დაშიფვრის გასაღები</string>
+    <string name="key_hint">32 სიმბოლო</string>
+    <string name="paste">ჩასმა</string>
+    <string name="mac_key_help">VictronConnect-ში: გახსენით SmartShunt → ⚙ → ⋮ → „Product info“ → ჩართეთ „Instant readout via Bluetooth“ → „Show“. ორწერტილები და ჰარეები არასავალდებულოა.</string>
+    <string name="mac_error">საჭიროა 12 თექვსმეტობითი სიმბოლო (0–9, a–f)</string>
+    <string name="key_error">საჭიროა 32 თექვსმეტობითი სიმბოლო (0–9, a–f)</string>
+    <string name="clip_key_found">გასაღები ბუფერში: %1$s</string>
+    <string name="clip_mac_found">MAC მისამართი ბუფერში: %1$s</string>
+    <string name="use_it">გამოყენება</string>
+    <string name="dismiss">დახურვა</string>
+    <string name="clipboard_empty">ჩასასმელი არაფერია</string>
+    <string name="demo_label">დემო მონაცემები (ყალბი ჩვენებები, სატესტოდ)</string>
+
+    <string name="section_display">ეკრანი</string>
+    <string name="language_label">ენა</string>
+    <string name="language_system">სისტემის ნაგულისხმევი</string>
+    <string name="theme_label">თემა</string>
+    <string name="theme_system">სისტემური</string>
+    <string name="theme_light">ღია</string>
+    <string name="theme_dark">მუქი</string>
+    <string name="orientation_label">ორიენტაცია</string>
+    <string-array name="orientations">
+        <item>ავტომატური</item>
+        <item>პორტრეტული</item>
+        <item>ლანდშაფტური</item>
+        <item>ლანდშაფტური (ამობრუნებული)</item>
+    </string-array>
+    <string name="keep_awake_label">ეკრანი ჩართული დარჩეს, სანამ აპი ღიაა</string>
+    <string name="full_screen_label">სრული ეკრანი</string>
+    <string name="full_screen_help">მალავს სტატუსის და ნავიგაციის ზოლებს დაფაზე. მათ მოკლე ხნით საჩვენებლად გადაფურცლეთ კიდიდან.</string>
+
+    <string name="section_alerts">გაფრთხილებები</string>
+    <string name="stale_label">„სიგნალი არ არის“ დაყოვნებით</string>
+    <string name="amber_label">ნარინჯისფერი, თუ დამუხტვა ნაკლებია</string>
+    <string name="red_label">წითელი, თუ დამუხტვა ნაკლებია</string>
+    <string name="seconds_value">%1$d წმ</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino ეკრანი</string>
+    <string name="share_help">პარამეტრების გაცვლა Arduino SmartShunt ეკრანის SD ბარათთან. ექსპორტი წერს CONFIG.TXT-ს, რომელსაც ეკრანი წაიკითხავს; იმპორტი კითხულობს მას ბარათიდან. მხოლოდ ეკრანის ხაზები, მაგალითად სენსორის კალიბრაცია, შენარჩუნდება.</string>
+    <string name="export_config">CONFIG.TXT-ის ექსპორტი</string>
+    <string name="import_config">CONFIG.TXT-ის იმპორტი</string>
+    <string name="exported">ექსპორტი დასრულდა. დააკოპირეთ CONFIG.TXT ეკრანის SD ბარათზე და გადატვირთეთ ეკრანი.</string>
+    <string name="export_failed">ექსპორტი ვერ მოხერხდა: %1$s</string>
+    <string name="imported">იმპორტი დასრულდა. შეეხეთ „შენახვას“, რომ ეს პარამეტრები შეინახოთ.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">იმპორტი დასრულდა, მაგრამ %1$d ხაზი ვერ გაირჩა. შეეხეთ „შენახვას“, რომ ეს პარამეტრები შეინახოთ.</item>
+        <item quantity="other">იმპორტი დასრულდა, მაგრამ %1$d ხაზი ვერ გაირჩა. შეეხეთ „შენახვას“, რომ ეს პარამეტრები შეინახოთ.</item>
+    </plurals>
+    <string name="import_failed">იმპორტი ვერ მოხერხდა: %1$s</string>
+    <string name="about">Shunt Display %1$s\nკითხულობს Victron Instant Readout-ის მაუწყებლობას. არ არის დაკავშირებული Victron Energy-სთან.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">ახლომდებარე შუნტები</string>
+    <string name="nearby_empty">Victron-ის აკუმულატორის მონიტორების ძიება…\n\nდარწმუნდით, რომ VictronConnect-ში ჩართულია „Instant readout via Bluetooth“.</string>
+    <string name="victron_device">Victron-ის აკუმულატორის მონიტორი</string>
+    <string name="scanning">სკანირება. შეეხეთ თქვენს შუნტს მის გამოსაყენებლად.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">სკანირება. შეეხეთ თქვენს შუნტს მის გამოსაყენებლად. (%1$d სხვა Victron მოწყობილობა არ არის აკუმულატორის მონიტორი.)</item>
+        <item quantity="other">სკანირება. შეეხეთ თქვენს შუნტს მის გამოსაყენებლად. (%1$d სხვა Victron მოწყობილობა არ არის აკუმულატორის მონიტორი.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth სკანირება ვერ მოხერხდა (შეცდომა %1$d)</string>
+    <string name="need_permission">შუნტების მოსაძებნად დაუშვით „ახლომდებარე მოწყობილობები“.</string>
+    <string name="bluetooth_off">Bluetooth გამორთულია.</string>
+    <string name="location_off">მდებარეობა გამორთულია. Android-ის ძველ ვერსიებს ის ჩართული სჭირდება Bluetooth მოწყობილობების სკანირებისთვის.</string>
+    <string name="dash_other">სხვა</string>
+    <string name="dash_mains">ქსელი</string>
+    <string name="dash_solar">მზე</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">გენერატორი</string>
+    <string name="stage_off">გამორთული</string>
+    <string name="stage_bulk">ძირითადი</string>
+    <string name="stage_absorption">აბსორბცია</string>
+    <string name="stage_float">შენარჩუნება</string>
+    <string name="stage_storage">შენახვა</string>
+    <string name="stage_recondition">აღდგენა</string>
+    <string name="stage_psu">კვების წყარო</string>
+    <string name="stage_starting">ირთვება</string>
+    <string name="stage_fault">გაუმართაობა</string>
+    <string name="charger_error">შეცდომა %1$d</string>
+    <string name="section_chargers">დამტენები</string>
+    <string name="charger_n">დამტენი %1$d</string>
+    <string name="charger_not_used">არ გამოიყენება</string>
+    <string name="other_source_label">დამუხტვის სხვა წყარო</string>
+    <string name="source_auto">ავტომატური</string>
+    <string name="chargers_help">დაამატეთ Victron-ის დამტენები, რომლებიც აგზავნიან „Instant readout“-ს (Blue Smart IP22, SmartSolar MPPT, Orion XS), რომ ნახოთ მათი სიმძლავრე. დამუხტვა, რომელსაც ისინი ვერ ხსნიან, ნაჩვენებია როგორც დამუხტვის სხვა წყარო, მაგალითად DC-DC დამტენი.</string>
+    <string name="charger_key_help">VictronConnect-ში: გახსენით დამტენი → ⚙ → ⋮ → „Product info“ → ჩართეთ „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">წაშლა</string>
+    <string name="nearby_chargers_empty">Victron-ის დამტენების ძიება…\n\nდარწმუნდით, რომ VictronConnect-ში ჩართულია „Instant readout via Bluetooth“.</string>
+    <string name="charger_ac">ქსელის დამტენი</string>
+    <string name="charger_solar">მზის დამტენი</string>
+    <string name="charger_dcdc">DC-DC დამტენი</string>
+    <string name="nearby_chargers_title">ახლომდებარე დამტენები</string>
+    <string name="scanning_chargers">სკანირება. შეეხეთ თქვენს დამტენს მის გამოსაყენებლად.</string>
+    <string name="loads_icon_label">მომხმარებლების ხატულა</string>
+    <string name="icon_house">სახლი</string>
+    <string name="icon_caravan">კარავანი</string>
+    <string name="icon_boat">ნავი</string>
+</resources>

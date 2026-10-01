@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <string name="dashboard_description">Uzlādes līmenis %1$s procenti, %2$s, %3$s, statuss %4$s. Veiciet dubultskārienu, lai atvērtu iestatījumus.</string>
+    <string name="dash_soc">Uzlādes līmenis</string>
+    <string name="dash_time_left">Atlikušais laiks</string>
+    <string name="dash_voltage">Spriegums</string>
+    <string name="dash_current">Strāva</string>
+    <string name="dash_power">Jauda</string>
+    <string name="dash_consumed">Patērēts</string>
+    <string name="dash_status">Statuss</string>
+    <string name="dash_starter">Starteris</string>
+    <string name="dash_midpoint">Viduspunkts</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Lādētājs</string>
+    <string name="dash_loads">Patērētāji</string>
+    <string name="dash_readings">Rādījumi</string>
+    <string name="dash_signal">Signāls</string>
+    <string name="dash_battery">Akumulators</string>
+    <string name="dash_discharging">Izlādējas</string>
+    <string name="time_full">Pilns</string>
+    <string name="st_age_short">pirms %1$d s</string>
+
+    <string name="time_charging">Lādējas</string>
+    <string name="time_idle">Dīkstāve</string>
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d h</string>
+
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Iestatīšana</string>
+    <string name="st_setup_detail">pieskarieties ⚙</string>
+    <string name="st_demo_detail">demo dati</string>
+    <string name="st_no_ble">Nav BLE</string>
+    <string name="st_no_ble_detail">netiek atbalstīts</string>
+    <string name="st_permission">Atļauja</string>
+    <string name="st_permission_detail">pieskarieties, lai atļautu</string>
+    <string name="st_bt_off">Bluetooth izslēgts</string>
+    <string name="st_bt_off_detail">pieskarieties, lai ieslēgtu</string>
+    <string name="st_location_off">Atrašanās vieta izslēgta</string>
+    <string name="st_location_off_detail">vajag meklēšanai</string>
+    <string name="st_ble_fail">BLE kļūme</string>
+    <string name="st_ble_fail_detail">kļūda %1$d</string>
+    <string name="st_bad_key">Nepareiza atslēga</string>
+    <string name="st_bad_key_detail">pārbaudiet atslēgu</string>
+    <string name="st_searching">Meklē</string>
+    <string name="st_no_signal">Nav signāla</string>
+    <string name="st_alarm">TRAUKSME</string>
+    <string name="st_age_detail">pirms %1$d s  %2$ddBm</string>
+
+    <string-array name="alarm_names">
+        <item>Zems spriegums</item>
+        <item>Augsts spriegums</item>
+        <item>Zems SOC</item>
+        <item>Zems startera spriegums</item>
+        <item>Augsts startera spriegums</item>
+        <item>Zema temperatūra</item>
+        <item>Augsta temperatūra</item>
+        <item>Viduspunkta spriegums</item>
+        <item>Pārslodze</item>
+        <item>DC pulsācija</item>
+        <item>Zems AC izejas spriegums</item>
+        <item>Augsts AC izejas spriegums</item>
+        <item>Īssavienojums</item>
+        <item>BMS bloķēšana</item>
+    </string-array>
+    <string name="alarm_code">Trauksme %1$s</string>
+
+    <string name="allow_nearby_devices">Atļaujiet „Tuvumā esošās ierīces“ (vecākās Android versijās — atrašanās vietu), lai lietotne varētu uztvert jūsu šuntu.</string>
+
+    <!-- Settings -->
+    <string name="settings">Iestatījumi</string>
+    <string name="cancel">Atcelt</string>
+    <string name="save">Saglabāt</string>
+    <string name="saved">Iestatījumi saglabāti</string>
+    <string name="discard_changes">Vai atmest izmaiņas?</string>
+    <string name="discard">Atmest</string>
+    <string name="keep_editing">Turpināt rediģēt</string>
+
+    <string name="section_shunt">Šunts</string>
+    <string name="mac_label">MAC adrese</string>
+    <string name="find_nearby">Meklēt tuvumā</string>
+    <string name="key_label">Šifrēšanas atslēga</string>
+    <string name="key_hint">32 rakstzīmes</string>
+    <string name="paste">Ielīmēt</string>
+    <string name="mac_key_help">Lietotnē VictronConnect: atveriet SmartShunt → ⚙ → ⋮ → „Product info“ → ieslēdziet „Instant readout via Bluetooth“ → „Show“. Koli un atstarpes nav obligāti.</string>
+    <string name="mac_error">Nepieciešamas 12 heksadecimālas rakstzīmes (0–9, a–f)</string>
+    <string name="key_error">Nepieciešamas 32 heksadecimālas rakstzīmes (0–9, a–f)</string>
+    <string name="clip_key_found">Starpliktuvē ir atslēga: %1$s</string>
+    <string name="clip_mac_found">Starpliktuvē ir MAC adrese: %1$s</string>
+    <string name="use_it">Lietot</string>
+    <string name="dismiss">Aizvērt</string>
+    <string name="clipboard_empty">Nav ko ielīmēt</string>
+    <string name="demo_label">Demonstrācijas dati (neīsti rādījumi testēšanai)</string>
+
+    <string name="section_display">Displejs</string>
+    <string name="language_label">Valoda</string>
+    <string name="language_system">Sistēmas noklusējums</string>
+    <string name="theme_label">Motīvs</string>
+    <string name="theme_system">Sistēmas</string>
+    <string name="theme_light">Gaišs</string>
+    <string name="theme_dark">Tumšs</string>
+    <string name="orientation_label">Orientācija</string>
+    <string-array name="orientations">
+        <item>Automātiska</item>
+        <item>Portrets</item>
+        <item>Ainava</item>
+        <item>Ainava (apgriezta)</item>
+    </string-array>
+    <string name="keep_awake_label">Neļaut tālrunim aizmigt, kamēr lietotne ir atvērta</string>
+    <string name="full_screen_label">Pilnekrāna režīms</string>
+    <string name="full_screen_help">Paslēpj statusa un navigācijas joslas informācijas panelī. Lai tās īslaicīgi parādītu, velciet no ekrāna malas.</string>
+
+    <string name="section_alerts">Brīdinājumi</string>
+    <string name="stale_label">„Nav signāla“ pēc</string>
+    <string name="amber_label">Dzeltens, ja uzlāde zem</string>
+    <string name="red_label">Sarkans, ja uzlāde zem</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="section_share">Arduino displejs</string>
+    <string name="share_help">Apmainieties ar iestatījumiem, izmantojot Arduino SmartShunt displeja SD karti. Eksportējot tiek ierakstīts CONFIG.TXT fails, ko displejs var nolasīt; importējot tas tiek nolasīts no kartes. Tikai displejam paredzētās rindas, piemēram, skārienekrāna kalibrēšana, tiek saglabātas.</string>
+    <string name="export_config">Eksportēt CONFIG.TXT</string>
+    <string name="import_config">Importēt CONFIG.TXT</string>
+    <string name="exported">Eksportēts. Nokopējiet CONFIG.TXT displeja SD kartē un restartējiet displeju.</string>
+    <string name="export_failed">Eksportēšana neizdevās: %1$s</string>
+    <string name="imported">Importēts. Pieskarieties „Saglabāt“, lai paturētu šos iestatījumus.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="zero">Importēts, bet %1$d rindas netika saprastas. Pieskarieties „Saglabāt“, lai paturētu šos iestatījumus.</item>
+        <item quantity="one">Importēts, bet %1$d rinda netika saprasta. Pieskarieties „Saglabāt“, lai paturētu šos iestatījumus.</item>
+        <item quantity="other">Importēts, bet %1$d rindas netika saprastas. Pieskarieties „Saglabāt“, lai paturētu šos iestatījumus.</item>
+    </plurals>
+    <string name="import_failed">Importēšana neizdevās: %1$s</string>
+    <string name="about">Shunt Display %1$s\nNolasa Victron Instant Readout pārraides. Nav saistīta ar Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Tuvumā esošie šunti</string>
+    <string name="nearby_empty">Meklē Victron akumulatoru monitorus…\n\nPārliecinieties, ka lietotnē VictronConnect ir ieslēgts „Instant readout via Bluetooth“.</string>
+    <string name="victron_device">Victron akumulatora monitors</string>
+    <string name="scanning">Meklē. Pieskarieties savam šuntam, lai to izmantotu.</string>
+    <plurals name="scanning_others">
+        <item quantity="zero">Meklē. Pieskarieties savam šuntam, lai to izmantotu. (%1$d citas Victron ierīces nav akumulatora monitori.)</item>
+        <item quantity="one">Meklē. Pieskarieties savam šuntam, lai to izmantotu. (%1$d cita Victron ierīce nav akumulatora monitors.)</item>
+        <item quantity="other">Meklē. Pieskarieties savam šuntam, lai to izmantotu. (%1$d citas Victron ierīces nav akumulatora monitori.)</item>
+    </plurals>
+    <string name="scan_failed">Bluetooth meklēšana neizdevās (kļūda %1$d)</string>
+    <string name="need_permission">Atļaujiet „Tuvumā esošās ierīces“, lai varētu meklēt šuntus.</string>
+    <string name="bluetooth_off">Bluetooth ir izslēgts.</string>
+    <string name="location_off">Atrašanās vieta ir izslēgta. Vecākās Android versijās tā ir nepieciešama, lai meklētu Bluetooth ierīces.</string>
+    <string name="dash_other">Cits</string>
+    <string name="dash_mains">Tīkls</string>
+    <string name="dash_solar">Saule</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Ģenerators</string>
+    <string name="stage_off">Izslēgts</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorbcija</string>
+    <string name="stage_float">Uzturēšana</string>
+    <string name="stage_storage">Glabāšana</string>
+    <string name="stage_recondition">Atjaunošana</string>
+    <string name="stage_psu">Barošanas avots</string>
+    <string name="stage_starting">Startē</string>
+    <string name="stage_fault">Kļūme</string>
+    <string name="charger_error">Kļūda %1$d</string>
+    <string name="section_chargers">Lādētāji</string>
+    <string name="charger_n">Lādētājs %1$d</string>
+    <string name="charger_not_used">Netiek izmantots</string>
+    <string name="other_source_label">Cits uzlādes avots</string>
+    <string name="source_auto">Automātiski</string>
+    <string name="chargers_help">Pievienojiet Victron lādētājus, kas sūta „Instant readout“ (Blue Smart IP22, SmartSolar MPPT, Orion XS), lai redzētu to jaudu. Uzlāde, ko tie neizskaidro, tiek rādīta kā cits uzlādes avots, piemēram, DC-DC lādētājs.</string>
+    <string name="charger_key_help">Lietotnē VictronConnect: atveriet lādētāju → ⚙ → ⋮ → „Product info“ → ieslēdziet „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">Noņemt</string>
+    <string name="nearby_chargers_empty">Meklē Victron lādētājus…\n\nPārliecinieties, ka lietotnē VictronConnect ir ieslēgts „Instant readout via Bluetooth“.</string>
+    <string name="charger_ac">Tīkla lādētājs</string>
+    <string name="charger_solar">Saules lādētājs</string>
+    <string name="charger_dcdc">DC-DC lādētājs</string>
+    <string name="nearby_chargers_title">Tuvumā esošie lādētāji</string>
+    <string name="scanning_chargers">Meklē. Pieskarieties savam lādētājam, lai to izmantotu.</string>
+    <string name="loads_icon_label">Patērētāju ikona</string>
+    <string name="icon_house">Māja</string>
+    <string name="icon_caravan">Dzīvojamā piekabe</string>
+    <string name="icon_boat">Laiva</string>
+</resources>

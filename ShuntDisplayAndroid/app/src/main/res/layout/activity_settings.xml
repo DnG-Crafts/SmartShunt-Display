@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBg"
+    android:orientation="vertical">
+
+    <!-- Header: Cancel / title / Save -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp">
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/settings"
+            android:textColor="?attr/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/TextButton.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <!-- ================= Shunt ================= -->
+            <TextView style="@style/SectionTitle" android:text="@string/section_shunt" />
+
+            <LinearLayout style="@style/Card">
+
+                <!-- Shown when a key or MAC address is found on the clipboard -->
+                <LinearLayout
+                    android:id="@+id/clip_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/banner"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="12dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/clip_text"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:accessibilityLiveRegion="polite"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="?attr/colorText"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/clip_use"
+                        style="@style/TextButton.Primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/use_it" />
+
+                    <Button
+                        android:id="@+id/clip_dismiss"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/dismiss"
+                        android:minWidth="48dp"
+                        android:text="@string/dismiss_symbol"
+                        android:textColor="?attr/colorMuted" />
+                </LinearLayout>
+
+                <TextView style="@style/FieldLabel" android:text="@string/mac_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mac"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/mac_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="17" />
+
+                    <Button
+                        android:id="@+id/find"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/find_nearby" />
+                </LinearLayout>
+
+                <TextView style="@style/FieldLabel" android:text="@string/key_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/key"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/key_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="40" />
+
+                    <Button
+                        android:id="@+id/paste"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paste" />
+                </LinearLayout>
+
+                <TextView style="@style/Hint" android:text="@string/mac_key_help" />
+
+                <Switch
+                    android:id="@+id/demo"
+                    style="@style/SwitchRow"
+                    android:text="@string/demo_label" />
+            </LinearLayout>
+
+            <!-- ================= Extra chargers ================= -->
+            <TextView style="@style/SectionTitle" android:text="@string/section_chargers" />
+
+            <LinearLayout style="@style/Card">
+
+                <TextView
+                    android:id="@+id/charger1_title"
+                    style="@style/FieldLabel"
+                    android:layout_marginTop="12dp"
+                    android:textColor="?attr/colorText"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView style="@style/FieldLabel" android:text="@string/mac_label" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/charger1_mac"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/mac_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="17" />
+
+                    <Button
+                        android:id="@+id/charger1_find"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/find_nearby" />
+                </LinearLayout>
+                <TextView style="@style/FieldLabel" android:text="@string/key_label" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/charger1_key"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/key_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="40" />
+
+                    <Button
+                        android:id="@+id/charger1_paste"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paste" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/charger2_title"
+                    style="@style/FieldLabel"
+                    android:layout_marginTop="12dp"
+                    android:textColor="?attr/colorText"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView style="@style/FieldLabel" android:text="@string/mac_label" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/charger2_mac"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/mac_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="17" />
+
+                    <Button
+                        android:id="@+id/charger2_find"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/find_nearby" />
+                </LinearLayout>
+                <TextView style="@style/FieldLabel" android:text="@string/key_label" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/charger2_key"
+                        style="@style/Field"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/key_hint"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="40" />
+
+                    <Button
+                        android:id="@+id/charger2_paste"
+                        style="@style/TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paste" />
+                </LinearLayout>
+                <TextView style="@style/Hint" android:text="@string/charger_key_help" />
+
+                <TextView style="@style/FieldLabel" android:text="@string/other_source_label" />
+                <Spinner android:id="@+id/other_source" style="@style/SpinnerRow" />
+                <TextView style="@style/Hint" android:text="@string/chargers_help" />
+            </LinearLayout>
+
+            <!-- ================= Display ================= -->
+            <TextView style="@style/SectionTitle" android:text="@string/section_display" />
+
+            <LinearLayout style="@style/Card">
+
+                <TextView style="@style/FieldLabel" android:text="@string/language_label" />
+                <Spinner android:id="@+id/language" style="@style/SpinnerRow" />
+
+                <TextView style="@style/FieldLabel" android:text="@string/theme_label" />
+
+                <RadioGroup
+                    android:id="@+id/theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton android:id="@+id/theme_system" style="@style/Choice" android:text="@string/theme_system" />
+                    <RadioButton android:id="@+id/theme_light" style="@style/Choice" android:text="@string/theme_light" />
+                    <RadioButton android:id="@+id/theme_dark" style="@style/Choice" android:text="@string/theme_dark" />
+                </RadioGroup>
+
+                <TextView style="@style/FieldLabel" android:text="@string/loads_icon_label" />
+                <Spinner android:id="@+id/loads_icon" style="@style/SpinnerRow" />
+
+                <TextView style="@style/FieldLabel" android:text="@string/orientation_label" />
+                <Spinner android:id="@+id/orientation" style="@style/SpinnerRow" />
+
+
+                <Switch
+                    android:id="@+id/full_screen"
+                    style="@style/SwitchRow"
+                    android:text="@string/full_screen_label" />
+                <TextView style="@style/Hint" android:text="@string/full_screen_help" />
+
+                <Switch
+                    android:id="@+id/keep_awake"
+                    style="@style/SwitchRow"
+                    android:text="@string/keep_awake_label" />
+            </LinearLayout>
+
+            <!-- ================= Alerts ================= -->
+            <TextView style="@style/SectionTitle" android:text="@string/section_alerts" />
+
+            <LinearLayout style="@style/Card">
+
+                <LinearLayout style="@style/ValueRow">
+                    <TextView style="@style/RowLabel" android:text="@string/stale_label" />
+                    <TextView android:id="@+id/stale_value" style="@style/RowValue" />
+                </LinearLayout>
+                <SeekBar android:id="@+id/stale" style="@style/Slider" />
+
+                <LinearLayout style="@style/ValueRow">
+                    <TextView style="@style/RowLabel" android:text="@string/amber_label" />
+                    <TextView android:id="@+id/amber_value" style="@style/RowValue" />
+                </LinearLayout>
+                <SeekBar android:id="@+id/amber" style="@style/Slider" />
+
+                <LinearLayout style="@style/ValueRow">
+                    <TextView style="@style/RowLabel" android:text="@string/red_label" />
+                    <TextView android:id="@+id/red_value" style="@style/RowValue" />
+                </LinearLayout>
+                <SeekBar android:id="@+id/red" style="@style/Slider" />
+            </LinearLayout>
+
+            <!-- ================= Share with the Arduino display ================= -->
+            <TextView style="@style/SectionTitle" android:text="@string/section_share" />
+
+            <LinearLayout style="@style/Card">
+
+                <TextView style="@style/Hint" android:text="@string/share_help" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/export"
+                        style="@style/TextButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/export_config" />
+
+                    <Button
+                        android:id="@+id/import_config"
+                        style="@style/TextButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/import_config" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/about"
+                style="@style/Hint"
+                android:layout_marginTop="16dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

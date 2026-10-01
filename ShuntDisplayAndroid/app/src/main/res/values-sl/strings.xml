@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dashboard -->
+    <string name="dashboard_description">Napolnjenost %1$s odstotkov, %2$s, %3$s, stanje %4$s. Dvakrat se dotaknite za nastavitve.</string>
+    <!-- Dashboard card labels. Keep them short: they sit at the top of small cards. -->
+    <string name="dash_soc">Napolnjenost</string>
+    <string name="dash_time_left">Preostali čas</string>
+    <string name="dash_voltage">Napetost</string>
+    <string name="dash_current">Tok</string>
+    <string name="dash_power">Moč</string>
+    <string name="dash_consumed">Porabljeno</string>
+    <string name="dash_status">Stanje</string>
+    <!-- The aux input: starter battery voltage, midpoint voltage or temperature -->
+    <string name="dash_starter">Zaganjalni</string>
+    <string name="dash_midpoint">Srednja točka</string>
+    <string name="dash_temp">Temp.</string>
+    <string name="dash_charger">Polnilnik</string>
+    <string name="dash_loads">Porabniki</string>
+    <string name="dash_readings">Meritve</string>
+    <string name="dash_signal">Signal</string>
+    <string name="dash_battery">Baterija</string>
+    <string name="dash_discharging">Prazni se</string>
+    <string name="time_full">Polna</string>
+    <string name="st_age_short">pred %1$d s</string>
+
+    <!-- Shown in place of the time left. Keep short. -->
+    <string name="time_charging">Polnjenje</string>
+    <string name="time_idle">Mirovanje</string>
+    <!-- Time left: 20h 34m, or 2d 5h when over a day -->
+    <string name="time_hours_minutes">%1$d h %2$02d min</string>
+    <string name="time_days_hours">%1$d d %2$d h</string>
+
+    <!-- Status tile: a short status word (big) and a detail line (small) under it -->
+    <string name="st_ok">OK</string>
+    <string name="st_setup">Nastavitev</string>
+    <string name="st_setup_detail">odprite nastavitve</string>
+    <string name="st_demo_detail">demo podatki</string>
+    <string name="st_no_ble">Ni BLE</string>
+    <string name="st_no_ble_detail">ni podprto</string>
+    <string name="st_permission">Dovoljenje</string>
+    <string name="st_permission_detail">dovolite z dotikom</string>
+    <string name="st_bt_off">Bluetooth izkl.</string>
+    <string name="st_bt_off_detail">vklopite z dotikom</string>
+    <string name="st_location_off">Lokacija izkl.</string>
+    <string name="st_location_off_detail">potrebna za iskanje</string>
+    <string name="st_ble_fail">Napaka BLE</string>
+    <string name="st_ble_fail_detail">koda %1$d</string>
+    <string name="st_bad_key">Napačen ključ</string>
+    <string name="st_bad_key_detail">preverite ključ</string>
+    <string name="st_searching">Iskanje</string>
+    <string name="st_no_signal">Ni signala</string>
+    <string name="st_alarm">ALARM</string>
+    <!-- Seconds since the last reading, and the signal strength: "3s ago  -67dBm" -->
+    <string name="st_age_detail">pred %1$d s  %2$ddBm</string>
+
+    <!-- Alarm names reported by the shunt, in bit order. Keep short. -->
+    <string-array name="alarm_names">
+        <item>Nizka napetost</item>
+        <item>Visoka napetost</item>
+        <item>Nizek SOC</item>
+        <item>Nizka zaganjalna napetost</item>
+        <item>Visoka zaganjalna napetost</item>
+        <item>Nizka temperatura</item>
+        <item>Visoka temperatura</item>
+        <item>Napetost srednje točke</item>
+        <item>Preobremenitev</item>
+        <item>Valovitost DC</item>
+        <item>Nizka izhodna napetost AC</item>
+        <item>Visoka izhodna napetost AC</item>
+        <item>Kratek stik</item>
+        <item>Zaklep BMS</item>
+    </string-array>
+    <!-- An alarm code the app doesn't know, e.g. "Alarm 0x4000" -->
+    <string name="alarm_code">Alarm %1$s</string>
+
+    <string name="allow_nearby_devices">Dovolite „Naprave v bližini“ (ali Lokacijo v starejših različicah Androida), da lahko aplikacija sprejema podatke iz šanta.</string>
+
+    <!-- Settings -->
+    <string name="settings">Nastavitve</string>
+    <string name="cancel">Prekliči</string>
+    <string name="save">Shrani</string>
+    <string name="saved">Nastavitve so shranjene</string>
+    <string name="discard_changes">Želite zavreči spremembe?</string>
+    <string name="discard">Zavrzi</string>
+    <string name="keep_editing">Nadaljuj urejanje</string>
+
+    <string name="section_shunt">Šant</string>
+    <string name="mac_label">Naslov MAC</string>
+    <string name="find_nearby">Poišči v bližini</string>
+    <string name="key_label">Šifrirni ključ</string>
+    <string name="key_hint">32 znakov</string>
+    <string name="paste">Prilepi</string>
+    <string name="mac_key_help">V aplikaciji VictronConnect: odprite SmartShunt → ⚙ → ⋮ → „Product info“ → vklopite „Instant readout via Bluetooth“ → „Show“. Dvopičja in presledki niso obvezni.</string>
+    <string name="mac_error">Potrebnih je 12 šestnajstiških znakov (0–9, a–f)</string>
+    <string name="key_error">Potrebnih je 32 šestnajstiških znakov (0–9, a–f)</string>
+    <string name="clip_key_found">Ključ v odložišču: %1$s</string>
+    <string name="clip_mac_found">Naslov MAC v odložišču: %1$s</string>
+    <string name="use_it">Uporabi</string>
+    <string name="dismiss">Opusti</string>
+    <string name="clipboard_empty">Ni česa prilepiti</string>
+    <string name="demo_label">Demo podatki (izmišljene meritve za preizkus)</string>
+
+    <string name="section_display">Prikaz</string>
+    <string name="language_label">Jezik</string>
+    <string name="language_system">Sistemski jezik</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_system">Sistemska</string>
+    <string name="theme_light">Svetla</string>
+    <string name="theme_dark">Temna</string>
+    <string name="orientation_label">Usmerjenost</string>
+    <string-array name="orientations">
+        <item>Samodejno</item>
+        <item>Pokončno</item>
+        <item>Ležeče</item>
+        <item>Ležeče (obrnjeno)</item>
+    </string-array>
+    <string name="keep_awake_label">Zaslon naj ostane vklopljen, ko je aplikacija odprta</string>
+    <string name="full_screen_label">Celozaslonski način</string>
+    <string name="full_screen_help">Na nadzorni plošči skrije vrstico stanja in navigacijsko vrstico. Za kratek prikaz povlecite z roba.</string>
+
+    <string name="section_alerts">Opozorila</string>
+    <string name="stale_label">„Ni signala“ po</string>
+    <string name="amber_label">Napolnjenost oranžna pod</string>
+    <string name="red_label">Napolnjenost rdeča pod</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="percent_value">%1$d %%</string>
+
+    <string name="section_share">Zaslon Arduino</string>
+    <string name="share_help">Izmenjava nastavitev s kartico SD zaslona Arduino SmartShunt. Izvoz zapiše datoteko CONFIG.TXT, ki jo zaslon prebere; uvoz jo prebere s kartice. Vrstice samo za zaslon, na primer umerjanje dotika, se ohranijo.</string>
+    <string name="export_config">Izvozi CONFIG.TXT</string>
+    <string name="import_config">Uvozi CONFIG.TXT</string>
+    <string name="exported">Izvoženo. Kopirajte CONFIG.TXT na kartico SD zaslona in ga znova zaženite.</string>
+    <string name="export_failed">Izvoz ni uspel: %1$s</string>
+    <string name="imported">Uvoženo. Dotaknite se Shrani, da ohranite te nastavitve.</string>
+    <plurals name="imported_with_errors">
+        <item quantity="one">Uvoženo, vendar %1$d vrstica ni bila prepoznana. Dotaknite se Shrani, da ohranite te nastavitve.</item>
+        <item quantity="two">Uvoženo, vendar %1$d vrstici nista bili prepoznani. Dotaknite se Shrani, da ohranite te nastavitve.</item>
+        <item quantity="few">Uvoženo, vendar %1$d vrstice niso bile prepoznane. Dotaknite se Shrani, da ohranite te nastavitve.</item>
+        <item quantity="other">Uvoženo, vendar %1$d vrstic ni bilo prepoznanih. Dotaknite se Shrani, da ohranite te nastavitve.</item>
+    </plurals>
+    <string name="import_failed">Uvoz ni uspel: %1$s</string>
+    <string name="about">Shunt Display %1$s\nBere oddajanje Victron Instant Readout. Ni povezano s podjetjem Victron Energy.</string>
+
+    <!-- Nearby shunts -->
+    <string name="nearby_title">Šanti v bližini</string>
+    <string name="nearby_empty">Iskanje monitorjev akumulatorja Victron…\n\nPrepričajte se, da je v aplikaciji VictronConnect vklopljena možnost „Instant readout via Bluetooth“.</string>
+    <string name="victron_device">Monitor akumulatorja Victron</string>
+    <string name="scanning">Iskanje. Dotaknite se svojega šanta, da ga uporabite.</string>
+    <plurals name="scanning_others">
+        <item quantity="one">Iskanje. Dotaknite se svojega šanta, da ga uporabite. (%1$d druga naprava Victron ni monitor akumulatorja.)</item>
+        <item quantity="two">Iskanje. Dotaknite se svojega šanta, da ga uporabite. (%1$d drugi napravi Victron nista monitorja akumulatorja.)</item>
+        <item quantity="few">Iskanje. Dotaknite se svojega šanta, da ga uporabite. (%1$d druge naprave Victron niso monitorji akumulatorja.)</item>
+        <item quantity="other">Iskanje. Dotaknite se svojega šanta, da ga uporabite. (%1$d drugih naprav Victron ni monitorjev akumulatorja.)</item>
+    </plurals>
+    <string name="scan_failed">Iskanje Bluetooth ni uspelo (napaka %1$d)</string>
+    <string name="need_permission">Za iskanje šantov dovolite „Naprave v bližini“.</string>
+    <string name="bluetooth_off">Bluetooth je izklopljen.</string>
+    <string name="location_off">Lokacija je izklopljena. Starejše različice Androida jo potrebujejo za iskanje naprav Bluetooth.</string>
+    <string name="dash_other">Drugo</string>
+    <string name="dash_mains">Omrežje</string>
+    <string name="dash_solar">Sonce</string>
+    <string name="dash_dcdc">DC-DC</string>
+    <string name="dash_alternator">Alternator</string>
+    <string name="stage_off">Izklopljen</string>
+    <string name="stage_bulk">Bulk</string>
+    <string name="stage_absorption">Absorpcija</string>
+    <string name="stage_float">Vzdrževanje</string>
+    <string name="stage_storage">Shranjevanje</string>
+    <string name="stage_recondition">Obnova</string>
+    <string name="stage_psu">Napajalnik</string>
+    <string name="stage_starting">Zaganjanje</string>
+    <string name="stage_fault">Okvara</string>
+    <string name="charger_error">Napaka %1$d</string>
+    <string name="section_chargers">Polnilniki</string>
+    <string name="charger_n">Polnilnik %1$d</string>
+    <string name="charger_not_used">Ni v uporabi</string>
+    <string name="other_source_label">Drug vir polnjenja</string>
+    <string name="source_auto">Samodejno</string>
+    <string name="chargers_help">Dodajte polnilnike Victron, ki pošiljajo „Instant readout“ (Blue Smart IP22, SmartSolar MPPT, Orion XS), da vidite njihovo moč. Polnjenje, ki ga ne pojasnijo, je prikazano kot drug vir polnjenja, npr. polnilnik DC-DC.</string>
+    <string name="charger_key_help">V aplikaciji VictronConnect: odprite polnilnik → ⚙ → ⋮ → „Product info“ → vklopite „Instant readout via Bluetooth“ → „Show“.</string>
+    <string name="remove_charger">Odstrani</string>
+    <string name="nearby_chargers_empty">Iskanje polnilnikov Victron…\n\nPrepričajte se, da je v aplikaciji VictronConnect vklopljena možnost „Instant readout via Bluetooth“.</string>
+    <string name="charger_ac">Omrežni polnilnik</string>
+    <string name="charger_solar">Solarni polnilnik</string>
+    <string name="charger_dcdc">Polnilnik DC-DC</string>
+    <string name="nearby_chargers_title">Polnilniki v bližini</string>
+    <string name="scanning_chargers">Iskanje. Dotaknite se svojega polnilnika, da ga uporabite.</string>
+    <string name="loads_icon_label">Ikona porabnikov</string>
+    <string name="icon_house">Hiša</string>
+    <string name="icon_caravan">Počitniška prikolica</string>
+    <string name="icon_boat">Čoln</string>
+</resources>
