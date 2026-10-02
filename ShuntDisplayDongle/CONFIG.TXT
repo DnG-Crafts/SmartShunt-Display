@@ -1,0 +1,25 @@
+# SmartShunt display settings (T-Dongle-S3)
+# Lines starting with # are ignored. Unplug and replug the dongle after editing.
+
+# From VictronConnect: SmartShunt > settings > ... > Product info >
+# Instant readout via Bluetooth > Show. With or without colons.
+mac = aa:bb:cc:dd:ee:ff
+key = 0123456789abcdef0123456789abcdef
+
+# 1 = show fake data (to test the screen), 0 = read the shunt
+demo = 0
+
+# Seconds without data before showing 'No signal'
+stale_after = 30
+# State of charge colours: amber below this %, red below the next
+soc_amber = 50
+soc_red = 20
+
+# Seconds before the screen turns off (the button wakes it). 0 = always on
+screen_off = 0
+# Screen brightness, 5-100 %
+brightness = 100
+# Screen: 1 = normal, 3 = upside down
+dongle_rotation = 1
+# 1 = the RGB LED shows the charge colour (green, amber, red), 0 = off
+led = 1

@@ -1,12 +1,13 @@
 # SmartShunt Display
 
-Live battery readings from a **Victron SmartShunt**, on a screen you can glance at: a moving power-flow picture of charger, battery and loads, plus state of charge, voltage, current, power, time remaining and more. There are three versions in this repository:
+Live battery readings from a **Victron SmartShunt**, on a screen you can glance at: a moving power-flow picture of charger, battery and loads, plus state of charge, voltage, current, power, time remaining and more. There are four versions in this repository:
 
 - **Arduino display:** a stand-alone 2.8" touch screen built from an Arduino UNO R4 WiFi and a Jaycar XC4630 shield. No phone needed.
 - **Raspberry Pi display:** the same dashboard on a Raspberry Pi with any HDMI or DSI touch screen, from 3.5" to a full-size monitor.
 - **Android app:** the same dashboard on a phone or tablet, for example a spare phone mounted in the van or boat.
+- **T-Dongle-S3:** a basic readout on the 0.96" screen of a LILYGO T-Dongle-S3 USB dongle, set up from a PC through its SD card.
 
-All three read the shunt's Bluetooth *Instant Readout* broadcasts, so there's no pairing and no cloud. They work at the same time as each other and as VictronConnect.
+All four read the shunt's Bluetooth *Instant Readout* broadcasts, so there's no pairing and no cloud. They work at the same time as each other and as VictronConnect.
 
 <p align="center">
   <img src="docs/images/dash_normal.png" width="360" alt="Arduino display: power flowing from the battery to the loads, 77% state of charge">
@@ -597,9 +598,16 @@ The app follows the phone's language, or you can pick one under **Settings → D
 
 The translations haven't been reviewed by native speakers yet, so corrections are welcome. They're in `ShuntDisplayAndroid/app/src/main/res/values-<language>/strings.xml`.
 
-## Google Play
+---
 
-[`ShuntDisplayAndroid/playstore/`](ShuntDisplayAndroid/playstore) has the store listing text and policy-form answers (`listing.md`), the icon, the feature graphic, and screenshots for phones and 7- and 10-inch tablets. [`ShuntDisplayAndroid/PRIVACY.md`](ShuntDisplayAndroid/PRIVACY.md) is the privacy policy to link from the listing.
+# T-Dongle-S3 display
+
+A small, basic readout on a [LILYGO T-Dongle-S3](https://lilygo.cc/products/t-dongle-s3): an ESP32-S3 USB dongle with a 0.96" 160×80 screen and a microSD slot. Plug it into any USB port or charger. It shows the state of charge, time left, voltage, current, power and consumed Ah, and a second page (press its button) with the aux input, signal and model. The RGB LED glows the charge colour. It's set up from a PC: put your shunt's MAC address and key in `CONFIG.TXT` on its SD card. Full details are in its own [README](ShuntDisplayDongle/README.md).
+
+<p align="center">
+  <img src="ShuntDisplayDongle/docs/images/dongle_page1.png" width="320" alt="T-Dongle-S3: 77%, 12.66 V, -21.8 A, -276 W">
+  <img src="ShuntDisplayDongle/docs/images/dongle_page2.png" width="320" alt="T-Dongle-S3 page 2">
+</p>
 
 ---
 
@@ -658,6 +666,7 @@ The Arduino decoder (`ShuntDisplayR4/victron.h`) and the Raspberry Pi decoder (`
 │   ├── tests/                      unit tests and off-screen UI tests
 │   ├── docs/images/                screenshots
 │   └── README.md                   the Pi version's full documentation
+├── ShuntDisplayDongle/             LILYGO T-Dongle-S3 sketch (ESP32-S3, 160x80 screen)
 ├── ShuntDisplayAndroid/            Android Studio project (open this folder)
 │   ├── app/src/main/java/…         the app's Java source
 │   ├── app/src/main/res/           layouts, themes and the 45 languages
