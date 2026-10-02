@@ -36,6 +36,7 @@ All four read the shunt's Bluetooth *Instant Readout* broadcasts, so there's no 
   - [Pi screens](#pi-screens) · [What you need](#what-you-need) · [Installing on the Pi](#installing-on-the-pi) · [Pi settings](#pi-settings) · [Full Pi documentation](ShuntDisplayPi/README.md)
 - [Android app](#android-app)
   - [App screens](#app-screens) · [Building the app](#building-the-app) · [First run](#first-run) · [App settings](#app-settings) · [App status messages](#app-status-messages) · [Languages](#languages)
+- [T-Dongle-S3 display](#t-dongle-s3-display)
 - [Sharing settings](#sharing-settings)
 - [Victron Instant Readout format](#victron-instant-readout-format)
 - [Repository layout](#repository-layout)
